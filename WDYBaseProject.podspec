@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -13,8 +13,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/wangdongyang/WDYBaseProject.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WDYBaseProject/Classes/**/*'
+  # s.source_files = 'WDYBaseProject/Classes/**/*'
 
+  # 类似于系统设置界面模块
+  s.subspec 'Category' do |category|
+      category.source_files = 'WDYBaseProject/Classes/Category/**/*'
+  end
   # s.resource_bundles = {
   #   'WDYBaseProject' => ['WDYBaseProject/Assets/*.png']
   # }
