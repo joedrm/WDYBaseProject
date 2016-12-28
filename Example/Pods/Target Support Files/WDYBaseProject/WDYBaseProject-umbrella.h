@@ -59,6 +59,8 @@
 #import "UIViewController+Current.h"
 #import "WDYCategory.h"
 #import "WDYMacros.h"
+#import "LayoutButton.h"
+#import "UIHeader.h"
 
 FOUNDATION_EXPORT double WDYBaseProjectVersionNumber;
 FOUNDATION_EXPORT const unsigned char WDYBaseProjectVersionString[];
