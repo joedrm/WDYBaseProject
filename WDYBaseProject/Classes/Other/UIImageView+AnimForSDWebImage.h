@@ -6,6 +6,9 @@
 //
 //
 
+
+// 由于 SDWebImage 与项目中的其它版本SDWebImage起冲突，所以单独放在这里，pod导入时，可以分文件导入
+
 #import <UIKit/UIKit.h>
 #import <SDWebImage/SDWebImageCompat.h>
 #import <SDWebImage/SDWebImageManager.h>
