@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WDYBaseProject_Example' do
+  pod 'WDYBaseProject', :path => '../'
+
+  target 'WDYBaseProject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
