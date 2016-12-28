@@ -7,6 +7,7 @@
 //
 
 #import "WDYViewController.h"
+#import <WDYBaseProject/WDYCategory.h>
 
 @interface WDYViewController ()
 
@@ -17,13 +18,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
+
+/*
+ 参考资料：
+ 
+ http://blog.csdn.net/u012390519/article/details/48497343
+ 
+ */

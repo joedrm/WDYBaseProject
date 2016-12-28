@@ -1,7 +1,7 @@
 PODS:
-  - WDYBaseProject (0.1.5):
-    - WDYBaseProject/Category (= 0.1.5)
-  - WDYBaseProject/Category (0.1.5)
+  - WDYBaseProject (0.1.8):
+    - WDYBaseProject/Category (= 0.1.8)
+  - WDYBaseProject/Category (0.1.8)
 
 DEPENDENCIES:
   - WDYBaseProject (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  WDYBaseProject: 668c5eee6ae610e68f6b77876b1b903fc57780ea
+  WDYBaseProject: 4be6792951a26c8ba80ac70d9ab2290e60f98dc9
 
 PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
 

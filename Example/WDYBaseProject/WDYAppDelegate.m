@@ -7,12 +7,21 @@
 //
 
 #import "WDYAppDelegate.h"
+#import "WDYViewController.h"
 
 @implementation WDYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    WDYViewController* vc = [[WDYViewController alloc] init];
+    UINavigationController* nv = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nv;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

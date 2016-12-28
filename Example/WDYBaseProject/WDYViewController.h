@@ -6,7 +6,8 @@
 //  Copyright (c) 2016 冬日暖阳. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
+//@import UIKit;
 
 @interface WDYViewController : UIViewController
 
