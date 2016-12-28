@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -17,7 +17,13 @@ Pod::Spec.new do |s|
 
   s.subspec 'Category' do |category|
       category.source_files = 'WDYBaseProject/Classes/Category/**/*'
+      category.dependency 'SDWebImage', '3.8.0'
   end
+
+  s.subspec 'Macros' do |macros|
+      macros.source_files = 'WDYBaseProject/Classes/Macros/**/*'
+  end
+
   # s.resource_bundles = {
   #   'WDYBaseProject' => ['WDYBaseProject/Assets/*.png']
   # }
