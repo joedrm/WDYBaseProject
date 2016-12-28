@@ -62,9 +62,9 @@
 		7751E7A153CF5E8EC7978121 /* Pods-WDYBaseProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDYBaseProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WDYBaseProject_Example/Pods-WDYBaseProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A20559860EFDE183852A8146 /* Pods-WDYBaseProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDYBaseProject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WDYBaseProject_Tests/Pods-WDYBaseProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D25D9A3691E91C60C1DD4CCC /* WDYBaseProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WDYBaseProject.podspec; path = ../WDYBaseProject.podspec; sourceTree = "<group>"; };
-		F00D63C0DCCC65C2F7331799 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F1A548207ACE28CF352B4931 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D25D9A3691E91C60C1DD4CCC /* WDYBaseProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WDYBaseProject.podspec; path = ../WDYBaseProject.podspec; sourceTree = "<group>"; };
+		F00D63C0DCCC65C2F7331799 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F1A548207ACE28CF352B4931 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "冬日暖阳";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DSHJC97KG4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DSHJC97KG4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WDYBaseProject/WDYBaseProject-Prefix.pch";
 				INFOPLIST_FILE = "WDYBaseProject/WDYBaseProject-Info.plist";
@@ -529,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DSHJC97KG4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WDYBaseProject/WDYBaseProject-Prefix.pch";
 				INFOPLIST_FILE = "WDYBaseProject/WDYBaseProject-Info.plist";

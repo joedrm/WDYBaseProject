@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
 
   # s.source_files = 'WDYBaseProject/Classes/**/*'
 
-  # 类似于系统设置界面模块
   s.subspec 'Category' do |category|
       category.source_files = 'WDYBaseProject/Classes/Category/**/*'
   end
