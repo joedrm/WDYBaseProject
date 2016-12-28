@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   # 常用的分类
   s.subspec 'Category' do |category|
       category.source_files = 'WDYBaseProject/Classes/Category/**/*'
-      category.dependency 'SDWebImage', '3.8.0'
   end
 
   # 常用的宏
@@ -29,9 +28,10 @@ Pod::Spec.new do |s|
       ui.source_files = 'WDYBaseProject/Classes/UI/**/*'
   end
 
-  # 主要是一些和项目容易起冲突的文件
+  # 主要是一些和项目容易起冲突的文件，或者对其它的第三方有依赖的文件
   s.subspec 'Other' do |other|
       other.source_files = 'WDYBaseProject/Classes/Other/**/*'
+      category.dependency 'SDWebImage', '3.8.0'
   end
 
   # s.resource_bundles = {
