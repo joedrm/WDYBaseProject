@@ -12,6 +12,8 @@
 
 @interface UIImageView (AnimForSDWebImage)
 
+NS_ASSUME_NONNULL_BEGIN
+
 - (NSURL *)sd_imageURL;
 
 - (void)sd_setImageWithURL:(NSURL *)url fadeAnimation:(BOOL)fadeAnimation;
@@ -36,4 +38,5 @@
 
 - (void)sd_cancelCurrentAnimationImagesLoad;
 
+NS_ASSUME_NONNULL_END
 @end
