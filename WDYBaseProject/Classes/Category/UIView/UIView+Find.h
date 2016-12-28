@@ -18,10 +18,10 @@
 - (UIViewController *)findViewController;
 
 /** 获取cell所在的tableview,一般只是用来确定UITableViewCell的所属UITableview */
-- (UITableView *)fdd_superTableView;
+- (UITableView *)findSuperTableView;
 
 /** 获取view所在的tableViewCell */
-- (UITableViewCell*)fdd_superTableCell;
+- (UITableViewCell*)findSuperTableViewCell;
 
 - (NSArray *)allSubviews;
 

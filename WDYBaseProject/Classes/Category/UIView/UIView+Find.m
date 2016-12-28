@@ -87,6 +87,35 @@
     return nil;
 }
 
+- (UITableView *)findSuperTableView
+{
+    if ([self isKindOfClass:[UITableView class]]) {
+        return (UITableView *)self;
+    }
+    if (self.superview) {
+        UITableView * tableView= [self.superview findSuperTableView];
+        if (tableView != nil) {
+            return tableView;
+        }
+    }
+    return nil;
+}
+
+- (UITableViewCell*)findSuperTableViewCell
+{
+    if ([self isKindOfClass:[UITableViewCell class]]) {
+        return (UITableViewCell *)self;
+    }
+    if (self.superview) {
+        UITableViewCell  * tableViewCell = [self.superview findSuperTableViewCell];
+        if (tableViewCell != nil) {
+            return tableViewCell;
+        }
+    }
+    return nil;
+}
+
+
 - (void)removeAllSubviews
 {
     [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
