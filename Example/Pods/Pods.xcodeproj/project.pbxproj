@@ -108,7 +108,7 @@
 		20E4BA511E139377003DB263 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4BA4F1E139377003DB263 /* UIView+Animation.m */; };
 		20E4BA541E139426003DB263 /* UIImage+Crop.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BA521E139426003DB263 /* UIImage+Crop.h */; };
 		20E4BA551E139426003DB263 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4BA531E139426003DB263 /* UIImage+Crop.m */; };
-		20E4BA571E139790003DB263 /* WDYBaseProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BA561E139790003DB263 /* WDYBaseProject.h */; };
+		20E4BA571E139790003DB263 /* WDYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BA561E139790003DB263 /* WDYCategory.h */; };
 		2461292E327B0994498183FF8A42254C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		289C05CCC176457A2654573FD47BCABB /* WDYBaseProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C90746C93C1420605801F03A724222AF /* WDYBaseProject-dummy.m */; };
 		5FFDDBDFA25DEF44D7638628A83876AC /* Pods-WDYBaseProject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A79566CA95EE5F4C89C19137CCBE86 /* Pods-WDYBaseProject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -230,7 +230,7 @@
 		20E4BA4F1E139377003DB263 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 		20E4BA521E139426003DB263 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
 		20E4BA531E139426003DB263 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
-		20E4BA561E139790003DB263 /* WDYBaseProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDYBaseProject.h; sourceTree = "<group>"; };
+		20E4BA561E139790003DB263 /* WDYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDYCategory.h; path = ../WDYCategory.h; sourceTree = "<group>"; };
 		242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDYBaseProject_Tests-dummy.m"; sourceTree = "<group>"; };
 		32A7B4E4F5B4D16F597DEFD63202FF67 /* WDYBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WDYBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A062B8CB98C75B886BA44B4FBCBE7B /* Pods-WDYBaseProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDYBaseProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -304,6 +304,7 @@
 		20E4B97C1E138035003DB263 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				20E4BA561E139790003DB263 /* WDYCategory.h */,
 				20E4B9F81E138A97003DB263 /* NSBundle */,
 				20E4B9FB1E138A97003DB263 /* NSDictionary */,
 				20E4BA001E138A97003DB263 /* NSFileManager */,
@@ -641,7 +642,6 @@
 			isa = PBXGroup;
 			children = (
 				20E4B97C1E138035003DB263 /* Category */,
-				20E4BA561E139790003DB263 /* WDYBaseProject.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -688,7 +688,7 @@
 				20E4B9EA1E138753003DB263 /* UINavigationItem+Margin.h in Headers */,
 				20E4BA4C1E138A97003DB263 /* NSTimer+Blocks.h in Headers */,
 				20E4B9891E138266003DB263 /* UIImage+SubImage.h in Headers */,
-				20E4BA571E139790003DB263 /* WDYBaseProject.h in Headers */,
+				20E4BA571E139790003DB263 /* WDYCategory.h in Headers */,
 				20E4B9EE1E138753003DB263 /* ALActionBlockWrapper.h in Headers */,
 				20E4BA341E138A97003DB263 /* NSObject+KVOBlocks.h in Headers */,
 				20E4B9B61E13864A003DB263 /* UIColor+HexString.h in Headers */,
