@@ -41,7 +41,6 @@
 #import "UIGestureRecognizer+ALActionBlocks.h"
 #import "UIControl+Delay.h"
 #import "UIDevice+Hardware.h"
-#import "UIImage+Color.h"
 #import "UIImage+Crop.h"
 #import "UIImage+RemoteSize.h"
 #import "UIImage+SubImage.h"

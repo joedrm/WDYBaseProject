@@ -54,7 +54,6 @@
 #import "UIControl+Delay.h"
 #import "UIDevice+Hardware.h"
 #import "UIImage+RemoteSize.h"
-#import "UIView+Color.h"
 #import "UIView+SubImage.h"
 #import "UINavigationController+StackManager.h"
 #import "UITableView+Common.h"
