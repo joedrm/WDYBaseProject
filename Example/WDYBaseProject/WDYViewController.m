@@ -19,6 +19,15 @@
 {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIImage* image = [UIImage circleImage:[UIImage imageWithColor:[UIColor blueColor]] borderWidth:0.0 borderColor:[UIColor blackColor]];
+    UIImageView* imageV = [[UIImageView alloc] init];
+    imageV.frame = CGRectMake(100, 100, 100, 100);
+    imageV.image = image;
+    [imageV setAllCorner:50];
+    [self.view addSubview:imageV];
+    
+    
 }
 
 @end
