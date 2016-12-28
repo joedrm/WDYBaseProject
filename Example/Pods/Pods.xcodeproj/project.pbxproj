@@ -10,8 +10,8 @@
 		1F67E3B2622E02FDB5386D777EB9AC41 /* Pods-WDYBaseProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */; };
 		20E4B9811E13805B003DB263 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B97F1E13805B003DB263 /* UIView+Frame.h */; };
 		20E4B9821E13805B003DB263 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B9801E13805B003DB263 /* UIView+Frame.m */; };
-		20E4B9851E13820C003DB263 /* UIView+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B9831E13820C003DB263 /* UIView+Color.h */; };
-		20E4B9861E13820C003DB263 /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B9841E13820C003DB263 /* UIView+Color.m */; };
+		20E4B9851E13820C003DB263 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B9831E13820C003DB263 /* UIImage+Color.h */; };
+		20E4B9861E13820C003DB263 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B9841E13820C003DB263 /* UIImage+Color.m */; };
 		20E4B9891E138266003DB263 /* UIView+SubImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B9871E138266003DB263 /* UIView+SubImage.h */; };
 		20E4B98A1E138266003DB263 /* UIView+SubImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B9881E138266003DB263 /* UIView+SubImage.m */; };
 		20E4B98D1E138383003DB263 /* UIImage+RemoteSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B98B1E138383003DB263 /* UIImage+RemoteSize.h */; };
@@ -127,8 +127,8 @@
 /* Begin PBXFileReference section */
 		20E4B97F1E13805B003DB263 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		20E4B9801E13805B003DB263 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		20E4B9831E13820C003DB263 /* UIView+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Color.h"; sourceTree = "<group>"; };
-		20E4B9841E13820C003DB263 /* UIView+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Color.m"; sourceTree = "<group>"; };
+		20E4B9831E13820C003DB263 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		20E4B9841E13820C003DB263 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		20E4B9871E138266003DB263 /* UIView+SubImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SubImage.h"; sourceTree = "<group>"; };
 		20E4B9881E138266003DB263 /* UIView+SubImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SubImage.m"; sourceTree = "<group>"; };
 		20E4B98B1E138383003DB263 /* UIImage+RemoteSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RemoteSize.h"; sourceTree = "<group>"; };
@@ -317,8 +317,8 @@
 		20E4B97D1E138035003DB263 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				20E4B9831E13820C003DB263 /* UIView+Color.h */,
-				20E4B9841E13820C003DB263 /* UIView+Color.m */,
+				20E4B9831E13820C003DB263 /* UIImage+Color.h */,
+				20E4B9841E13820C003DB263 /* UIImage+Color.m */,
 				20E4B9871E138266003DB263 /* UIView+SubImage.h */,
 				20E4B9881E138266003DB263 /* UIView+SubImage.m */,
 				20E4B98B1E138383003DB263 /* UIImage+RemoteSize.h */,
@@ -694,7 +694,7 @@
 				20E4B9AD1E138611003DB263 /* UITableView+Common.h in Headers */,
 				20E4B9A61E1385BE003DB263 /* UIView+Find.h in Headers */,
 				20E4B9E61E138753003DB263 /* UIBarButtonItem+Badge.h in Headers */,
-				20E4B9851E13820C003DB263 /* UIView+Color.h in Headers */,
+				20E4B9851E13820C003DB263 /* UIImage+Color.h in Headers */,
 				20E4B9EC1E138753003DB263 /* ALActionBlock.h in Headers */,
 				20E4BA3C1E138A97003DB263 /* NSString+DictionaryValue.h in Headers */,
 				20E4BA381E138A97003DB263 /* NSObject+Runtime.h in Headers */,
@@ -876,7 +876,7 @@
 				20E4BA3F1E138A97003DB263 /* NSString+Matcher.m in Sources */,
 				20E4BA371E138A97003DB263 /* NSObject+Reflection.m in Sources */,
 				20E4B9931E138448003DB263 /* UINavigationController+StackManager.m in Sources */,
-				20E4B9861E13820C003DB263 /* UIView+Color.m in Sources */,
+				20E4B9861E13820C003DB263 /* UIImage+Color.m in Sources */,
 				20E4BA391E138A97003DB263 /* NSObject+Runtime.m in Sources */,
 				20E4B9F11E138753003DB263 /* UIBarButtonItem+ALActionBlocks.m in Sources */,
 			);

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Color)
+@interface UIImage (Color)
 /** 根据颜色生成纯色图片 */
 + (UIImage *)imageWithColor:(UIColor *)color;
 

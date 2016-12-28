@@ -8,7 +8,7 @@
 
 #import "UIView+Color.h"
 
-@implementation UIView (Color)
+@implementation UIImage (Color)
 /** 根据颜色生成纯色图片 */
 + (UIImage *)imageWithColor:(UIColor *)color
 {
