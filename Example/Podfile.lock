@@ -1,0 +1,16 @@
+PODS:
+  - WDYBaseProject (0.1.0)
+
+DEPENDENCIES:
+  - WDYBaseProject (from `../`)
+
+EXTERNAL SOURCES:
+  WDYBaseProject:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WDYBaseProject: 2f93ab98a18e100be49ccc65354640bc4ef98326
+
+PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
+
+COCOAPODS: 1.1.1
