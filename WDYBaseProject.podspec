@@ -13,8 +13,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/wangdongyang/WDYBaseProject.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  # s.source_files = 'WDYBaseProject/Classes/**/*'
-
   s.subspec 'Category' do |category|
       category.source_files = 'WDYBaseProject/Classes/Category/**/*'
       category.dependency 'SDWebImage', '3.8.0'
@@ -22,6 +20,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'Macros' do |macros|
       macros.source_files = 'WDYBaseProject/Classes/Macros/**/*'
+  end
+
+  s.subspec 'UI' do |ui|
+      ui.source_files = 'WDYBaseProject/Classes/UI/**/*'
   end
 
   # s.resource_bundles = {

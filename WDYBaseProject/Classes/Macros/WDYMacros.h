@@ -69,10 +69,11 @@
 #define kScreenSize \
 ([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? CGSizeMake([UIScreen mainScreen].nativeBounds.size.width/[UIScreen mainScreen].nativeScale,[UIScreen mainScreen].nativeBounds.size.height/[UIScreen mainScreen].nativeScale) : [UIScreen mainScreen].bounds.size)
 
-#define  StatusBarHeight      20.f
-#define  NavigationBarHeight  44.f
-#define  TabbarHeight         49.f
-#define  StatusBarAndNavigationBarHeight   (20.f + 44.f)
+// 常用高度
+#define  kStatusBarHeight      20.f
+#define  kNavigationBarHeight  44.f
+#define  kTabbarHeight         49.f
+#define  kStatusBarAndNavigationBarHeight   (20.f + 44.f)
 
 
 //判断是否 Retina屏、设备是否iPhone 5、是否是iPad
@@ -84,13 +85,13 @@
 /** 判断是否为iPod */
 #define Is_iPod ([[[UIDevice currentDevice] model] isEqualToString:@"iPod touch"])
 /** 设备是否为iPhone 4/4S 分辨率320x480，像素640x960，@2x */
-#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define Is_iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
 /** 设备是否为iPhone 5C/5/5S 分辨率320x568，像素640x1136，@2x */
-#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define Is_iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 /** 设备是否为iPhone 6 分辨率375x667，像素750x1334，@2x */
-#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define Is_iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
 /** 设备是否为iPhone 6 Plus 分辨率414x736，像素1242x2208，@3x */
-#define iPhone6P ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define Is_iPhone6P ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
 
 
 //一些缩写
@@ -103,16 +104,16 @@
 
 //存储对象
 
-#define UserDefaultSetObjectForKey(__VALUE__,__KEY__) \
+#define kUserDefaultSetObjectForKey(__VALUE__,__KEY__) \
 {\
 [[NSUserDefaults standardUserDefaults] setObject:__VALUE__ forKey:__KEY__];\
 [[NSUserDefaults standardUserDefaults] synchronize];\
 }
 //获得存储的对象
-#define UserDefaultObjectForKey(__KEY__)  [[NSUserDefaults standardUserDefaults] objectForKey:__KEY__]
+#define kUserDefaultObjectForKey(__KEY__)  [[NSUserDefaults standardUserDefaults] objectForKey:__KEY__]
 
 //     删除对象
-#define UserDefaultRemoveObjectForKey(__KEY__) \
+#define kUserDefaultRemoveObjectForKey(__KEY__) \
 {\
 [[NSUserDefaults standardUserDefaults] removeObjectForKey:__KEY__];\
 [[NSUserDefaults standardUserDefaults] synchronize];\

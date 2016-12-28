@@ -8,6 +8,9 @@
 
 #import "WDYViewController.h"
 #import <WDYBaseProject/WDYCategory.h>
+#import <WDYBaseProject/UIImageView+Blur.h>
+#import <WDYBaseProject/UIImage+ImageEffects.h>
+#import <WDYBaseProject/WDYMacros.h>
 
 @interface WDYViewController ()
 
@@ -23,10 +26,10 @@
     UIImage* image = [UIImage circleImage:[UIImage imageWithColor:[UIColor blueColor]] borderWidth:0.0 borderColor:[UIColor blackColor]];
     UIImageView* imageV = [[UIImageView alloc] init];
     imageV.frame = CGRectMake(100, 100, 100, 100);
-    imageV.image = image;
-    [imageV setAllCorner:50];
+    imageV.image = [image blurryWithBlurLevel:1];
+//    [imageV setAllCorner:50];
+
     [self.view addSubview:imageV];
-    
     
 }
 
