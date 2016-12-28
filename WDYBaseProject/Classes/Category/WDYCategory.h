@@ -77,7 +77,6 @@
 #import "UIImage+Crop.h"
 
 // UIImageView 分类
-#import "UIImageView+AnimForSDWebImage.h"
 #import "UIImageView+Blur.h"
 
 #import "UINavigationController+StackManager.h"
