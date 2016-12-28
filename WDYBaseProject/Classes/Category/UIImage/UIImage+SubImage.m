@@ -6,9 +6,9 @@
 //
 //
 
-#import "UIView+SubImage.h"
+#import "UIImage+SubImage.h"
 
-@implementation UIView (SubImage)
+@implementation UIImage (SubImage)
 #pragma mark - 截取当前image对象rect区域内的图像
 - (UIImage *)subImageWithRect:(CGRect)rect
 {

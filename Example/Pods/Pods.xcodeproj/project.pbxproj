@@ -12,8 +12,8 @@
 		20E4B9821E13805B003DB263 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B9801E13805B003DB263 /* UIView+Frame.m */; };
 		20E4B9851E13820C003DB263 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B9831E13820C003DB263 /* UIImage+Color.h */; };
 		20E4B9861E13820C003DB263 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B9841E13820C003DB263 /* UIImage+Color.m */; };
-		20E4B9891E138266003DB263 /* UIView+SubImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B9871E138266003DB263 /* UIView+SubImage.h */; };
-		20E4B98A1E138266003DB263 /* UIView+SubImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B9881E138266003DB263 /* UIView+SubImage.m */; };
+		20E4B9891E138266003DB263 /* UIImage+SubImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B9871E138266003DB263 /* UIImage+SubImage.h */; };
+		20E4B98A1E138266003DB263 /* UIImage+SubImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B9881E138266003DB263 /* UIImage+SubImage.m */; };
 		20E4B98D1E138383003DB263 /* UIImage+RemoteSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B98B1E138383003DB263 /* UIImage+RemoteSize.h */; };
 		20E4B98E1E138383003DB263 /* UIImage+RemoteSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B98C1E138383003DB263 /* UIImage+RemoteSize.m */; };
 		20E4B9921E138448003DB263 /* UINavigationController+StackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4B9901E138448003DB263 /* UINavigationController+StackManager.h */; };
@@ -129,8 +129,8 @@
 		20E4B9801E13805B003DB263 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		20E4B9831E13820C003DB263 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		20E4B9841E13820C003DB263 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
-		20E4B9871E138266003DB263 /* UIView+SubImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SubImage.h"; sourceTree = "<group>"; };
-		20E4B9881E138266003DB263 /* UIView+SubImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SubImage.m"; sourceTree = "<group>"; };
+		20E4B9871E138266003DB263 /* UIImage+SubImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SubImage.h"; sourceTree = "<group>"; };
+		20E4B9881E138266003DB263 /* UIImage+SubImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SubImage.m"; sourceTree = "<group>"; };
 		20E4B98B1E138383003DB263 /* UIImage+RemoteSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RemoteSize.h"; sourceTree = "<group>"; };
 		20E4B98C1E138383003DB263 /* UIImage+RemoteSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RemoteSize.m"; sourceTree = "<group>"; };
 		20E4B9901E138448003DB263 /* UINavigationController+StackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StackManager.h"; sourceTree = "<group>"; };
@@ -319,8 +319,8 @@
 			children = (
 				20E4B9831E13820C003DB263 /* UIImage+Color.h */,
 				20E4B9841E13820C003DB263 /* UIImage+Color.m */,
-				20E4B9871E138266003DB263 /* UIView+SubImage.h */,
-				20E4B9881E138266003DB263 /* UIView+SubImage.m */,
+				20E4B9871E138266003DB263 /* UIImage+SubImage.h */,
+				20E4B9881E138266003DB263 /* UIImage+SubImage.m */,
 				20E4B98B1E138383003DB263 /* UIImage+RemoteSize.h */,
 				20E4B98C1E138383003DB263 /* UIImage+RemoteSize.m */,
 			);
@@ -672,7 +672,7 @@
 				20E4B9A41E1385BE003DB263 /* UIView+BlockGesture.h in Headers */,
 				20E4B9EA1E138753003DB263 /* UINavigationItem+Margin.h in Headers */,
 				20E4BA4C1E138A97003DB263 /* NSTimer+Blocks.h in Headers */,
-				20E4B9891E138266003DB263 /* UIView+SubImage.h in Headers */,
+				20E4B9891E138266003DB263 /* UIImage+SubImage.h in Headers */,
 				20E4B9EE1E138753003DB263 /* ALActionBlockWrapper.h in Headers */,
 				20E4BA341E138A97003DB263 /* NSObject+KVOBlocks.h in Headers */,
 				20E4B9B61E13864A003DB263 /* UIColor+HexString.h in Headers */,
@@ -862,7 +862,7 @@
 				20E4B9E71E138753003DB263 /* UIBarButtonItem+Badge.m in Sources */,
 				20E4B9CA1E1386DB003DB263 /* UIButton+Block.m in Sources */,
 				20E4BA2B1E138A97003DB263 /* NSDictionary+URL.m in Sources */,
-				20E4B98A1E138266003DB263 /* UIView+SubImage.m in Sources */,
+				20E4B98A1E138266003DB263 /* UIImage+SubImage.m in Sources */,
 				20E4BA2D1E138A97003DB263 /* NSFileManager+Paths.m in Sources */,
 				20E4BA491E138A97003DB263 /* NSString+Trims.m in Sources */,
 				20E4B98E1E138383003DB263 /* UIImage+RemoteSize.m in Sources */,

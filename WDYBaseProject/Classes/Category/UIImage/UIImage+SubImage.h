@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (SubImage)
+@interface UIImage (SubImage)
 /** 截取当前image对象rect区域内的图像 */
 - (UIImage *)subImageWithRect:(CGRect)rect;
 
