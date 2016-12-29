@@ -111,6 +111,10 @@ static CGFloat sg_navButtonCornerRadius;
             
             navController.interactivePopGestureRecognizer.enabled = YES;
         } else {
+            
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_7_0
             textAttributes = @{
                                UITextAttributeFont: titleFont,
@@ -140,6 +144,8 @@ static CGFloat sg_navButtonCornerRadius;
             
             self.navigationItem.backBarButtonItem = item;
 #endif
+
+#pragma clang diagnostic pop
         }
         
         [navBar setTitleTextAttributes:textAttributes];
