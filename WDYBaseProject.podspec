@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -16,6 +16,10 @@ Pod::Spec.new do |s|
   # 常用的分类
   s.subspec 'Category' do |category|
       category.source_files = 'WDYBaseProject/Classes/Category/**/*'
+  end
+
+  s.subspec 'Utils' do |utils|
+      utils.source_files = 'WDYBaseProject/Classes/Utils/**/*'
   end
 
   # 常用的宏
