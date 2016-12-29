@@ -16,7 +16,7 @@ static const void *s_ValueChangedKey = "s_ValueChangedKey";
 
 @implementation UIControl (ActionBlock)
 
-- (void)settouchDown:(ButtonClickedBlock)touchDown {
+- (void)setTouchDown:(ButtonClickedBlock)touchDown {
     objc_setAssociatedObject(self, s_ButtonTouchDownKey, touchDown, OBJC_ASSOCIATION_COPY);
     
     [self removeTarget:self action:@selector(onTouchDown:) forControlEvents:UIControlEventTouchDown];
@@ -31,7 +31,7 @@ static const void *s_ValueChangedKey = "s_ValueChangedKey";
     return downBlock;
 }
 
-- (void)settouchUp:(ButtonClickedBlock)touchUp {
+- (void)setTouchUp:(ButtonClickedBlock)touchUp {
     objc_setAssociatedObject(self, s_ButtonTouchUpKey, touchUp, OBJC_ASSOCIATION_COPY);
     
     [self removeTarget:self action:@selector(onTouchUp:) forControlEvents:UIControlEventTouchUpInside];
@@ -46,7 +46,7 @@ static const void *s_ValueChangedKey = "s_ValueChangedKey";
     return upBlock;
 }
 
-- (void)setvalueChangedBlock:(ValueChangedBlock)valueChangedBlock {
+- (void)setValueChangedBlock:(ValueChangedBlock)valueChangedBlock {
     objc_setAssociatedObject(self, s_ValueChangedKey, valueChangedBlock, OBJC_ASSOCIATION_COPY);
     
     [self removeTarget:self action:@selector(onValueChanged:) forControlEvents:UIControlEventTouchUpInside];

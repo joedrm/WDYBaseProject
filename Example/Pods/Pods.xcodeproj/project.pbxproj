@@ -33,8 +33,6 @@
 		20E4BA851E14A414003DB263 /* FileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BA831E14A414003DB263 /* FileManager.h */; };
 		20E4BA861E14A414003DB263 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4BA841E14A414003DB263 /* FileManager.m */; };
 		20E4BA881E14A8E5003DB263 /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BA871E14A8E5003DB263 /* Singleton.h */; };
-		20E4BA8B1E14AC4A003DB263 /* LocalPushCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BA891E14AC4A003DB263 /* LocalPushCenter.h */; };
-		20E4BA8C1E14AC4A003DB263 /* LocalPushCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4BA8A1E14AC4A003DB263 /* LocalPushCenter.m */; };
 		20E4BA8F1E14B208003DB263 /* CustomTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BA8D1E14B208003DB263 /* CustomTextField.h */; };
 		20E4BA901E14B208003DB263 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4BA8E1E14B208003DB263 /* CustomTextField.m */; };
 		20E4BA941E14B9D5003DB263 /* UIScrollView+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BA921E14B9D5003DB263 /* UIScrollView+Common.h */; };
@@ -231,8 +229,6 @@
 		20E4BA831E14A414003DB263 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
 		20E4BA841E14A414003DB263 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
 		20E4BA871E14A8E5003DB263 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
-		20E4BA891E14AC4A003DB263 /* LocalPushCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalPushCenter.h; sourceTree = "<group>"; };
-		20E4BA8A1E14AC4A003DB263 /* LocalPushCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPushCenter.m; sourceTree = "<group>"; };
 		20E4BA8D1E14B208003DB263 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		20E4BA8E1E14B208003DB263 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		20E4BA921E14B9D5003DB263 /* UIScrollView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Common.h"; sourceTree = "<group>"; };
@@ -576,8 +572,6 @@
 				20E4BA871E14A8E5003DB263 /* Singleton.h */,
 				20E4BA831E14A414003DB263 /* FileManager.h */,
 				20E4BA841E14A414003DB263 /* FileManager.m */,
-				20E4BA891E14AC4A003DB263 /* LocalPushCenter.h */,
-				20E4BA8A1E14AC4A003DB263 /* LocalPushCenter.m */,
 			);
 			name = Utils;
 			path = WDYBaseProject/Classes/Utils;
@@ -1098,7 +1092,6 @@
 				20E4BA821E14A3EE003DB263 /* WDYUtilsHeader.h in Headers */,
 				20E4BABF1E14D8E6003DB263 /* UIControl+ActionBlock.h in Headers */,
 				4611AB20A7A3A5E640FB59B4F67668C8 /* NSString+NormalRegex.h in Headers */,
-				20E4BA8B1E14AC4A003DB263 /* LocalPushCenter.h in Headers */,
 				EBA125F7AFF44A75C06FDE9154FCC24F /* NSString+Pinyin.h in Headers */,
 				5887009530522582F61FA7313F7EF13F /* NSString+Size.h in Headers */,
 				20E4BA881E14A8E5003DB263 /* Singleton.h in Headers */,
@@ -1363,7 +1356,6 @@
 				02D9616339E063ECAD54AE9110258617 /* UINavigationItem+Loading.m in Sources */,
 				84FD04475CC1DDAE6B393193EF7A0BCC /* UINavigationItem+Margin.m in Sources */,
 				B556CD91546EC9A6FF6F59B8D1E5004E /* UITableView+Common.m in Sources */,
-				20E4BA8C1E14AC4A003DB263 /* LocalPushCenter.m in Sources */,
 				83DF58D10B12AC1304375064E5B66890 /* UIView+Animation.m in Sources */,
 				A7EC50343D5CE1A63211DB3C7D81FD4C /* UIView+BlockGesture.m in Sources */,
 				3C9B828C67FF1EA71E7B720DC838B367 /* UIView+Find.m in Sources */,
