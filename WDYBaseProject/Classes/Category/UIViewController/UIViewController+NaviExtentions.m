@@ -273,9 +273,12 @@ static CGFloat sg_navButtonCornerRadius;
             [item setTitleTextAttributes:titleAttributes forState:UIControlStateNormal];
         }
     } else { // 6.0
+        
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
         [item setFinishedSelectedImage:selectedImg
            withFinishedUnselectedImage:normalImg];
-        
+
         NSMutableDictionary *titleSelectedAttributes = [[NSMutableDictionary alloc] init];
         if (selectedTextColor) {
             [titleSelectedAttributes setObject:selectedTextColor forKey:UITextAttributeTextColor];
@@ -300,6 +303,7 @@ static CGFloat sg_navButtonCornerRadius;
             [item setTitleTextAttributes:titleAttributes forState:UIControlStateNormal];
         }
     }
+#pragma clang diagnostic pop
     
     self.tabBarItem = item;
 }
