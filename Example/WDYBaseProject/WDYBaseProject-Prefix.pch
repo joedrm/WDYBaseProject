@@ -13,4 +13,12 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
+
+#import <WDYBaseProject/WDYCategory.h>
+#import <WDYBaseProject/UIImageView+Blur.h>
+#import <WDYBaseProject/UIImage+ImageEffects.h>
+#import <WDYBaseProject/WDYMacros.h>
+#import <WDYBaseProject/WDYUIHeader.h>
+
+
 #endif

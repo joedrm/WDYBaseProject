@@ -7,11 +7,9 @@
 //
 
 #import "WDYViewController.h"
-#import <WDYBaseProject/WDYCategory.h>
-#import <WDYBaseProject/UIImageView+Blur.h>
-#import <WDYBaseProject/UIImage+ImageEffects.h>
-#import <WDYBaseProject/WDYMacros.h>
-#import <WDYBaseProject/UIHeader.h>
+#import "TestViewController.h"
+
+
 
 @interface WDYViewController ()
 
@@ -37,11 +35,15 @@
     btn.layoutStyle = LayoutButtonStyleUpImageDownTitle;
     btn.imageSize = CGSizeMake(40, 40);
     btn.midSpacing = 12;
+    [btn addActionHandler:^{
+        TestViewController* testVC = [[TestViewController alloc] init];
+        [self.navigationController pushViewController:testVC animated:YES];
+    }];
     [btn setImage:[UIImage imageNamed:@"envelope"] forState:UIControlStateNormal];
     [btn setTitle:@"test" forState:UIControlStateNormal];
     [self.view addSubview:btn];
     
-    
+    [self configNavBarWithBackImage:[UIImage imageNamed:@"envelope"] shadowImage:nil tintColor:[UIColor redColor] barTintColor:[UIColor whiteColor] titleColor:[UIColor whiteColor] titleFont:kFontWithSize(12) hideBackTitle:YES];
     
     
     NSString* filePath = [NSFileManager cachesPath];

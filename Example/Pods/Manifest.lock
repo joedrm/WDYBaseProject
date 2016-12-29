@@ -2,16 +2,18 @@ PODS:
   - SDWebImage (3.8.0):
     - SDWebImage/Core (= 3.8.0)
   - SDWebImage/Core (3.8.0)
-  - WDYBaseProject (0.2.4):
-    - WDYBaseProject/Category (= 0.2.4)
-    - WDYBaseProject/Macros (= 0.2.4)
-    - WDYBaseProject/Other (= 0.2.4)
-    - WDYBaseProject/UI (= 0.2.4)
-  - WDYBaseProject/Category (0.2.4)
-  - WDYBaseProject/Macros (0.2.4)
-  - WDYBaseProject/Other (0.2.4):
+  - WDYBaseProject (0.2.8):
+    - WDYBaseProject/Category (= 0.2.8)
+    - WDYBaseProject/Macros (= 0.2.8)
+    - WDYBaseProject/Other (= 0.2.8)
+    - WDYBaseProject/UI (= 0.2.8)
+    - WDYBaseProject/Utils (= 0.2.8)
+  - WDYBaseProject/Category (0.2.8)
+  - WDYBaseProject/Macros (0.2.8)
+  - WDYBaseProject/Other (0.2.8):
     - SDWebImage (= 3.8.0)
-  - WDYBaseProject/UI (0.2.4)
+  - WDYBaseProject/UI (0.2.8)
+  - WDYBaseProject/Utils (0.2.8)
 
 DEPENDENCIES:
   - WDYBaseProject (from `../`)
@@ -22,7 +24,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
-  WDYBaseProject: 81192852b4d26a127c99eee8b76f5ab618d058f4
+  WDYBaseProject: 9b1da2b6e2f966e3fcf2615cc237ac31d93fb744
 
 PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
 
