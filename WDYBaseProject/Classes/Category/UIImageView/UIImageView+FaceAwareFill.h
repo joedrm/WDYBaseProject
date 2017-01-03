@@ -10,10 +10,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView (JKFaceAwareFill)
-
+@interface UIImageView (FaceAwareFill)
+NS_ASSUME_NONNULL_BEGIN
 //Ask the image to perform an "Aspect Fill" but centering the image to the detected faces
 //Not the simple center of the image
-- (void)jk_faceAwareFill;
+- (void)faceAwareFill;
 
+NS_ASSUME_NONNULL_END
 @end

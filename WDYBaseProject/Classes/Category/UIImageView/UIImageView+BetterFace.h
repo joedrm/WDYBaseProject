@@ -10,12 +10,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView (JKBetterFace)
+@interface UIImageView (BetterFace)
+NS_ASSUME_NONNULL_BEGIN
+@property (nonatomic) BOOL needsBetterFace;
+@property (nonatomic) BOOL fast;
 
-@property (nonatomic) BOOL jk_needsBetterFace;
-@property (nonatomic) BOOL jk_fast;
-
-void jk_hack_uiimageview_bf();
-- (void)jk_setBetterFaceImage:(UIImage *)image;
-
+void hack_uiimageview_bf();
+- (void)setBetterFaceImage:(UIImage *)image;
+NS_ASSUME_NONNULL_END
 @end

@@ -19,7 +19,7 @@
 
 static CIDetector *detector;
 
-@implementation UIImageView (JKBetterFace)
+@implementation UIImageView (BetterFace)
 
 void hack_uiimageview_bf(){
     Method oriSetImgMethod = class_getInstanceMethod([UIImageView class], @selector(setImage:));

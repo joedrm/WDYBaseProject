@@ -14,7 +14,7 @@
 static CIDetector * _faceDetector;
 
 
-@implementation UIImageView (JKFaceAwareFill)
+@implementation UIImageView (FaceAwareFill)
 
 + (void)initialize
 {
