@@ -27,6 +27,16 @@
 		1D208EA70C5BFEB54B7681C85A3FC254 /* NSObject+EasyCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F38FCFED7A8F96205110BED764F63B /* NSObject+EasyCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F67E3B2622E02FDB5386D777EB9AC41 /* Pods-WDYBaseProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */; };
 		1F6B32CB9BAD0C0E3FF4D76B6743FEEB /* NSObject+KVOBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 03787B13E75086E36F210D46781969A8 /* NSObject+KVOBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20BEB6D71E1B93B500B1E41E /* NSRunLoop+PerformBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BEB6D51E1B93B500B1E41E /* NSRunLoop+PerformBlock.h */; };
+		20BEB6D81E1B93B500B1E41E /* NSRunLoop+PerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEB6D61E1B93B500B1E41E /* NSRunLoop+PerformBlock.m */; };
+		20BEB6DC1E1B964C00B1E41E /* CAShapeLayer+BezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BEB6DA1E1B964C00B1E41E /* CAShapeLayer+BezierPath.h */; };
+		20BEB6DD1E1B964C00B1E41E /* CAShapeLayer+BezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEB6DB1E1B964C00B1E41E /* CAShapeLayer+BezierPath.m */; };
+		20BEB6E21E1B9A5C00B1E41E /* UIImageView+BetterFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BEB6DE1E1B9A5C00B1E41E /* UIImageView+BetterFace.h */; };
+		20BEB6E31E1B9A5C00B1E41E /* UIImageView+BetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEB6DF1E1B9A5C00B1E41E /* UIImageView+BetterFace.m */; };
+		20BEB6E41E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BEB6E01E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.h */; };
+		20BEB6E51E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEB6E11E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.m */; };
+		20BEB6E91E1BA20500B1E41E /* UIFont+TTF.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BEB6E71E1BA20500B1E41E /* UIFont+TTF.h */; };
+		20BEB6EA1E1BA20500B1E41E /* UIFont+TTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEB6E81E1BA20500B1E41E /* UIFont+TTF.m */; };
 		20E4BACB1E14F912003DB263 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E4BAC91E14F912003DB263 /* UINavigationController+FDFullscreenPopGesture.h */; };
 		20E4BACC1E14F912003DB263 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4BACA1E14F912003DB263 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		22682E8229B9AF0AAE5072FD90B7640E /* UIImage+SubImage.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6A1B86C533DBBEACA76018741601B3 /* UIImage+SubImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -235,6 +245,16 @@
 		1A91F69229CD33B9643ED87C70D83C23 /* UIView+Nib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
 		1BF4BDA8757353661828AEBAC3AAA755 /* UIImage+Crop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
 		1F25E954C3C7FEB4A05C2E04B1201A5D /* WDYMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDYMacros.h; sourceTree = "<group>"; };
+		20BEB6D51E1B93B500B1E41E /* NSRunLoop+PerformBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+PerformBlock.h"; sourceTree = "<group>"; };
+		20BEB6D61E1B93B500B1E41E /* NSRunLoop+PerformBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+PerformBlock.m"; sourceTree = "<group>"; };
+		20BEB6DA1E1B964C00B1E41E /* CAShapeLayer+BezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+BezierPath.h"; sourceTree = "<group>"; };
+		20BEB6DB1E1B964C00B1E41E /* CAShapeLayer+BezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+BezierPath.m"; sourceTree = "<group>"; };
+		20BEB6DE1E1B9A5C00B1E41E /* UIImageView+BetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BetterFace.h"; sourceTree = "<group>"; };
+		20BEB6DF1E1B9A5C00B1E41E /* UIImageView+BetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BetterFace.m"; sourceTree = "<group>"; };
+		20BEB6E01E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FaceAwareFill.h"; sourceTree = "<group>"; };
+		20BEB6E11E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FaceAwareFill.m"; sourceTree = "<group>"; };
+		20BEB6E71E1BA20500B1E41E /* UIFont+TTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TTF.h"; sourceTree = "<group>"; };
+		20BEB6E81E1BA20500B1E41E /* UIFont+TTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TTF.m"; sourceTree = "<group>"; };
 		20E4BAC91E14F912003DB263 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		20E4BACA1E14F912003DB263 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		22E148CD5DBCC7FD36DA8D2A62D38AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -594,16 +614,46 @@
 			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
+		20BEB6D41E1B938F00B1E41E /* NSRunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				20BEB6D51E1B93B500B1E41E /* NSRunLoop+PerformBlock.h */,
+				20BEB6D61E1B93B500B1E41E /* NSRunLoop+PerformBlock.m */,
+			);
+			path = NSRunLoop;
+			sourceTree = "<group>";
+		};
+		20BEB6D91E1B962600B1E41E /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				20BEB6DA1E1B964C00B1E41E /* CAShapeLayer+BezierPath.h */,
+				20BEB6DB1E1B964C00B1E41E /* CAShapeLayer+BezierPath.m */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		20BEB6E61E1BA1EA00B1E41E /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				20BEB6E71E1BA20500B1E41E /* UIFont+TTF.h */,
+				20BEB6E81E1BA20500B1E41E /* UIFont+TTF.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
 		21F49DF8DD8041483D8D8890533C0A7E /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				0C757C6728A948B5CBB0F0AA1DAA516F /* WDYCategory.h */,
+				20BEB6D91E1B962600B1E41E /* CALayer */,
+				20BEB6D41E1B938F00B1E41E /* NSRunLoop */,
 				C413CA68B7749B33B1D07FCEABE05A45 /* NSBundle */,
 				732DD26EC3206A5CC43F1CF0B995A387 /* NSDictionary */,
 				5403E3769F8232E2A28EC625D95F5911 /* NSFileManager */,
 				3E3514A5560FA85AC1DDBA7DF91AB281 /* NSObject */,
 				164698666FB5DF3CFC6D6023F486DC31 /* NSString */,
 				C34BA82000A47E072DE249B7844D518B /* NSTimer */,
+				20BEB6E61E1BA1EA00B1E41E /* UIFont */,
 				1F3D8364D8B3062272CDB066ED266C5A /* UIBarButtonItem */,
 				3112E420340D5DCA3887EA62093179D2 /* UIButton */,
 				ABF16E097BB47D61EB89A03AB48D02CD /* UIColor */,
@@ -697,9 +747,9 @@
 				A46A955EE242469C3F4FECCD1BB09640 /* Category */,
 				7AA225D7BA3E4D6FC51B80042A68EC21 /* Macros */,
 				F36117C5F0BB105E9DA94739CA937E3A /* Other */,
-				D29100BA415EC116B0EC5BA4E52811D0 /* Support Files */,
 				2A2AA1A657D8473249B38D529EE419E5 /* UI */,
 				871DD881691FDD8644953785768228A4 /* Utils */,
+				D29100BA415EC116B0EC5BA4E52811D0 /* Support Files */,
 			);
 			name = WDYBaseProject;
 			path = ../..;
@@ -910,6 +960,10 @@
 		AFD2F5443E7F244C44ADD3FFECA8A004 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
+				20BEB6DE1E1B9A5C00B1E41E /* UIImageView+BetterFace.h */,
+				20BEB6DF1E1B9A5C00B1E41E /* UIImageView+BetterFace.m */,
+				20BEB6E01E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.h */,
+				20BEB6E11E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.m */,
 				F744E552DCD42CB6E1E07CB7B5718C5E /* UIImageView+Blur.h */,
 				48A9D6EBA0601AE735857A197C43C350 /* UIImageView+Blur.m */,
 			);
@@ -1128,6 +1182,7 @@
 				431AECFBF43C594A919A02516F096999 /* Singleton.h in Headers */,
 				7AA0D200A59986A96D676814584FE10E /* UIBarButtonItem+ALActionBlocks.h in Headers */,
 				F0826F51A649945A8A9CBAA0EC129203 /* UIBarButtonItem+Badge.h in Headers */,
+				20BEB6E21E1B9A5C00B1E41E /* UIImageView+BetterFace.h in Headers */,
 				825813D8BB9A59D86DE18D6D50660D9F /* UIButton+BackgroundColor.h in Headers */,
 				0B87BA67B8986D2F176C90FA2ACA758B /* UIButton+Badge.h in Headers */,
 				73F4AA713C14ED36245D41455B8991A6 /* UIButton+Block.h in Headers */,
@@ -1140,6 +1195,7 @@
 				165D3C1653CE5F97F9D53DB6E12D026F /* UIControl+ALActionBlocks.h in Headers */,
 				C9B74932085CB4E62517BA8609A13578 /* UIControl+Delay.h in Headers */,
 				95CB47404DA3D339D1DE8A93694A1059 /* UIDevice+Hardware.h in Headers */,
+				20BEB6D71E1B93B500B1E41E /* NSRunLoop+PerformBlock.h in Headers */,
 				048F44C285B8AB75D60755944FC045C1 /* UIGestureRecognizer+ALActionBlocks.h in Headers */,
 				3D7299A510BF77796B87963018BDF7CE /* UIImage+Color.h in Headers */,
 				AA6A72613F5047D0B97F17AACD9B6321 /* UIImage+Crop.h in Headers */,
@@ -1154,7 +1210,9 @@
 				B66464EABB9D62AE38B592E45F06D9C5 /* UINavigationItem+Margin.h in Headers */,
 				6A410DFEF4467EFAD53C9CD4EA60AA4D /* UIScrollView+Common.h in Headers */,
 				E16A2B40433A345694AB6977D5283A3F /* UITableView+Common.h in Headers */,
+				20BEB6DC1E1B964C00B1E41E /* CAShapeLayer+BezierPath.h in Headers */,
 				336374DD26ADA27973F00EC3CB466C06 /* UIView+Animation.h in Headers */,
+				20BEB6E91E1BA20500B1E41E /* UIFont+TTF.h in Headers */,
 				DB1A4BAF5AAE13450B6F6DDF74EB75D8 /* UIView+BlockGesture.h in Headers */,
 				7552FE8956F90D44EE5DDFE267F3DB93 /* UIView+Find.h in Headers */,
 				B84E46E0A5A081803998C5D0DAE2E001 /* UIView+Frame.h in Headers */,
@@ -1165,6 +1223,7 @@
 				E9A1026D5F858497B727A2B6FD013A6D /* WDYBaseProject-umbrella.h in Headers */,
 				3ADF10F3A0750C8B07BCB0AEE5DAF59B /* WDYCategory.h in Headers */,
 				8B95873F9688180AC051D02894C8AE16 /* WDYMacros.h in Headers */,
+				20BEB6E41E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.h in Headers */,
 				AE1B6B99890B1C149631BDE55B486130 /* WDYUIHeader.h in Headers */,
 				52A0B366BB7858B61DD7BC67198D30D7 /* WDYUtilsHeader.h in Headers */,
 			);
@@ -1320,6 +1379,7 @@
 				425CC5CAB42151D40000C25A87B1ED66 /* NSTimer+Addition.m in Sources */,
 				50064C77DA5044C3726E2973E4C9DC6B /* NSTimer+Blocks.m in Sources */,
 				03004E3EA2E06D8A594C1AEA3025A21D /* UIBarButtonItem+ALActionBlocks.m in Sources */,
+				20BEB6DD1E1B964C00B1E41E /* CAShapeLayer+BezierPath.m in Sources */,
 				DCEDF6DDB31D5343DE4EB3D28906B400 /* UIBarButtonItem+Badge.m in Sources */,
 				A0E57A9474FCCD640C6829A85DDB52C0 /* UIButton+BackgroundColor.m in Sources */,
 				07E46A0DCD939E2F1573FE803A73A027 /* UIButton+Badge.m in Sources */,
@@ -1331,7 +1391,9 @@
 				FBB1BC89B8A159AC13BBA5A844730599 /* UIColor+HexString.m in Sources */,
 				1AE7F660FAF575041E433D7CC22710E1 /* UIControl+ActionBlock.m in Sources */,
 				C13C2AA5130270E1A397DD61F3D18364 /* UIControl+ALActionBlocks.m in Sources */,
+				20BEB6EA1E1BA20500B1E41E /* UIFont+TTF.m in Sources */,
 				7586D9213EB628898231306B3885F935 /* UIControl+Delay.m in Sources */,
+				20BEB6E31E1B9A5C00B1E41E /* UIImageView+BetterFace.m in Sources */,
 				2AA471295DAF311AA1F748E1EE46FD91 /* UIDevice+Hardware.m in Sources */,
 				78CDB9B112EEBAEE196D818E1B6BA002 /* UIGestureRecognizer+ALActionBlocks.m in Sources */,
 				2DE16C51F5057296E967CE092D8DF438 /* UIImage+Color.m in Sources */,
@@ -1339,6 +1401,7 @@
 				31DEF1FFC9067FE6865C3807C0C0FFB5 /* UIImage+Gif.m in Sources */,
 				DE35BC2637E080180CD672A95D0D933B /* UIImage+ImageEffects.m in Sources */,
 				83F486D25EBB421BB5F8670EDC4F247E /* UIImage+RemoteSize.m in Sources */,
+				20BEB6E51E1B9A5C00B1E41E /* UIImageView+FaceAwareFill.m in Sources */,
 				C83F34B6A08FD461B15FD9C869746653 /* UIImage+SubImage.m in Sources */,
 				02CACE896D6C6FA4CDD3AE9EDFD6E1E5 /* UIImageView+AnimForSDWebImage.m in Sources */,
 				AB334D7F00C2CB7D1830323A39A09C9C /* UIImageView+Blur.m in Sources */,
@@ -1347,6 +1410,7 @@
 				75A57FAFFDB06DE85E6B9A4F0B653CE3 /* UINavigationItem+Margin.m in Sources */,
 				6F0151F515A91EBF108F8498B11F421B /* UIScrollView+Common.m in Sources */,
 				C59B16BEA598F92BDE41A5E58DD8A064 /* UITableView+Common.m in Sources */,
+				20BEB6D81E1B93B500B1E41E /* NSRunLoop+PerformBlock.m in Sources */,
 				5E0BDA00F023B44E3F7CD5DDCC672D81 /* UIView+Animation.m in Sources */,
 				741ED8EF51E1A121FF5BF4A7E52BBCD7 /* UIView+BlockGesture.m in Sources */,
 				88D478D633DAB4ACB1F3B37479218A85 /* UIView+Find.m in Sources */,

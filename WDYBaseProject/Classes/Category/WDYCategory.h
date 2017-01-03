@@ -78,6 +78,9 @@
 
 // UIImageView 分类
 #import "UIImageView+Blur.h"
+#import "UIImageView+BetterFace.h"
+#import "UIImageView+FaceAwareFill.h"
+
 
 #import "UINavigationController+StackManager.h"
 #import "UITableView+Common.h"
@@ -96,7 +99,30 @@
 #import "UIViewController+BackButtonHandler.h"
 
 
+#import "CAShapeLayer+BezierPath.h"
+#import "NSRunLoop+PerformBlock.h"
 
-
+#import "UIFont+TTF.h"
 
 #endif /* WDYBaseProject_h */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
