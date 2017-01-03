@@ -28,7 +28,7 @@ void hack_uiimageview_bf(){
 }
 
 - (void)setBetterFaceImage:(UIImage *)image{
-    [self setneedsBetterFace:image];
+    [self setNeedsBetterFace:image];
     if (![self needsBetterFace]) {
         return;
     }
@@ -37,7 +37,7 @@ void hack_uiimageview_bf(){
 }
 
 char nbfKey;
-- (void)setneedsBetterFace:(BOOL)needsBetterFace{
+- (void)setNeedsBetterFace:(BOOL)needsBetterFace{
     objc_setAssociatedObject(self,
                              &nbfKey,
                              [NSNumber numberWithBool:needsBetterFace],
@@ -50,7 +50,7 @@ char nbfKey;
 }
 
 char fastSpeedKey;
-- (void)setfast:(BOOL)fast{
+- (void)setFast:(BOOL)fast{
     objc_setAssociatedObject(self,
                              &fastSpeedKey,
                              [NSNumber numberWithBool:fast],
@@ -58,7 +58,7 @@ char fastSpeedKey;
 }
 
 char detectorKey;
-- (void)setdetector:(CIDetector *)detector{
+- (void)setDetector:(CIDetector *)detector{
     objc_setAssociatedObject(self,
                              &detectorKey,
                              detector,
