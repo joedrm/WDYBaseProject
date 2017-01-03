@@ -12,8 +12,9 @@
 
 @interface UIImageView (BetterFace)
 NS_ASSUME_NONNULL_BEGIN
-@property (nonatomic) BOOL needsBetterFace;
-@property (nonatomic) BOOL fast;
+
+@property (nonatomic, assign) BOOL needsBetterFace;
+@property (nonatomic, assign) BOOL fast;
 
 void hack_uiimageview_bf();
 - (void)setBetterFaceImage:(UIImage *)image;
