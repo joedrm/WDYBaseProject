@@ -12,6 +12,7 @@
 #import <Foundation/Foundation.h>
 #import "FileManager.h"
 #import "Singleton.h"
+#import "GCDHelper.h"
 #import "NetworkManager.h"
 
 #endif /* WDYUtilsHeader_h */
