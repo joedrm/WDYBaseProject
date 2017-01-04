@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.3.5'
+  s.version          = '0.3.8'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   #   'WDYBaseProject' => ['WDYBaseProject/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'WDYBaseProject/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

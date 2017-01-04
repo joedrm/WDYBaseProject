@@ -27,6 +27,7 @@
 		1813C428B257A29482BC689F746502FD /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F6542461D8EBF72454DA2D4B1B20E798 /* UIColor+HexString.m */; };
 		1EE1B5C6BBCEF7549524721C1421B6FC /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B547B14D7B32C310454CFA1C0CCD43 /* UIImage+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F67E3B2622E02FDB5386D777EB9AC41 /* Pods-WDYBaseProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */; };
+		20BEB7571E1CCD0B00B1E41E /* WDYBaseProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BEB7561E1CCD0B00B1E41E /* WDYBaseProject.h */; };
 		21192C768F32191515627D4A1A5CAC4F /* UIButton+Badge.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DFD9BDA116534BB8C66A5C3D912A6D /* UIButton+Badge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		219C5A6B6136A1FCCB5B70DC093320B5 /* UIButton+CountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 29383C4D53240DCE18F680E575EE5551 /* UIButton+CountDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22F7DA1A5B07F2D1547A333C97EF2A49 /* NSFileManager+Paths.m in Sources */ = {isa = PBXBuildFile; fileRef = DA07278EA1CAD00CF53798E027ED5B92 /* NSFileManager+Paths.m */; };
@@ -245,6 +246,7 @@
 		1A816D27EEBE8F195ECFDB3789268A03 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		1D7F11C8E914FDBAFF96B0E834500DC7 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		1EC8978CA3064C2D8073199617A0A57C /* UIButton+CountDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		20BEB7561E1CCD0B00B1E41E /* WDYBaseProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDYBaseProject.h; path = WDYBaseProject/Classes/WDYBaseProject.h; sourceTree = "<group>"; };
 		20E030B90079A0E855E14BF651B7554E /* NSString+Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
 		22E148CD5DBCC7FD36DA8D2A62D38AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		23477A01A39101432BFBF10080929A4F /* UIControl+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+Delay.h"; sourceTree = "<group>"; };
@@ -925,6 +927,7 @@
 		A6CD8F95A2B98A82F659F44CFA9C0370 /* WDYBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				20BEB7561E1CCD0B00B1E41E /* WDYBaseProject.h */,
 				F3245AD4C66FAD51B751F93C4FCCF66A /* Category */,
 				E9680CF02B4E2EAF5AD6741707D841D0 /* Macros */,
 				03A6D92215AF1A8FE6745FC34CCC336F /* Navigation */,
@@ -1220,6 +1223,7 @@
 				584B01B7344CAF4693F7B55838504FA6 /* NSDictionary+Merge.h in Headers */,
 				8299B6B25EF7659776BD1BDB3052669F /* NSDictionary+URL.h in Headers */,
 				E131770A11440B3C1981132F647FF090 /* NSFileManager+Paths.h in Headers */,
+				20BEB7571E1CCD0B00B1E41E /* WDYBaseProject.h in Headers */,
 				411AD9832115A5A9B1855B604D5D62BA /* NSObject+AppInfo.h in Headers */,
 				622525E4FFD6BCBC614C6F43E86A3B18 /* NSObject+AssociatedObject.h in Headers */,
 				2397850D84472C0379AEA151006FC53E /* NSObject+EasyCopy.h in Headers */,
