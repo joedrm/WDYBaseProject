@@ -68,6 +68,7 @@
 #import "UIViewController+NaviExtentions.h"
 #import "WDYCategory.h"
 #import "WDYMacros.h"
+#import "Navigation.h"
 #import "RTRootNavigationController.h"
 #import "UIViewController+RTRootNavigationController.h"
 #import "UIImageView+AnimForSDWebImage.h"
