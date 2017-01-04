@@ -50,6 +50,24 @@
     NSLog(@"filePath = %@", filePath);
     
     NSLog(@"kDocumentPath = %@", kDocumentPath);
+    
+    // 1
+    __block BOOL flag = NO;
+    NSLog(@"start................");
+    [[NSRunLoop currentRunLoop] performBlockAndWait:^(BOOL *finish) {
+        double delayInSeconds = 5.0;
+        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+        dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+        dispatch_after(popTime, queue, ^(void){
+            // 2
+            NSLog(@"delay................");
+            flag = YES;
+            *finish = YES;
+        });
+    }];
+    
+    // 3
+    NSLog(@"%d  end............", flag);
 }
 
 @end
