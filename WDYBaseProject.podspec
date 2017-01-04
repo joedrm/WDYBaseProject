@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.3.3'
+  s.version          = '0.3.4'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
       category.source_files = 'WDYBaseProject/Classes/Category/**/*'
   end
 
+  # 工具类
   s.subspec 'Utils' do |utils|
       utils.source_files = 'WDYBaseProject/Classes/Utils/**/*'
   end
@@ -27,9 +28,14 @@ Pod::Spec.new do |s|
       macros.source_files = 'WDYBaseProject/Classes/Macros/**/*'
   end
 
-  # 常用的UI控件
+  # 常用的UI控件,基类
   s.subspec 'UI' do |ui|
       ui.source_files = 'WDYBaseProject/Classes/UI/**/*'
+  end
+
+  # 导航控制器组件
+  s.subspec 'Navigation' do |navigation|
+      navigation.source_files = 'WDYBaseProject/Classes/Navigation/**/*'
   end
 
   # 主要是一些和项目容易起冲突的文件，或者对其它的第三方有依赖的文件
