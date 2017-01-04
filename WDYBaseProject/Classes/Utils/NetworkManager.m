@@ -10,7 +10,7 @@
 
 @implementation NSData (utils)
 
-- (NSDictionary *)rw_parseJson {
+- (NSDictionary *)parseJson {
     NSError *error;
     NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:self
                                                          options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves
@@ -68,7 +68,7 @@ static NSString *const kRequest_TimeOutKeyPath = @"timeoutInterval";
     // 请求成功的回调
     void (^successfulRequest) (NSURLSessionDataTask *, id) = ^(NSURLSessionDataTask *task, id responseObject) {
         if (success) {
-            NSDictionary *dict = [responseObject rw_parseJson];
+            NSDictionary *dict = [responseObject parseJson];
             success(dict);
         }
     };
@@ -130,7 +130,7 @@ static NSString *const kRequest_TimeOutKeyPath = @"timeoutInterval";
                  progress:nil
                   success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                       if (success) {
-                          NSDictionary *dict = [responseObject rw_parseJson];
+                          NSDictionary *dict = [responseObject parseJson];
                           success(dict);
                       }
                   }
