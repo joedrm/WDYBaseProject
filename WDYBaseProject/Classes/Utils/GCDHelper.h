@@ -5,8 +5,9 @@
 //  Created by fang wang on 16/12/29.
 //
 
-@import UIKit;
-@import Foundation;
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /** 主线程运行 */
 FOUNDATION_EXTERN void Run_Main(dispatch_block_t RunMain);
