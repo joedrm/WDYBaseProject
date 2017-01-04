@@ -26,6 +26,10 @@
 		1B658C7B27B55B0C1E520C0BA5F8AE47 /* UIBarButtonItem+ALActionBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = E84379840CC6FE0BF4973E9C09E1FACB /* UIBarButtonItem+ALActionBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C7265C2BB7670209EBD6472DB60BDED /* UIView+Find.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD830DE48587BF0F49AEC6A06715A37 /* UIView+Find.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F67E3B2622E02FDB5386D777EB9AC41 /* Pods-WDYBaseProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */; };
+		20BEB7651E1CECDC00B1E41E /* GCDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BEB7631E1CECDC00B1E41E /* GCDHelper.h */; };
+		20BEB7661E1CECDC00B1E41E /* GCDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEB7641E1CECDC00B1E41E /* GCDHelper.m */; };
+		20BEB7691E1CF03E00B1E41E /* NetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BEB7671E1CF03E00B1E41E /* NetworkManager.h */; };
+		20BEB76A1E1CF03E00B1E41E /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEB7681E1CF03E00B1E41E /* NetworkManager.m */; };
 		227E1F5384C5E319A4058696EB6522C6 /* ALActionBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB1E5FEEF6A5848422FBF0E7543A57 /* ALActionBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22F7DA1A5B07F2D1547A333C97EF2A49 /* NSFileManager+Paths.m in Sources */ = {isa = PBXBuildFile; fileRef = A21B6F7603EDA77C56DB72D3A0075BF9 /* NSFileManager+Paths.m */; };
 		2310246D8F0209010B2BAC1AAF6EA683 /* ALActionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = EAADA2B6D4627C171BB00688394CBB1F /* ALActionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -245,6 +249,10 @@
 		1E21FFCC02D2A0D1FCE099112D4CE730 /* UIControl+ActionBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ActionBlock.m"; sourceTree = "<group>"; };
 		1F270CDFD55C8A68DA2205B1B5A8EB65 /* UIImage+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		1FF7574A6FF4118D1D0E7ABE8D18AAA1 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		20BEB7631E1CECDC00B1E41E /* GCDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDHelper.h; sourceTree = "<group>"; };
+		20BEB7641E1CECDC00B1E41E /* GCDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDHelper.m; sourceTree = "<group>"; };
+		20BEB7671E1CF03E00B1E41E /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		20BEB7681E1CF03E00B1E41E /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		216B7A758AD1B97C939F1D8397305146 /* UIImage+Crop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
 		22E148CD5DBCC7FD36DA8D2A62D38AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		235ADE309C560D3D4ABE51C2F6271398 /* UIViewController+NaviExtentions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NaviExtentions.h"; sourceTree = "<group>"; };
@@ -924,6 +932,10 @@
 			children = (
 				77A4F15638F9F211422375425168BD82 /* FileManager.h */,
 				148AA643ED85EB4DD4C0F6DAF48E082D /* FileManager.m */,
+				20BEB7631E1CECDC00B1E41E /* GCDHelper.h */,
+				20BEB7641E1CECDC00B1E41E /* GCDHelper.m */,
+				20BEB7671E1CF03E00B1E41E /* NetworkManager.h */,
+				20BEB7681E1CF03E00B1E41E /* NetworkManager.m */,
 				B90443F34A8F793DF92E047830236567 /* Singleton.h */,
 				64FCDCBC07146D534627028F4E523AAD /* WDYUtilsHeader.h */,
 			);
@@ -1213,7 +1225,9 @@
 				5F288E26ABC6A5F214BB5C6A31BFBDCC /* NSObject+Runtime.h in Headers */,
 				9BFC85B97D287C3FAA5DD9A5A4B4B6E7 /* NSRunLoop+PerformBlock.h in Headers */,
 				96685693E251FFEE4505B15ED32CD159 /* NSString+Contains.h in Headers */,
+				20BEB7651E1CECDC00B1E41E /* GCDHelper.h in Headers */,
 				0C3971C14B4FD81A713DA65542F076E7 /* NSString+DictionaryValue.h in Headers */,
+				20BEB7691E1CF03E00B1E41E /* NetworkManager.h in Headers */,
 				E20A009A7D388271B5D62927D4BE9527 /* NSString+Matcher.h in Headers */,
 				838AE454B0E53E1CF8970F1E2397BE8F /* NSString+NormalRegex.h in Headers */,
 				89AEE0CFCDDEAE9636DCDBE504F77DFD /* NSString+Pinyin.h in Headers */,
@@ -1443,6 +1457,7 @@
 				B51912F74765EC3384A55CEFD6032F83 /* NSBundle+AppIcon.m in Sources */,
 				5932DD659D543405DF2028B9A2900D70 /* NSDictionary+Merge.m in Sources */,
 				BE41F6454059DB7964159A3251B4E854 /* NSDictionary+URL.m in Sources */,
+				20BEB76A1E1CF03E00B1E41E /* NetworkManager.m in Sources */,
 				22F7DA1A5B07F2D1547A333C97EF2A49 /* NSFileManager+Paths.m in Sources */,
 				FD9CF7F9C145389C0EA37A6BA86257F7 /* NSObject+AppInfo.m in Sources */,
 				D6F308DC4451A30F61C8D4DC783ABF79 /* NSObject+AssociatedObject.m in Sources */,
@@ -1482,6 +1497,7 @@
 				691E89839574963A83AEB85B23DBAAB3 /* UIImage+Crop.m in Sources */,
 				489EBDE99AD8CBDB9B1FAC8CCB8DD724 /* UIImage+Gif.m in Sources */,
 				ADEB21FB083EE11BD67065A1A7B54CB8 /* UIImage+ImageEffects.m in Sources */,
+				20BEB7661E1CECDC00B1E41E /* GCDHelper.m in Sources */,
 				4AB1DD520C159F29EC0799DA68794FD2 /* UIImage+RemoteSize.m in Sources */,
 				BA3EE451EF22CBE2346BAB575656F0ED /* UIImage+SubImage.m in Sources */,
 				E7D0E2C275D6AB9DB70C067888C4692B /* UIImageView+AnimForSDWebImage.m in Sources */,

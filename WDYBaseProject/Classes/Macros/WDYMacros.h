@@ -33,6 +33,10 @@
 || ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
 || ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
 
+#define kSafeRun_Delegate(name, selector)   (name && [name respondsToSelector:selector]) ? YES : NO
+#define kSafeRun_Delegate_Default(selector)  (_delegate && [_delegate respondsToSelector:selector]) ? YES : NO
+#define kSafeRun_Block(block, ...) block ? block(__VA_ARGS__) : nil
+#define kSafeRun_Return(_obj_)if (_obj_) return _obj_
 
 //获取沙盒Document路径
 #define kDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
@@ -128,9 +132,25 @@
 #define kImage(Name) ([UIImage imageNamed:Name])
 #define kImageOfFile(Name) ([UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:Name ofType:nil]])
 
+// 从xib中load view
+#define kLoadXibWithClass(__class__) [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([__class__ class]) owner:self options:nil] firstObject];
+
+// 获取工程中的文件
+#define kProject_File(__fileName__)  [[NSBundle mainBundle] pathForResource:__fileName__ ofType:nil]
+
 // 字体
 #define kFontWithSize(size) [UIFont systemFontOfSize:size]
 #define kBoldFontWithSize(size) [UIFont boldSystemFontOfSize:size]
+
+
+// 消除 self preform selector的警告
+#define NO_Warning_Leak(__perform__) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+__perform__; \
+_Pragma("clang diagnostic pop") \
+} while (0)
 
 #endif /* WDYMacros_h */
 
