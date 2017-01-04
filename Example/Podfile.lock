@@ -1,21 +1,37 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - SDWebImage (3.8.0):
     - SDWebImage/Core (= 3.8.0)
   - SDWebImage/Core (3.8.0)
-  - WDYBaseProject (0.4.2):
-    - WDYBaseProject/Category (= 0.4.2)
-    - WDYBaseProject/Macros (= 0.4.2)
-    - WDYBaseProject/Navigation (= 0.4.2)
-    - WDYBaseProject/Other (= 0.4.2)
-    - WDYBaseProject/UIComponent (= 0.4.2)
-    - WDYBaseProject/Utils (= 0.4.2)
-  - WDYBaseProject/Category (0.4.2)
-  - WDYBaseProject/Macros (0.4.2)
-  - WDYBaseProject/Navigation (0.4.2)
-  - WDYBaseProject/Other (0.4.2):
+  - WDYBaseProject (0.4.6):
+    - WDYBaseProject/Category (= 0.4.6)
+    - WDYBaseProject/Macros (= 0.4.6)
+    - WDYBaseProject/Navigation (= 0.4.6)
+    - WDYBaseProject/Other (= 0.4.6)
+    - WDYBaseProject/UIComponent (= 0.4.6)
+    - WDYBaseProject/Utils (= 0.4.6)
+  - WDYBaseProject/Category (0.4.6)
+  - WDYBaseProject/Macros (0.4.6)
+  - WDYBaseProject/Navigation (0.4.6)
+  - WDYBaseProject/Other (0.4.6):
     - SDWebImage (= 3.8.0)
-  - WDYBaseProject/UIComponent (0.4.2)
-  - WDYBaseProject/Utils (0.4.2)
+  - WDYBaseProject/UIComponent (0.4.6)
+  - WDYBaseProject/Utils (0.4.6):
+    - AFNetworking (= 3.1.0)
 
 DEPENDENCIES:
   - WDYBaseProject (from `../`)
@@ -25,8 +41,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
-  WDYBaseProject: 8e618feb3e8acdfdc5c50d8e7eb8219609f6d7d7
+  WDYBaseProject: 0afb4e90564374d878512c3c3f46c9238983f460
 
 PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
 

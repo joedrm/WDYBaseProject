@@ -75,6 +75,8 @@
 #import "LayoutButton.h"
 #import "WDYUIHeader.h"
 #import "FileManager.h"
+#import "GCDHelper.h"
+#import "NetworkManager.h"
 #import "Singleton.h"
 #import "WDYUtilsHeader.h"
 
