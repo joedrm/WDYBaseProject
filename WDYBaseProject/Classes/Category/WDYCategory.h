@@ -14,6 +14,7 @@
 
 // 分类
 #import "NSBundle+AppIcon.h"
+#import "NSBundle+MyLibrary.h"
 #import "NSDictionary+Merge.h"
 #import "NSDictionary+URL.h"
 #import "NSFileManager+Paths.h"
@@ -75,6 +76,7 @@
 #import "UIImage+SubImage.h"
 #import "UIImage+Color.h"
 #import "UIImage+Crop.h"
+#import "UIImage+MyLibrary.h"
 
 // UIImageView 分类
 #import "UIImageView+Blur.h"

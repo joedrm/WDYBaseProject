@@ -15,6 +15,11 @@
 
 @implementation MBProgressHUD (HUD)
 
++ (UIImage*)bundleWithImageName:(NSString *)imageName{
+    
+    return [UIImage my_bundleImageNamed:imageName className:[self class]];
+}
+
 #pragma mark 显示错误信息
 + (void)showError:(NSString *)error ToView:(UIView *)view{
     [self showCustomIcon:@"MBHUD_Error" Title:error ToView:view];
