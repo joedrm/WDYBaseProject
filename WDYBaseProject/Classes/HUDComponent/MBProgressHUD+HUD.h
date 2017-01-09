@@ -6,7 +6,8 @@
 //
 //
 
-
+#import <Foundation/Foundation.h>
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @interface MBProgressHUD (HUD)
 /**
