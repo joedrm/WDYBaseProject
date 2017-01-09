@@ -17,7 +17,7 @@
 
 + (UIImage*)bundleWithImageName:(NSString *)imageName{
     
-    return [UIImage my_bundleImageNamed:imageName className:[self class]];
+    return [UIImage my_bundleImageNamed:imageName name:[self class]];
 }
 
 #pragma mark 显示错误信息
