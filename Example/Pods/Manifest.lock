@@ -18,27 +18,28 @@ PODS:
   - SDWebImage (3.8.0):
     - SDWebImage/Core (= 3.8.0)
   - SDWebImage/Core (3.8.0)
-  - WDYBaseProject (0.5.2):
-    - WDYBaseProject/ADComponent (= 0.5.2)
-    - WDYBaseProject/Category (= 0.5.2)
-    - WDYBaseProject/HUDComponent (= 0.5.2)
-    - WDYBaseProject/Macros (= 0.5.2)
-    - WDYBaseProject/Navigation (= 0.5.2)
-    - WDYBaseProject/NewFeatureComponent (= 0.5.2)
-    - WDYBaseProject/Other (= 0.5.2)
-    - WDYBaseProject/UIComponent (= 0.5.2)
-    - WDYBaseProject/Utils (= 0.5.2)
-  - WDYBaseProject/ADComponent (0.5.2)
-  - WDYBaseProject/Category (0.5.2)
-  - WDYBaseProject/HUDComponent (0.5.2):
+  - WDYBaseProject (0.5.7):
+    - WDYBaseProject/ADComponent (= 0.5.7)
+    - WDYBaseProject/Category (= 0.5.7)
+    - WDYBaseProject/HUDComponent (= 0.5.7)
+    - WDYBaseProject/Macros (= 0.5.7)
+    - WDYBaseProject/Navigation (= 0.5.7)
+    - WDYBaseProject/NewFeatureComponent (= 0.5.7)
+    - WDYBaseProject/Other (= 0.5.7)
+    - WDYBaseProject/UIComponent (= 0.5.7)
+    - WDYBaseProject/Utils (= 0.5.7)
+  - WDYBaseProject/ADComponent (0.5.7)
+  - WDYBaseProject/Category (0.5.7)
+  - WDYBaseProject/HUDComponent (0.5.7):
     - MBProgressHUD (= 0.9)
-  - WDYBaseProject/Macros (0.5.2)
-  - WDYBaseProject/Navigation (0.5.2)
-  - WDYBaseProject/NewFeatureComponent (0.5.2)
-  - WDYBaseProject/Other (0.5.2):
+    - WDYBaseProject/Category
+  - WDYBaseProject/Macros (0.5.7)
+  - WDYBaseProject/Navigation (0.5.7)
+  - WDYBaseProject/NewFeatureComponent (0.5.7)
+  - WDYBaseProject/Other (0.5.7):
     - SDWebImage (= 3.8.0)
-  - WDYBaseProject/UIComponent (0.5.2)
-  - WDYBaseProject/Utils (0.5.2):
+  - WDYBaseProject/UIComponent (0.5.7)
+  - WDYBaseProject/Utils (0.5.7):
     - AFNetworking (= 3.1.0)
 
 DEPENDENCIES:
@@ -52,7 +53,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
   SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
-  WDYBaseProject: 8fbd03dc80a7229a35e391acfc07ad43ac0ce8ae
+  WDYBaseProject: 7c8242462e054d979a03faa4dd449a9047449002
 
 PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
 

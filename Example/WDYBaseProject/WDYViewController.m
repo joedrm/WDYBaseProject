@@ -37,7 +37,7 @@
     btn.midSpacing = 12;
     [btn addActionHandler:^{
         
-        [MBProgressHUD showMessage:@"hello world" ToView:self.view RemainTime:3];
+        [MBProgressHUD showWarn:@"waring" ToView:self.view];
 //        TestViewController* testVC = [[TestViewController alloc] init];
 //        [self.navigationController pushViewController:testVC animated:YES];
     }];
