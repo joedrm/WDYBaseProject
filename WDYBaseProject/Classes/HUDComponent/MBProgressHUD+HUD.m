@@ -17,22 +17,22 @@
 
 #pragma mark 显示错误信息
 + (void)showError:(NSString *)error ToView:(UIView *)view{
-    [self showCustomIcon:SrcWithName(@"MBHUD_Error") Title:error ToView:view];
+    [self showCustomIcon:@"MBHUD_Error" Title:error ToView:view];
 }
 
 + (void)showSuccess:(NSString *)success ToView:(UIView *)view
 {
-    [self showCustomIcon:SrcWithName(@"MBHUD_Success") Title:success ToView:view];
+    [self showCustomIcon:@"MBHUD_Success" Title:success ToView:view];
 }
 
 + (void)showInfo:(NSString *)Info ToView:(UIView *)view
 {
-    [self showCustomIcon:SrcWithName(@"MBHUD_Info") Title:Info ToView:view];
+    [self showCustomIcon:@"MBHUD_Success" Title:Info ToView:view];
 }
 
 + (void)showWarn:(NSString *)Warn ToView:(UIView *)view
 {
-    [self showCustomIcon:SrcWithName(@"MBHUD_Warn") Title:Warn ToView:view];
+    [self showCustomIcon:@"MBHUD_Warn" Title:Warn ToView:view];
 }
 
 #pragma mark 显示一些信息

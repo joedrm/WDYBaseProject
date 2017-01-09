@@ -36,8 +36,10 @@
     btn.imageSize = CGSizeMake(40, 40);
     btn.midSpacing = 12;
     [btn addActionHandler:^{
-        TestViewController* testVC = [[TestViewController alloc] init];
-        [self.navigationController pushViewController:testVC animated:YES];
+        
+        [MBProgressHUD showMessage:@"hello world" ToView:self.view RemainTime:3];
+//        TestViewController* testVC = [[TestViewController alloc] init];
+//        [self.navigationController pushViewController:testVC animated:YES];
     }];
     [btn setImage:[UIImage imageNamed:@"envelope"] forState:UIControlStateNormal];
     [btn setTitle:@"test" forState:UIControlStateNormal];
@@ -68,6 +70,8 @@
     
     // 3
     NSLog(@"%d  end............", flag);
+    
+//    [MBProgressHUD showAutoMessage:@""];
 }
 
 @end

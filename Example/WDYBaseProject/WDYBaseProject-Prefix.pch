@@ -19,6 +19,6 @@
 #import <WDYBaseProject/UIImage+ImageEffects.h>
 #import <WDYBaseProject/WDYMacros.h>
 #import <WDYBaseProject/WDYUIHeader.h>
-
+#import <WDYBaseProject/MBProgressHUD+HUD.h>
 
 #endif

@@ -1,6 +1,6 @@
 {
   "name": "WDYBaseProject",
-  "version": "0.4.9",
+  "version": "0.5.1",
   "summary": "基础工程",
   "description": "常用的基础工程",
   "homepage": "https://github.com/wangdongyang/WDYBaseProject",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/wangdongyang/WDYBaseProject.git",
-    "tag": "0.4.9"
+    "tag": "0.5.1"
   },
   "platforms": {
     "ios": "8.0"
+  },
+  "resource_bundles": {
+    "WDYBaseProject": [
+      "WDYBaseProject/Assets/*.png"
+    ]
   },
   "subspecs": [
     {
@@ -52,6 +57,23 @@
           "3.8.0"
         ]
       }
+    },
+    {
+      "name": "HUDComponent",
+      "source_files": "WDYBaseProject/Classes/HUDComponent/**/*",
+      "dependencies": {
+        "MBProgressHUD": [
+          "0.9"
+        ]
+      }
+    },
+    {
+      "name": "NewFeatureComponent",
+      "source_files": "WDYBaseProject/Classes/NewFeatureComponent/**/*"
+    },
+    {
+      "name": "ADComponent",
+      "source_files": "WDYBaseProject/Classes/ADComponent/**/*"
     }
   ]
 }
