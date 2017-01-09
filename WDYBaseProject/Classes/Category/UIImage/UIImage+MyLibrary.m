@@ -12,8 +12,8 @@
 
 @implementation UIImage (MyLibrary)
 
-+ (UIImage *)my_bundleImageNamed:(NSString *)imgName name:(NSString *)name{
-    return [self my_imageNamed:imgName inBundle:[NSBundle myLibraryBundleWithClassStr:name]];
++ (UIImage *)my_bundleImageNamed:(NSString *)imgName myClassName:(NSString *)myClassName{
+    return [self my_imageNamed:imgName inBundle:[NSBundle myLibraryBundleWithClassStr:myClassName]];
 }
 
 
