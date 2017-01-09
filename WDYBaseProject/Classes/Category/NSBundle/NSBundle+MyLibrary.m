@@ -10,16 +10,16 @@
 
 @implementation NSBundle (MyLibrary)
 
-+ (NSBundle *)myLibraryBundleWithClassStr:(NSString *)className{
-    return [self bundleWithURL:[self myLibraryBundleURLClassStr:className]];
++ (NSBundle *)myLibraryBundleWithClassStr:(NSString *)name{
+    return [self bundleWithURL:[self myLibraryBundleURLClassStr:name]];
 }
 
 
-+ (NSURL *)myLibraryBundleURLClassStr:(NSString *)className {
-    if (className == nil || className.length == 0) {
++ (NSURL *)myLibraryBundleURLClassStr:(NSString *)name {
+    if (name == nil || name.length == 0) {
         return nil;
     }
-    Class class = NSClassFromString(className);
+    Class class = NSClassFromString(name);
     NSBundle *bundle = [NSBundle bundleForClass:class];
     return [bundle URLForResource:@"WDYBaseProject" withExtension:@"bundle"];
 }

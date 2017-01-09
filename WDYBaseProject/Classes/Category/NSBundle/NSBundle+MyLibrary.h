@@ -10,7 +10,7 @@
 
 @interface NSBundle (MyLibrary)
 
-+ (NSBundle *)myLibraryBundleWithClassStr:(NSString *)className;
-+ (NSURL *)myLibraryBundleURLClassStr:(NSString *)className;
++ (NSBundle *)myLibraryBundleWithClassStr:(NSString *)name;
++ (NSURL *)myLibraryBundleURLClassStr:(NSString *)name;
 
 @end

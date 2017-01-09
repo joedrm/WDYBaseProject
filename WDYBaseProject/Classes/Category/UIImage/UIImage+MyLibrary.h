@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (MyLibrary)
-+ (UIImage *)my_bundleImageNamed:(NSString *)name className:(NSString *)className;
++ (UIImage *)my_bundleImageNamed:(NSString *)imgName name:(NSString *)name;
 @end
