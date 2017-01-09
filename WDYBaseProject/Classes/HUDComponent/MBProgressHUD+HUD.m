@@ -22,22 +22,22 @@
 
 #pragma mark 显示错误信息
 + (void)showError:(NSString *)error ToView:(UIView *)view{
-    [self showCustomIcon:@"MBHUD_Error" Title:error ToView:view];
+    [self showCustomIcon:[self bundleWithImageName:@"MBHUD_Error"] Title:error ToView:view];
 }
 
 + (void)showSuccess:(NSString *)success ToView:(UIView *)view
 {
-    [self showCustomIcon:@"MBHUD_Success" Title:success ToView:view];
+    [self showCustomIcon:[self bundleWithImageName:@"MBHUD_Success"] Title:success ToView:view];
 }
 
 + (void)showInfo:(NSString *)Info ToView:(UIView *)view
 {
-    [self showCustomIcon:@"MBHUD_Success" Title:Info ToView:view];
+    [self showCustomIcon:[self bundleWithImageName:@"MBHUD_Success"] Title:Info ToView:view];
 }
 
 + (void)showWarn:(NSString *)Warn ToView:(UIView *)view
 {
-    [self showCustomIcon:@"MBHUD_Warn" Title:Warn ToView:view];
+    [self showCustomIcon:[self bundleWithImageName:@"MBHUD_Warn"] Title:Warn ToView:view];
 }
 
 #pragma mark 显示一些信息
@@ -125,8 +125,10 @@
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.labelText=title;
     hud.labelFont=CHINESE_SYSTEM(15);
+    
+    UIImageView* imageV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:iconName]];
     // 设置图片
-    hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:iconName]];
+    hud.customView = imageV;
     
     // 再设置模式
     hud.mode = MBProgressHUDModeCustomView;
