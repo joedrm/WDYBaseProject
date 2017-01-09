@@ -17,20 +17,20 @@ PODS:
   - SDWebImage (3.8.0):
     - SDWebImage/Core (= 3.8.0)
   - SDWebImage/Core (3.8.0)
-  - WDYBaseProject (0.4.6):
-    - WDYBaseProject/Category (= 0.4.6)
-    - WDYBaseProject/Macros (= 0.4.6)
-    - WDYBaseProject/Navigation (= 0.4.6)
-    - WDYBaseProject/Other (= 0.4.6)
-    - WDYBaseProject/UIComponent (= 0.4.6)
-    - WDYBaseProject/Utils (= 0.4.6)
-  - WDYBaseProject/Category (0.4.6)
-  - WDYBaseProject/Macros (0.4.6)
-  - WDYBaseProject/Navigation (0.4.6)
-  - WDYBaseProject/Other (0.4.6):
+  - WDYBaseProject (0.4.9):
+    - WDYBaseProject/Category (= 0.4.9)
+    - WDYBaseProject/Macros (= 0.4.9)
+    - WDYBaseProject/Navigation (= 0.4.9)
+    - WDYBaseProject/Other (= 0.4.9)
+    - WDYBaseProject/UIComponent (= 0.4.9)
+    - WDYBaseProject/Utils (= 0.4.9)
+  - WDYBaseProject/Category (0.4.9)
+  - WDYBaseProject/Macros (0.4.9)
+  - WDYBaseProject/Navigation (0.4.9)
+  - WDYBaseProject/Other (0.4.9):
     - SDWebImage (= 3.8.0)
-  - WDYBaseProject/UIComponent (0.4.6)
-  - WDYBaseProject/Utils (0.4.6):
+  - WDYBaseProject/UIComponent (0.4.9)
+  - WDYBaseProject/Utils (0.4.9):
     - AFNetworking (= 3.1.0)
 
 DEPENDENCIES:
@@ -43,7 +43,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
-  WDYBaseProject: 0afb4e90564374d878512c3c3f46c9238983f460
+  WDYBaseProject: 3e9e215cf14255701beb7c2c15953a2538d04e77
 
 PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
 

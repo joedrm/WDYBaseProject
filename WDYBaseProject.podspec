@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.4.9'
+  s.version          = '0.5.0'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -45,9 +45,25 @@ Pod::Spec.new do |s|
       other.dependency 'SDWebImage', '3.8.0'
   end
 
-  # s.resource_bundles = {
-  #   'WDYBaseProject' => ['WDYBaseProject/Assets/*.png']
-  # }
+  # 提示框组件
+  s.subspec 'HUDComponent' do |hud|
+      hud.source_files = 'WDYBaseProject/Classes/HUDComponent/**/*'
+      hud.dependency 'MBProgressHUD', '0.9'
+  end
+
+  # 新特性介绍组件
+  s.subspec 'NewFeatureComponent' do |newFeature|
+      newFeature.source_files = 'WDYBaseProject/Classes/NewFeatureComponent/**/*'
+  end
+
+  # 广告展示组件
+  s.subspec 'ADComponent' do |ad|
+      ad.source_files = 'WDYBaseProject/Classes/ADComponent/**/*'
+  end
+
+  s.resource_bundles = {
+    'WDYBaseProject' => ['WDYBaseProject/Assets/*.png']
+  }
 
   # s.source_files  = 'WDYBaseProject/Classes/WDYBaseProject.h'
   # s.public_header_files = 'WDYBaseProject/Classes/WDYBaseProject.h'

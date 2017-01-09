@@ -141,7 +141,7 @@
 // 字体
 #define kFontWithSize(size) [UIFont systemFontOfSize:size]
 #define kBoldFontWithSize(size) [UIFont boldSystemFontOfSize:size]
-
+#define kFONT(F) [UIFont fontWithName:@"FZHTJW--GB1-0" size:F]  //方正黑体简体字体
 
 // 消除 self preform selector的警告
 #define NO_Warning_Leak(__perform__) \
