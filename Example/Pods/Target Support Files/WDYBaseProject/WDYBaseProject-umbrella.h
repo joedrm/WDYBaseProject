@@ -5,6 +5,7 @@
 #import "ADHeader.h"
 #import "AdvertiseHelper.h"
 #import "AdvertiseView.h"
+#import "BaseModel.h"
 #import "CAShapeLayer+BezierPath.h"
 #import "NSBundle+AppIcon.h"
 #import "NSBundle+MyLibrary.h"

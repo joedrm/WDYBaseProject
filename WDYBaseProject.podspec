@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.6.6'
+  s.version          = '0.6.7'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   # 提示框组件
   s.subspec 'HUDComponent' do |hud|
       hud.source_files = 'WDYBaseProject/Classes/HUDComponent/**/*'
-      hud.dependency 'MBProgressHUD', '0.9'
+      hud.dependency 'MBProgressHUD', '1.0.0'
       hud.dependency 'WDYBaseProject/Category'
   end
 
