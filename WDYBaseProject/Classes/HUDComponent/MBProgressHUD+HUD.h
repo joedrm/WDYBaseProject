@@ -18,7 +18,7 @@
  *  @param icon 图片地址(建议不要太大的图片)
  *  @param view 要添加的view
  */
-+ (void)showCustomIcon:(UIImage *)icon Title:(NSString *)title ToView:(UIView *)view;
++ (void)showCustomIcon:(NSString *)iconName Title:(NSString *)title ToView:(UIView *)view;
 
 /**
  *  自动消失成功提示，带默认图

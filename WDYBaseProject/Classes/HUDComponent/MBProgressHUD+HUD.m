@@ -15,29 +15,24 @@
 
 @implementation MBProgressHUD (HUD)
 
-+ (UIImage*)bundleWithImageName:(NSString *)imageName{
-    
-    return [UIImage my_bundleImageNamed:imageName myClassName:NSStringFromClass([MBProgressHUD class])];
-}
-
 #pragma mark 显示错误信息
 + (void)showError:(NSString *)error ToView:(UIView *)view{
-    [self showCustomIcon:[self bundleWithImageName:@"MBHUD_Error"] Title:error ToView:view];
+    [self showCustomIcon:@"MBHUD_Error" Title:error ToView:view];
 }
 
 + (void)showSuccess:(NSString *)success ToView:(UIView *)view
 {
-    [self showCustomIcon:[self bundleWithImageName:@"MBHUD_Success"] Title:success ToView:view];
+    [self showCustomIcon:@"MBHUD_Success" Title:success ToView:view];
 }
 
 + (void)showInfo:(NSString *)Info ToView:(UIView *)view
 {
-    [self showCustomIcon:[self bundleWithImageName:@"MBHUD_Success"] Title:Info ToView:view];
+    [self showCustomIcon:@"MBHUD_Info" Title:Info ToView:view];
 }
 
 + (void)showWarn:(NSString *)Warn ToView:(UIView *)view
 {
-    [self showCustomIcon:[self bundleWithImageName:@"MBHUD_Warn"] Title:Warn ToView:view];
+    [self showCustomIcon:@"MBHUD_Warn" Title:Warn ToView:view];
 }
 
 #pragma mark 显示一些信息
@@ -118,7 +113,7 @@
     
 }
 
-+ (void)showCustomIcon:(UIImage *)icon Title:(NSString *)title ToView:(UIView *)view
++ (void)showCustomIcon:(NSString *)iconName Title:(NSString *)title ToView:(UIView *)view
 {
     if (view == nil) view = (UIView*)[UIApplication sharedApplication].delegate.window;
     // 快速显示一个提示信息
@@ -126,7 +121,7 @@
     hud.labelText=title;
     hud.labelFont=CHINESE_SYSTEM(15);
     
-    UIImageView* imageV = [[UIImageView alloc] initWithImage:icon];
+    UIImageView* imageV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:iconName]];
     // 设置图片
     hud.customView = imageV;
     
