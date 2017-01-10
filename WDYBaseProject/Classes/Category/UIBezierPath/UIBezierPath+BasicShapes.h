@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface UIBezierPath (BasicShapes)
-
+// 💗型
 + (UIBezierPath *)heartShape:(CGRect)originalFrame;
+// 人头像
 + (UIBezierPath *)userShape:(CGRect)originalFrame;
 + (UIBezierPath *)martiniShape:(CGRect)originalFrame;
 + (UIBezierPath *)beakerShape:(CGRect)originalFrame;

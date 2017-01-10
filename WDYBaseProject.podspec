@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.6.4'
+  s.version          = '0.6.6'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -67,6 +67,13 @@ Pod::Spec.new do |s|
   # UITableView相关组件
   s.subspec 'TableViewComponent' do |table|
       table.source_files = 'WDYBaseProject/Classes/TableViewComponent/**/*'
+  end
+
+  # 基础模型类组件
+  s.subspec 'BaseModel' do |model|
+      model.source_files = 'WDYBaseProject/Classes/BaseModel/**/*'
+      model.dependency 'MJExtension'
+      model.dependency 'WDYBaseProject/Utils'
   end
 
   s.resource_bundles = {
