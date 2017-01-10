@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.6.7'
+  s.version          = '0.6.8'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
