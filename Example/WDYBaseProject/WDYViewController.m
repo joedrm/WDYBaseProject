@@ -36,7 +36,7 @@
     btn.midSpacing = 12;
     [btn addActionHandler:^{
         
-        [MBProgressHUD showWarn:@"waring" ToView:self.view];
+//        [MBProgressHUD showWarn:@"waring" ToView:self.view];
 //        TestViewController* testVC = [[TestViewController alloc] init];
 //        [self.navigationController pushViewController:testVC animated:YES];
     }];

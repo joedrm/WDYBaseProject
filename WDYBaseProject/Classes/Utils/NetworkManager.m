@@ -12,10 +12,10 @@
 
 - (NSDictionary *)parseJson {
     NSError *error;
-    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:self
-                                                         options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves
+    id response = [NSJSONSerialization JSONObjectWithData:self
+                                                  options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves
                                                            error:&error];
-    return dict;
+    return response;
 }
 
 @end
@@ -62,14 +62,14 @@ static NSString *const kRequest_TimeOutKeyPath = @"timeoutInterval";
 - (void)request:(NSString *)url
            type:(RequestType)type
          params:(NSDictionary *)params
-        success:(void (^)(NSDictionary *dict))success
+        success:(void (^)(id response))success
         failure:(void (^)(NSError *error))failure {
     
     // 请求成功的回调
     void (^successfulRequest) (NSURLSessionDataTask *, id) = ^(NSURLSessionDataTask *task, id responseObject) {
         if (success) {
-            NSDictionary *dict = [responseObject parseJson];
-            success(dict);
+            id response = [responseObject parseJson];
+            success(response);
         }
     };
     
@@ -121,7 +121,7 @@ static NSString *const kRequest_TimeOutKeyPath = @"timeoutInterval";
 - (void)post:(NSString *)url
       params:(NSDictionary *)params
         body:(void (^)(id<AFMultipartFormData> formData))body
-     success:(void (^)(NSDictionary* dic))success
+     success:(void (^)(id response))success
      failure:(void (^)(NSError *error))failure {
     
     [_requestManager POST:url parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
@@ -130,8 +130,8 @@ static NSString *const kRequest_TimeOutKeyPath = @"timeoutInterval";
                  progress:nil
                   success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                       if (success) {
-                          NSDictionary *dict = [responseObject parseJson];
-                          success(dict);
+                          id response = [responseObject parseJson];
+                          success(response);
                       }
                   }
                   failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {

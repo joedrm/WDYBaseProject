@@ -14,42 +14,36 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - MBProgressHUD (0.9)
   - MJExtension (3.0.13)
   - SDWebImage (3.8.0):
     - SDWebImage/Core (= 3.8.0)
   - SDWebImage/Core (3.8.0)
-  - WDYBaseProject (0.6.6):
-    - WDYBaseProject/ADComponent (= 0.6.6)
-    - WDYBaseProject/BaseModel (= 0.6.6)
-    - WDYBaseProject/Category (= 0.6.6)
-    - WDYBaseProject/HUDComponent (= 0.6.6)
-    - WDYBaseProject/Macros (= 0.6.6)
-    - WDYBaseProject/Navigation (= 0.6.6)
-    - WDYBaseProject/NewFeatureComponent (= 0.6.6)
-    - WDYBaseProject/Other (= 0.6.6)
-    - WDYBaseProject/TableViewComponent (= 0.6.6)
-    - WDYBaseProject/UIComponent (= 0.6.6)
-    - WDYBaseProject/Utils (= 0.6.6)
-  - WDYBaseProject/ADComponent (0.6.6)
-  - WDYBaseProject/BaseModel (0.6.6):
+  - WDYBaseProject (0.7.0):
+    - WDYBaseProject/ADComponent (= 0.7.0)
+    - WDYBaseProject/BaseModel (= 0.7.0)
+    - WDYBaseProject/Category (= 0.7.0)
+    - WDYBaseProject/Macros (= 0.7.0)
+    - WDYBaseProject/Navigation (= 0.7.0)
+    - WDYBaseProject/NewFeatureComponent (= 0.7.0)
+    - WDYBaseProject/Other (= 0.7.0)
+    - WDYBaseProject/TableViewComponent (= 0.7.0)
+    - WDYBaseProject/UIComponent (= 0.7.0)
+    - WDYBaseProject/Utils (= 0.7.0)
+  - WDYBaseProject/ADComponent (0.7.0)
+  - WDYBaseProject/BaseModel (0.7.0):
     - MJExtension
     - WDYBaseProject/Utils
-  - WDYBaseProject/Category (0.6.6)
-  - WDYBaseProject/HUDComponent (0.6.6):
-    - MBProgressHUD (= 0.9)
-    - WDYBaseProject/Category
-  - WDYBaseProject/Macros (0.6.6)
-  - WDYBaseProject/Navigation (0.6.6)
-  - WDYBaseProject/NewFeatureComponent (0.6.6)
-  - WDYBaseProject/Other (0.6.6):
+  - WDYBaseProject/Category (0.7.0)
+  - WDYBaseProject/Macros (0.7.0)
+  - WDYBaseProject/Navigation (0.7.0)
+  - WDYBaseProject/NewFeatureComponent (0.7.0)
+  - WDYBaseProject/Other (0.7.0):
     - SDWebImage (= 3.8.0)
-  - WDYBaseProject/TableViewComponent (0.6.6)
-  - WDYBaseProject/UIComponent (0.6.6)
-  - WDYBaseProject/Utils (0.6.6):
+  - WDYBaseProject/TableViewComponent (0.7.0)
+  - WDYBaseProject/UIComponent (0.7.0)
+  - WDYBaseProject/Utils (0.7.0):
     - AFNetworking (= 3.1.0)
     - WDYBaseProject/Category
-    - WDYBaseProject/HUDComponent
 
 DEPENDENCIES:
   - WDYBaseProject (from `../`)
@@ -60,10 +54,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
-  WDYBaseProject: 52dd8c19ee6470b33523b637a80ad8660a23ae2e
+  WDYBaseProject: 7af31060a4ff95f3dc6fbc1c930e217295289b78
 
 PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
 

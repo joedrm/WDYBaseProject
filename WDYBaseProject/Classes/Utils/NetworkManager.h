@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)request:(NSString *)url
            type:(RequestType)type
          params:(NSDictionary *)params
-        success:(void (^)(NSDictionary *dict))success
+        success:(void (^)(id response))success
         failure:(nullable void (^)(NSError *error))failure;
 
 /*!
@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)post:(NSString *)url
       params:(NSDictionary *)params
         body:(void (^)(id<AFMultipartFormData> formData))body
-     success:(void (^)(NSDictionary* dic))success
+     success:(void (^)(id response))success
      failure:(nullable void (^)(NSError *error))failure;
 
 /*!

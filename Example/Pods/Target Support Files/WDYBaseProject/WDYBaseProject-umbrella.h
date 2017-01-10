@@ -80,7 +80,6 @@
 #import "UIViewController+Current.h"
 #import "UIViewController+NaviExtentions.h"
 #import "WDYCategory.h"
-#import "MBProgressHUD+HUD.h"
 #import "WDYMacros.h"
 #import "RTRootNavigationController.h"
 #import "UIViewController+RTRootNavigationController.h"
