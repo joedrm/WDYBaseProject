@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   # 提示框组件
   s.subspec 'HUDComponent' do |hud|
       hud.source_files = 'WDYBaseProject/Classes/HUDComponent/**/*'
-      hud.dependency 'MBProgressHUD', '1.0.0'
+      #hud.dependency 'MBProgressHUD', '1.0.0'
       hud.dependency 'WDYBaseProject/Category'
   end
 

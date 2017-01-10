@@ -11,7 +11,7 @@
 #import <AssetsLibrary/ALAssetsLibrary.h>
 #import <AssetsLibrary/ALAssetsGroup.h>
 #import <AssetsLibrary/ALAssetRepresentation.h>
-#import "MBProgressHUD+HUD.h"
+//#import "MBProgressHUD+HUD.h"
 
 @import AVFoundation;
 
@@ -23,7 +23,7 @@
         ALAuthorizationStatus authStatus = [ALAssetsLibrary authorizationStatus];
         if (ALAuthorizationStatusDenied == authStatus ||
             ALAuthorizationStatusRestricted == authStatus) {
-            [MBProgressHUD showAutoMessage:@"请在iPhone的“设置->隐私->照片”中打开本应用的访问权限" ToView:nil];
+//            [MBProgressHUD showAutoMessage:@"请在iPhone的“设置->隐私->照片”中打开本应用的访问权限" ToView:nil];
             return NO;
         }
     }
@@ -33,7 +33,7 @@
 + (BOOL)checkCameraAuthorizationStatus
 {
     if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
-        [MBProgressHUD showAutoMessage:@"该设备不支持拍照" ToView:nil];
+//        [MBProgressHUD showAutoMessage:@"该设备不支持拍照" ToView:nil];
         return NO;
     }
     
@@ -41,7 +41,7 @@
         AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
         if (AVAuthorizationStatusDenied == authStatus ||
             AVAuthorizationStatusRestricted == authStatus) {
-            [MBProgressHUD showAutoMessage:@"请在iPhone的“设置->隐私->相机”中打开本应用的访问权限" ToView:nil];
+//            [MBProgressHUD showAutoMessage:@"请在iPhone的“设置->隐私->相机”中打开本应用的访问权限" ToView:nil];
             return NO;
         }
     }
