@@ -14,11 +14,14 @@
     @import UIKit;
     @import Foundation;
 
-#import <WDYBaseProject/WDYCategory.h>
-#import <WDYBaseProject/UIImageView+Blur.h>
-#import <WDYBaseProject/UIImage+ImageEffects.h>
-#import <WDYBaseProject/WDYMacros.h>
-#import <WDYBaseProject/WDYUIHeader.h>
-#import <WDYBaseProject/MBProgressHUD+HUD.h>
+#import <WDYBaseProject/WDYCategory.h> // 分类组件
+#import <WDYBaseProject/WDYMacros.h>    // 宏组件
+#import <WDYBaseProject/WDYUIHeader.h>  // UI控件基类
+#import <WDYBaseProject/MBProgressHUD+HUD.h> // HUD组件
+#import <WDYBaseProject/TableViewHeader.h>   // TableView组件
+#import <WDYBaseProject/ADHeader.h>         // 广告组件
+#import <WDYBaseProject/NewFeatureHeader.h> // 新特性组件
+#import <WDYBaseProject/WDYNavigation.h>    // 导航组件
+#import <WDYBaseProject/WDYUtilsHeader.h>  // 常用工具类组件
 
 #endif

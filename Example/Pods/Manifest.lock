@@ -18,29 +18,33 @@ PODS:
   - SDWebImage (3.8.0):
     - SDWebImage/Core (= 3.8.0)
   - SDWebImage/Core (3.8.0)
-  - WDYBaseProject (0.6.0):
-    - WDYBaseProject/ADComponent (= 0.6.0)
-    - WDYBaseProject/Category (= 0.6.0)
-    - WDYBaseProject/HUDComponent (= 0.6.0)
-    - WDYBaseProject/Macros (= 0.6.0)
-    - WDYBaseProject/Navigation (= 0.6.0)
-    - WDYBaseProject/NewFeatureComponent (= 0.6.0)
-    - WDYBaseProject/Other (= 0.6.0)
-    - WDYBaseProject/UIComponent (= 0.6.0)
-    - WDYBaseProject/Utils (= 0.6.0)
-  - WDYBaseProject/ADComponent (0.6.0)
-  - WDYBaseProject/Category (0.6.0)
-  - WDYBaseProject/HUDComponent (0.6.0):
+  - WDYBaseProject (0.6.4):
+    - WDYBaseProject/ADComponent (= 0.6.4)
+    - WDYBaseProject/Category (= 0.6.4)
+    - WDYBaseProject/HUDComponent (= 0.6.4)
+    - WDYBaseProject/Macros (= 0.6.4)
+    - WDYBaseProject/Navigation (= 0.6.4)
+    - WDYBaseProject/NewFeatureComponent (= 0.6.4)
+    - WDYBaseProject/Other (= 0.6.4)
+    - WDYBaseProject/TableViewComponent (= 0.6.4)
+    - WDYBaseProject/UIComponent (= 0.6.4)
+    - WDYBaseProject/Utils (= 0.6.4)
+  - WDYBaseProject/ADComponent (0.6.4)
+  - WDYBaseProject/Category (0.6.4)
+  - WDYBaseProject/HUDComponent (0.6.4):
     - MBProgressHUD (= 0.9)
     - WDYBaseProject/Category
-  - WDYBaseProject/Macros (0.6.0)
-  - WDYBaseProject/Navigation (0.6.0)
-  - WDYBaseProject/NewFeatureComponent (0.6.0)
-  - WDYBaseProject/Other (0.6.0):
+  - WDYBaseProject/Macros (0.6.4)
+  - WDYBaseProject/Navigation (0.6.4)
+  - WDYBaseProject/NewFeatureComponent (0.6.4)
+  - WDYBaseProject/Other (0.6.4):
     - SDWebImage (= 3.8.0)
-  - WDYBaseProject/UIComponent (0.6.0)
-  - WDYBaseProject/Utils (0.6.0):
+  - WDYBaseProject/TableViewComponent (0.6.4)
+  - WDYBaseProject/UIComponent (0.6.4)
+  - WDYBaseProject/Utils (0.6.4):
     - AFNetworking (= 3.1.0)
+    - WDYBaseProject/Category
+    - WDYBaseProject/HUDComponent
 
 DEPENDENCIES:
   - WDYBaseProject (from `../`)
@@ -53,7 +57,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
   SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
-  WDYBaseProject: 84d2210b367d9566d60bd0384cbb7b46dccccad3
+  WDYBaseProject: c2d6742223d66ee1c26319ffa7ffe9b27457d575
 
 PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
 

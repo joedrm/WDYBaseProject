@@ -25,7 +25,6 @@
     UIImage* image = [UIImage circleImage:[UIImage imageWithColor:[UIColor blueColor]] borderWidth:0.0 borderColor:[UIColor blackColor]];
     UIImageView* imageV = [[UIImageView alloc] init];
     imageV.frame = CGRectMake(100, 100, 100, 100);
-    imageV.image = [image blurryWithBlurLevel:1];
     [self.view addSubview:imageV];
     
     // 上面图片，下面文字的按钮
@@ -71,7 +70,15 @@
     // 3
     NSLog(@"%d  end............", flag);
     
-//    [MBProgressHUD showAutoMessage:@""];
+    UIBezierPath* path = [UIBezierPath stars:3 shapeInFrame:CGRectMake(0, 0, 100, 100)];
+    CAShapeLayer* shaperLayer = [CAShapeLayer layer];
+    shaperLayer.backgroundColor = [UIColor blueColor].CGColor;
+    shaperLayer.frame = CGRectMake(0, 0, 100, 100);
+    shaperLayer.path = path.CGPath;
+    shaperLayer.position = CGPointMake(kScreenWidth*0.5, kScreenHeight*0.7);
+    [shaperLayer setFillColor:[UIColor whiteColor].CGColor];
+    [self.view.layer addSublayer:shaperLayer];
+    
 }
 
 @end
