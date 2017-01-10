@@ -113,7 +113,6 @@
 
 #import "SafeCategory.h"
 
-#import "CLLocation+CoordTransform.h"
 
 #endif /* WDYBaseProject_h */
 

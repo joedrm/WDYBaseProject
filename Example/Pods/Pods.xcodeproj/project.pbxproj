@@ -54,8 +54,6 @@
 		206E74441E247C3A0089FABC /* SafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 206E74401E247C3A0089FABC /* SafeCategory.m */; };
 		206E74471E247F150089FABC /* CameraAuthorizeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 206E74451E247F150089FABC /* CameraAuthorizeHelper.h */; };
 		206E74481E247F150089FABC /* CameraAuthorizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 206E74461E247F150089FABC /* CameraAuthorizeHelper.m */; };
-		206E744C1E24822B0089FABC /* CLLocation+CoordTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 206E744A1E24822B0089FABC /* CLLocation+CoordTransform.h */; };
-		206E744D1E24822B0089FABC /* CLLocation+CoordTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 206E744B1E24822B0089FABC /* CLLocation+CoordTransform.m */; };
 		206E74511E2486CD0089FABC /* BaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 206E744F1E2486CD0089FABC /* BaseTableViewCell.h */; };
 		206E74521E2486CD0089FABC /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 206E74501E2486CD0089FABC /* BaseTableViewCell.m */; };
 		206E74551E2486DF0089FABC /* BaseTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 206E74531E2486DF0089FABC /* BaseTableView.h */; };
@@ -406,8 +404,6 @@
 		206E74401E247C3A0089FABC /* SafeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeCategory.m; sourceTree = "<group>"; };
 		206E74451E247F150089FABC /* CameraAuthorizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraAuthorizeHelper.h; sourceTree = "<group>"; };
 		206E74461E247F150089FABC /* CameraAuthorizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraAuthorizeHelper.m; sourceTree = "<group>"; };
-		206E744A1E24822B0089FABC /* CLLocation+CoordTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+CoordTransform.h"; sourceTree = "<group>"; };
-		206E744B1E24822B0089FABC /* CLLocation+CoordTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+CoordTransform.m"; sourceTree = "<group>"; };
 		206E744F1E2486CD0089FABC /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		206E74501E2486CD0089FABC /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		206E74531E2486DF0089FABC /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
@@ -892,15 +888,6 @@
 			path = SafeCategory;
 			sourceTree = "<group>";
 		};
-		206E74491E2481CB0089FABC /* CLLocation */ = {
-			isa = PBXGroup;
-			children = (
-				206E744A1E24822B0089FABC /* CLLocation+CoordTransform.h */,
-				206E744B1E24822B0089FABC /* CLLocation+CoordTransform.m */,
-			);
-			path = CLLocation;
-			sourceTree = "<group>";
-		};
 		206E744E1E24869B0089FABC /* TableViewComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -1294,7 +1281,6 @@
 				AC74769EF42297BC973AC1DC0DCD593B /* WDYCategory.h */,
 				206E743C1E247C3A0089FABC /* SafeCategory */,
 				CDA8F3487B0F31CD6E38A1B0848364D1 /* CALayer */,
-				206E74491E2481CB0089FABC /* CLLocation */,
 				C769FBC6CD578D8D48A16BBFD43C56F6 /* NSBundle */,
 				8E6CA616B95D72085DF733A40121441F /* NSDictionary */,
 				9A071259A4ABDDDBA6EC30F57FDF67EC /* NSFileManager */,
@@ -1840,7 +1826,6 @@
 				206E74511E2486CD0089FABC /* BaseTableViewCell.h in Headers */,
 				C6E9F12DDE10F35BC8F22D99B23324E6 /* NSString+Pinyin.h in Headers */,
 				D16807132870B24D2F4D6813973FF3FC /* NSString+Size.h in Headers */,
-				206E744C1E24822B0089FABC /* CLLocation+CoordTransform.h in Headers */,
 				5C0F92947F3EC7C413A7AA6C92792F2B /* NSString+StringPages.h in Headers */,
 				11B665373160109F323CBBBEFCC07179 /* NSString+Trims.h in Headers */,
 				CD0BE12B400ABEAB6EB480A589660171 /* NSTimer+Addition.h in Headers */,
@@ -2250,7 +2235,6 @@
 				37633578AABD6BAB70F7CAA831C7BBFF /* NSObject+Runtime.m in Sources */,
 				64F8067A5E7A9F24B66CED0CC9CF5CE2 /* NSRunLoop+PerformBlock.m in Sources */,
 				3B421434C9E8080EA46F6E98B29DF02B /* NSString+Contains.m in Sources */,
-				206E744D1E24822B0089FABC /* CLLocation+CoordTransform.m in Sources */,
 				25C85F5F3DF3B7035BABEE721AB625EA /* NSString+DictionaryValue.m in Sources */,
 				A725A033885B5FB593E2CF1F7B0280CA /* NSString+Matcher.m in Sources */,
 				5C69701F1777FCD9E6E024F992FD1602 /* NSString+NormalRegex.m in Sources */,
