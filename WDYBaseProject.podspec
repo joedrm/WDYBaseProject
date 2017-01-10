@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.6.0'
+  s.version          = '0.6.1'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -60,6 +60,11 @@ Pod::Spec.new do |s|
   # 广告展示组件
   s.subspec 'ADComponent' do |ad|
       ad.source_files = 'WDYBaseProject/Classes/ADComponent/**/*'
+  end
+
+  # UITableView相关组件
+  s.subspec 'TableViewComponent' do |table|
+      table.source_files = 'WDYBaseProject/Classes/TableViewComponent/**/*'
   end
 
   s.resource_bundles = {

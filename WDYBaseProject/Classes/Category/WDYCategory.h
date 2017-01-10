@@ -40,10 +40,12 @@
 #import "NSTimer+Addition.h"
 #import "NSTimer+Blocks.h"
 
+#import "UINavigationController+StackManager.h"
+#import "UINavigationBar+Addition.h"
 #import "UIBarButtonItem+Badge.h"
-
 #import "UINavigationItem+Loading.h"
 #import "UINavigationItem+Margin.h"
+#import "UINavigationItem+Addition.h"
 
 // UIButton 分类
 #import "UIButton+BackgroundColor.h"
@@ -83,8 +85,6 @@
 #import "UIImageView+BetterFace.h"
 #import "UIImageView+FaceAwareFill.h"
 
-
-#import "UINavigationController+StackManager.h"
 #import "UITableView+Common.h"
 
 // UIView 分类
@@ -92,6 +92,7 @@
 #import "UIView+Find.h"
 #import "UIView+Frame.h"
 #import "UIView+Nib.h"
+#import "UIView+Layer.h"
 
 #import "UIScrollView+Common.h"
 
@@ -105,6 +106,14 @@
 #import "NSRunLoop+PerformBlock.h"
 
 #import "UIFont+TTF.h"
+
+#import "UIBezierPath+BasicShapes.h"
+#import "UIBezierPath+Symbol.h"
+#import "UIApplication+KeyboardFrame.h"
+
+#import "SafeCategory.h"
+
+#import "CLLocation+CoordTransform.h"
 
 #endif /* WDYBaseProject_h */
 

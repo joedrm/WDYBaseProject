@@ -14,5 +14,7 @@
 #import "Singleton.h"
 #import "GCDHelper.h"
 #import "NetworkManager.h"
+#import "FileCacheManager.h"
+#import "CameraAuthorizeHelper.h"
 
 #endif /* WDYUtilsHeader_h */
