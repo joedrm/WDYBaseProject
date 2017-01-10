@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.6.1'
+  s.version          = '0.6.2'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.subspec 'Utils' do |utils|
       utils.source_files = 'WDYBaseProject/Classes/Utils/**/*'
       utils.dependency 'AFNetworking', '3.1.0'
+      utils.dependency 'WDYBaseProject/Category'
   end
 
   # 常用的宏
