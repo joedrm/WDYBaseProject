@@ -1,6 +1,6 @@
 {
   "name": "WDYBaseProject",
-  "version": "0.7.1",
+  "version": "0.7.4",
   "summary": "基础工程",
   "description": "常用的基础工程",
   "homepage": "https://github.com/wangdongyang/WDYBaseProject",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wangdongyang/WDYBaseProject.git",
-    "tag": "0.7.1"
+    "tag": "0.7.4"
   },
   "platforms": {
     "ios": "8.0"
