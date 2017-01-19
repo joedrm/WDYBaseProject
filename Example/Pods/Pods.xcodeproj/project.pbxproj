@@ -48,6 +48,8 @@
 		209F366D1E306A740083C875 /* DeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 209F366B1E306A740083C875 /* DeviceHelper.m */; };
 		209F36721E30B4B20083C875 /* ImagePickerCtrHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 209F36701E30B4B20083C875 /* ImagePickerCtrHelper.h */; };
 		209F36731E30B4B20083C875 /* ImagePickerCtrHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 209F36711E30B4B20083C875 /* ImagePickerCtrHelper.m */; };
+		209F36761E30BA860083C875 /* AlertViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 209F36741E30BA860083C875 /* AlertViewHelper.h */; };
+		209F36771E30BA860083C875 /* AlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 209F36751E30BA860083C875 /* AlertViewHelper.m */; };
 		2175C032E248F9813B42C16624303291 /* UIDevice+Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 2456B84D4A658230DB1E88F65EF679AD /* UIDevice+Hardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22435DAB10D1324508B7A516DB837326 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5D6C11DFD65E00C36595CF0F7319C1 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23EFB184AD12FB1014FFC765CE0D710A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D3596E2DB3D4CC77B7DB4CBACB2F0F /* Security.framework */; };
@@ -418,6 +420,8 @@
 		209F366B1E306A740083C875 /* DeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceHelper.m; sourceTree = "<group>"; };
 		209F36701E30B4B20083C875 /* ImagePickerCtrHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerCtrHelper.h; sourceTree = "<group>"; };
 		209F36711E30B4B20083C875 /* ImagePickerCtrHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerCtrHelper.m; sourceTree = "<group>"; };
+		209F36741E30BA860083C875 /* AlertViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewHelper.h; sourceTree = "<group>"; };
+		209F36751E30BA860083C875 /* AlertViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewHelper.m; sourceTree = "<group>"; };
 		20B376562810187EAB48F71DAECB171D /* UIColor+Gradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
 		23EF7110208A157A527F3BA4CEB77486 /* NSRunLoop+PerformBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+PerformBlock.m"; sourceTree = "<group>"; };
 		242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDYBaseProject_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -1685,6 +1689,8 @@
 				209F366B1E306A740083C875 /* DeviceHelper.m */,
 				209F36701E30B4B20083C875 /* ImagePickerCtrHelper.h */,
 				209F36711E30B4B20083C875 /* ImagePickerCtrHelper.m */,
+				209F36741E30BA860083C875 /* AlertViewHelper.h */,
+				209F36751E30BA860083C875 /* AlertViewHelper.m */,
 				A0196F00DA249C49E04937FC3724A88E /* FileCacheManager.h */,
 				33B09E4CD9A79404ACCE8799A96636EA /* FileCacheManager.m */,
 				195F92BF43BB89B7943702960B48538E /* FileManager.h */,
@@ -1864,6 +1870,7 @@
 				4AE60D0170295C86DA9EE7A187BCFAE1 /* FileManager.h in Headers */,
 				E8710036C3818B110E6F2BC1BD914552 /* GCDHelper.h in Headers */,
 				6C7D41961BC9B4B0729F466523EE246F /* JRSwizzle.h in Headers */,
+				209F36761E30BA860083C875 /* AlertViewHelper.h in Headers */,
 				E2145D344648479DAF260E0398FAD8A7 /* LayoutButton.h in Headers */,
 				12705BF8503642BF0914C993BF5B1019 /* NetworkManager.h in Headers */,
 				9EE498666A36CF1EA8C7D8E3B442CDD8 /* NewFeatureHeader.h in Headers */,
@@ -2224,6 +2231,7 @@
 			files = (
 				86706BB03B1974BDAC040D3004C54ECD /* AdvertiseHelper.m in Sources */,
 				7334E08F40B96C7F39A592A8074178F9 /* AdvertiseView.m in Sources */,
+				209F36771E30BA860083C875 /* AlertViewHelper.m in Sources */,
 				6E47946C0AD653A6717BBC3CA126B5FA /* ALActionBlockWrapper.m in Sources */,
 				10CD56AB6051BC3E26E60CE51395F979 /* BaseModel.m in Sources */,
 				E49DFC773DAC1240667362289965C0D3 /* BaseTableHeaderFooterView.m in Sources */,

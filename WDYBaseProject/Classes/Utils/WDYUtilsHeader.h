@@ -18,5 +18,6 @@
 #import "DeviceAuthorizationHelper.h"
 #import "DeviceHelper.h"
 #import "ImagePickerCtrHelper.h"
+#import "AlertViewHelper.h"
 
 #endif /* WDYUtilsHeader_h */

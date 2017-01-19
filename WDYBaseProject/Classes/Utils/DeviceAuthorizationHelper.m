@@ -16,6 +16,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <Photos/Photos.h>
 #import "DeviceHelper.h"
+#import "AlertViewHelper.h"
 
 @import AVFoundation;
 
@@ -44,7 +45,7 @@
                 NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
                 NSString *appName = [infoDictionary objectForKey:@"CFBundleDisplayName"];
                 NSString *msg = [NSString stringWithFormat:@"该功能需您请前往 “设置->隐私->相机->%@“ 开启权限", appName];
-//                [MKAlertView alertWithTitle:@"提示" message:msg cancelButtonTitle:@"我知道了" confirmButtonTitle:nil block:nil];
+                [AlertViewHelper alertWithTitle:@"提示" message:msg cancelButtonTitle:@"我知道了" confirmButtonTitle:nil block:nil];
                 if (block) {
                     block(NO);
                 }

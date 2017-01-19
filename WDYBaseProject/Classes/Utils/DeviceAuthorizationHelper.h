@@ -4,7 +4,7 @@
 //
 //  Created by fang wang on 17/1/10.
 //
-//
+//  相机、摄像头、定位、照片库、蓝牙、麦克风、通讯录等权限校验工具类
 
 #import <Foundation/Foundation.h>
 #import <EventKit/EventKit.h>
