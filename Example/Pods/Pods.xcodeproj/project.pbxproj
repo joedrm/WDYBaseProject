@@ -61,6 +61,8 @@
 		209F36601E30527B0083C875 /* UIImage+Splash.m in Sources */ = {isa = PBXBuildFile; fileRef = 209F365E1E30527B0083C875 /* UIImage+Splash.m */; };
 		209F36641E3053AB0083C875 /* UITextField+Appearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 209F36621E3053AB0083C875 /* UITextField+Appearance.h */; };
 		209F36651E3053AB0083C875 /* UITextField+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 209F36631E3053AB0083C875 /* UITextField+Appearance.m */; };
+		209F36681E305E980083C875 /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 209F36661E305E980083C875 /* UIImage+Alpha.h */; };
+		209F36691E305E980083C875 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 209F36671E305E980083C875 /* UIImage+Alpha.m */; };
 		22435DAB10D1324508B7A516DB837326 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5D6C11DFD65E00C36595CF0F7319C1 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22B18B10B881D6C389440C9569F508E2 /* UIImage+Crop.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0089565983DF83BED8AFFFD186A2DF /* UIImage+Crop.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2304A11384094AD89F6237841F50602B /* UIBezierPath+BasicShapes.h in Headers */ = {isa = PBXBuildFile; fileRef = C840DAC527FD763A024F1093A69C3EB2 /* UIBezierPath+BasicShapes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -407,6 +409,8 @@
 		209F365E1E30527B0083C875 /* UIImage+Splash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Splash.m"; sourceTree = "<group>"; };
 		209F36621E3053AB0083C875 /* UITextField+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Appearance.h"; sourceTree = "<group>"; };
 		209F36631E3053AB0083C875 /* UITextField+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Appearance.m"; sourceTree = "<group>"; };
+		209F36661E305E980083C875 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		209F36671E305E980083C875 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
 		2336EC114EF3ECE309D8382AB7C529DC /* NSObject+KVOBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOBlocks.m"; sourceTree = "<group>"; };
 		242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDYBaseProject_Tests-dummy.m"; sourceTree = "<group>"; };
 		24FE4EEAB29D007119189B4FC0701EEC /* CAShapeLayer+BezierPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+BezierPath.h"; sourceTree = "<group>"; };
@@ -965,6 +969,8 @@
 				2EC9B7138A4432A521901134AE68DF1D /* UIImage+SubImage.m */,
 				209F365D1E30527B0083C875 /* UIImage+Splash.h */,
 				209F365E1E30527B0083C875 /* UIImage+Splash.m */,
+				209F36661E305E980083C875 /* UIImage+Alpha.h */,
+				209F36671E305E980083C875 /* UIImage+Alpha.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -1901,6 +1907,7 @@
 				EEE2BFF06CE999B0AAE86DAAE7F88883 /* ALActionBlockWrapper.h in Headers */,
 				3949CDEF4ED9B3DC95A079CDDFD10362 /* BaseModel.h in Headers */,
 				CBA0BC7C6BA80150BF45411BC459B8A8 /* BaseTableHeaderFooterView.h in Headers */,
+				209F36681E305E980083C875 /* UIImage+Alpha.h in Headers */,
 				D07F0CA3DA9166D405E46C27CA3C5511 /* BaseTableView.h in Headers */,
 				CFA040E3AA43E69A4441692BD2EE263C /* BaseTableViewCell.h in Headers */,
 				9FF77B757139E89C6E62BCCCE383E977 /* CameraAuthorizeHelper.h in Headers */,
@@ -2304,6 +2311,7 @@
 				3E47210AF74869C627A669262F172D87 /* UIButton+Indicator.m in Sources */,
 				D9C46A2D98C55B5B093497FCAD10CD59 /* UIColor+Gradient.m in Sources */,
 				0F86FFD8E2F3B95D10C0266CAFE5F689 /* UIColor+HexString.m in Sources */,
+				209F36691E305E980083C875 /* UIImage+Alpha.m in Sources */,
 				F6A53E23A4CA34D94F2CD295B300DD43 /* UIControl+ActionBlock.m in Sources */,
 				0362694233E197D1CED376F6E5F5ED0C /* UIControl+ALActionBlocks.m in Sources */,
 				BE7025B76FA3C34EEAA5E6580F0E99BB /* UIControl+Delay.m in Sources */,

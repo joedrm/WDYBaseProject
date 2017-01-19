@@ -80,6 +80,7 @@
 #import "UIImage+Crop.h"
 #import "UIImage+MyLibrary.h"
 #import "UIImage+Splash.h"
+#import "UIImage+Alpha.h"
 
 // UIImageView 分类
 #import "UIImageView+Blur.h"
