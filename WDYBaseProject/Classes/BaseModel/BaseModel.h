@@ -4,13 +4,13 @@
 //
 //  Created by fang wang on 17/1/10.
 //
-//
+//  基础模型类，主要是封装MJExtension的Json转模型的功能
 
 #import <Foundation/Foundation.h>
 
 @interface BaseModel : NSObject
 
-//#pragma mark - 缓存
+//#pragma mark - 缓存，一般用于存储用户数据
 /**
  *  归档 - 存入模型
  */

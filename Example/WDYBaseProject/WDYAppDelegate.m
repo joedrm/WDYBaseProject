@@ -20,6 +20,8 @@
     UINavigationController* nv = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nv;
     
+    [SafeCategory callSafeCategory];
+    
     [self.window makeKeyAndVisible];
     
     return YES;

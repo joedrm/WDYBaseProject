@@ -79,6 +79,7 @@
 #import "UIImage+Color.h"
 #import "UIImage+Crop.h"
 #import "UIImage+MyLibrary.h"
+#import "UIImage+Splash.h"
 
 // UIImageView 分类
 #import "UIImageView+Blur.h"
@@ -113,6 +114,7 @@
 
 #import "SafeCategory.h"
 
+#import "UITextField+Appearance.h"
 
 #endif /* WDYBaseProject_h */
 

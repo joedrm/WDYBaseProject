@@ -25,6 +25,7 @@
     UIImage* image = [UIImage circleImage:[UIImage imageWithColor:[UIColor blueColor]] borderWidth:0.0 borderColor:[UIColor blackColor]];
     UIImageView* imageV = [[UIImageView alloc] init];
     imageV.frame = CGRectMake(100, 100, 100, 100);
+    imageV.image = image;
     [self.view addSubview:imageV];
     
     // 上面图片，下面文字的按钮
@@ -35,10 +36,8 @@
     btn.imageSize = CGSizeMake(40, 40);
     btn.midSpacing = 12;
     [btn addActionHandler:^{
-        
-//        [MBProgressHUD showWarn:@"waring" ToView:self.view];
-//        TestViewController* testVC = [[TestViewController alloc] init];
-//        [self.navigationController pushViewController:testVC animated:YES];
+        TestViewController* testVC = [[TestViewController alloc] init];
+        [self.navigationController pushViewController:testVC animated:YES];
     }];
     [btn setImage:[UIImage imageNamed:@"envelope"] forState:UIControlStateNormal];
     [btn setTitle:@"test" forState:UIControlStateNormal];
@@ -70,15 +69,18 @@
     // 3
     NSLog(@"%d  end............", flag);
     
-    UIBezierPath* path = [UIBezierPath stars:3 shapeInFrame:CGRectMake(0, 0, 100, 100)];
+    UIBezierPath* path = [UIBezierPath customBezierPathOfArrowSymbolWithRect:CGRectMake(0, 0, 20, 25) scale:1.0 thick:3 direction:kUIBezierPathArrowDirectionLeft];
     CAShapeLayer* shaperLayer = [CAShapeLayer layer];
-    shaperLayer.backgroundColor = [UIColor blueColor].CGColor;
+    shaperLayer.backgroundColor = [UIColor colorWithHexString:@"F1F1F1"].CGColor;
     shaperLayer.frame = CGRectMake(0, 0, 100, 100);
     shaperLayer.path = path.CGPath;
     shaperLayer.position = CGPointMake(kScreenWidth*0.5, kScreenHeight*0.7);
-    [shaperLayer setFillColor:[UIColor whiteColor].CGColor];
+    [shaperLayer setFillColor:[UIColor colorWithHexString:@"2FA3E1"].CGColor];
     [self.view.layer addSublayer:shaperLayer];
     
+    
+    NSArray* testArr = @[@"a", @"b"];
+    NSLog(@"测试数组越界 %@", testArr[3]);
 }
 
 @end
@@ -89,5 +91,7 @@
  http://blog.csdn.net/u012390519/article/details/48497343
  https://github.com/Raizlabs/RZUtils
  https://github.com/Damonvvong/DWCategory
- 
+ https://github.com/shaojiankui/JKCategories
+ https://github.com/wujunyang/MobileProject
+ https://github.com/QMUI/QMUI_iOS
  */
