@@ -152,6 +152,28 @@ __perform__; \
 _Pragma("clang diagnostic pop") \
 } while (0)
 
+
+/** block */
+#define BlockExec(block, ...) if (block) { block(__VA_ARGS__); };
+typedef void (^CallBackIdBlock)(id result);
+typedef void (^CallBackBoolBlock)(BOOL bRet);
+typedef void (^CallBackVoidBlock)(void);
+typedef void (^CallBackIntegerBlock)(NSInteger index);
+
+/** 处理分割线没在最左边问题：ios8以后才有的问题 */
+#define AddTableViewLineAdjust \
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{\
+    if ([tableView respondsToSelector:@selector(setSeparatorInset:)]) {\
+        [tableView setSeparatorInset:UIEdgeInsetsZero];\
+    }\
+    if ([tableView respondsToSelector:@selector(setLayoutMargins:)]) {\
+        [tableView setLayoutMargins:UIEdgeInsetsZero];\
+    }\
+    if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {\
+        [cell setLayoutMargins:UIEdgeInsetsZero];\
+    }\
+}
+
 #endif /* WDYMacros_h */
 
 

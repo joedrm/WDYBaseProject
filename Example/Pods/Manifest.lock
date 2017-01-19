@@ -18,30 +18,30 @@ PODS:
   - SDWebImage (3.8.0):
     - SDWebImage/Core (= 3.8.0)
   - SDWebImage/Core (3.8.0)
-  - WDYBaseProject (0.7.4):
-    - WDYBaseProject/ADComponent (= 0.7.4)
-    - WDYBaseProject/BaseModel (= 0.7.4)
-    - WDYBaseProject/Category (= 0.7.4)
-    - WDYBaseProject/Macros (= 0.7.4)
-    - WDYBaseProject/Navigation (= 0.7.4)
-    - WDYBaseProject/NewFeatureComponent (= 0.7.4)
-    - WDYBaseProject/Other (= 0.7.4)
-    - WDYBaseProject/TableViewComponent (= 0.7.4)
-    - WDYBaseProject/UIComponent (= 0.7.4)
-    - WDYBaseProject/Utils (= 0.7.4)
-  - WDYBaseProject/ADComponent (0.7.4)
-  - WDYBaseProject/BaseModel (0.7.4):
+  - WDYBaseProject (0.7.5):
+    - WDYBaseProject/ADComponent (= 0.7.5)
+    - WDYBaseProject/BaseModel (= 0.7.5)
+    - WDYBaseProject/Category (= 0.7.5)
+    - WDYBaseProject/Macros (= 0.7.5)
+    - WDYBaseProject/Navigation (= 0.7.5)
+    - WDYBaseProject/NewFeatureComponent (= 0.7.5)
+    - WDYBaseProject/Other (= 0.7.5)
+    - WDYBaseProject/TableViewComponent (= 0.7.5)
+    - WDYBaseProject/UIComponent (= 0.7.5)
+    - WDYBaseProject/Utils (= 0.7.5)
+  - WDYBaseProject/ADComponent (0.7.5)
+  - WDYBaseProject/BaseModel (0.7.5):
     - MJExtension
     - WDYBaseProject/Utils
-  - WDYBaseProject/Category (0.7.4)
-  - WDYBaseProject/Macros (0.7.4)
-  - WDYBaseProject/Navigation (0.7.4)
-  - WDYBaseProject/NewFeatureComponent (0.7.4)
-  - WDYBaseProject/Other (0.7.4):
+  - WDYBaseProject/Category (0.7.5)
+  - WDYBaseProject/Macros (0.7.5)
+  - WDYBaseProject/Navigation (0.7.5)
+  - WDYBaseProject/NewFeatureComponent (0.7.5)
+  - WDYBaseProject/Other (0.7.5):
     - SDWebImage (= 3.8.0)
-  - WDYBaseProject/TableViewComponent (0.7.4)
-  - WDYBaseProject/UIComponent (0.7.4)
-  - WDYBaseProject/Utils (0.7.4):
+  - WDYBaseProject/TableViewComponent (0.7.5)
+  - WDYBaseProject/UIComponent (0.7.5)
+  - WDYBaseProject/Utils (0.7.5):
     - AFNetworking (= 3.1.0)
     - WDYBaseProject/Category
 
@@ -56,7 +56,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
-  WDYBaseProject: f33e67a192e90a797ede21485b4c80abeffbddfc
+  WDYBaseProject: 8e1dd496cb4b7012c19496a0d9fe66270231411c
 
 PODFILE CHECKSUM: 1fd807ad36e1d3da360c648716fa662ebe11eca2
 

@@ -15,6 +15,8 @@
 #import "GCDHelper.h"
 #import "NetworkManager.h"
 #import "FileCacheManager.h"
-#import "CameraAuthorizeHelper.h"
+#import "DeviceAuthorizationHelper.h"
+#import "DeviceHelper.h"
+#import "ImagePickerCtrHelper.h"
 
 #endif /* WDYUtilsHeader_h */

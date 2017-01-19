@@ -99,7 +99,6 @@
 #import "CustomTextField.h"
 #import "LayoutButton.h"
 #import "WDYUIHeader.h"
-#import "CameraAuthorizeHelper.h"
 #import "FileCacheManager.h"
 #import "FileManager.h"
 #import "GCDHelper.h"
