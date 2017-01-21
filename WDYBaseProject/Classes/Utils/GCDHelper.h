@@ -5,6 +5,9 @@
 //  Created by fang wang on 16/12/29.
 //
 
+/*
+ 参考：https://github.com/wujunyang/MobileProject/blob/master/MobileProject/Expand/Tool/GCDHelper/GCD.h
+ */
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

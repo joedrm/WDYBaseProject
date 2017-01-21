@@ -174,6 +174,17 @@ typedef void (^CallBackIntegerBlock)(NSInteger index);
     }\
 }
 
+
+
+// 不同屏幕尺寸字体适配（320，568是因为效果图为IPHONE5 如果不是则根据实际情况修改）
+// https://github.com/wujunyang/MobileProject
+#define kScreenWidthRatio  (Main_Screen_Width / 320.0)
+#define kScreenHeightRatio (Main_Screen_Height / 568.0)
+#define AdaptedWidth(x)  ceilf((x) * kScreenWidthRatio)
+#define AdaptedHeight(x) ceilf((x) * kScreenHeightRatio)
+#define AdaptedFontSize(R)     CHINESE_SYSTEM(AdaptedWidth(R))
+
+
 #endif /* WDYMacros_h */
 
 

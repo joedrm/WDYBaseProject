@@ -4,7 +4,16 @@
 //
 //  Created by fang wang on 16/12/28.
 //
-//
+/*
+ 参考：
+ 
+ https://github.com/Damonvvong/DWCategory
+ https://github.com/shaojiankui/JKCategories
+ https://github.com/wujunyang/MobileProject
+ 
+ https://github.com/shaojiankui/JKCategories/tree/master/NotRenamed  牛B的第三方分类
+ 
+ */
 
 #ifndef WDYBaseProject_h
 #define WDYBaseProject_h
