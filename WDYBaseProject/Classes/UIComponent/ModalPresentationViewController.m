@@ -58,8 +58,6 @@ CGSize screenSizeFor47Inch() {
 @property(nonatomic, weak, readwrite) ModalPresentationViewController *modalPresentedViewController;
 @end
 
-
-
 @implementation ModalPresentationViewController (UIAppearance)
 
 static ModalPresentationViewController *appearance;
@@ -579,6 +577,59 @@ static ModalPresentationViewController *appearance;
 
 @end
 
+
+@implementation ModalPresentationViewController (Manager)
+
++ (BOOL)isAnyModalPresentationViewControllerVisible {
+    for (UIWindow *window in [[UIApplication sharedApplication] windows]) {
+        if ([window isKindOfClass:[ModalPresentationWindow class]] && !window.hidden) {
+            return YES;
+        }
+    }
+    return NO;
+}
+
++ (BOOL)hideAllVisibleModalPresentationViewControllerIfCan {
+    
+    BOOL hideAllFinally = YES;
+    
+    for (UIWindow *window in [[UIApplication sharedApplication] windows]) {
+        if (![window isKindOfClass:[ModalPresentationWindow class]]) {
+            continue;
+        }
+        
+        // 存在modalViewController，但并没有显示出来，所以不用处理
+        if (window.hidden) {
+            continue;
+        }
+        
+        // 存在window，但不存在modalViewController，则直接把这个window移除
+        if (!window.rootViewController) {
+            window.hidden = YES;
+            continue;
+        }
+        
+        ModalPresentationViewController *modalViewController = (ModalPresentationViewController *)window.rootViewController;
+        BOOL canHide = YES;
+        if ([modalViewController.delegate respondsToSelector:@selector(shouldHideModalPresentationViewController:)]) {
+            canHide = [modalViewController.delegate shouldHideModalPresentationViewController:modalViewController];
+        }
+        if (canHide) {
+            if ([modalViewController.delegate respondsToSelector:@selector(requestHideAllModalPresentationViewController)]) {
+                [modalViewController.delegate requestHideAllModalPresentationViewController];
+            } else {
+                [modalViewController hideWithAnimated:NO completion:nil];
+            }
+        } else {
+            // 只要有一个modalViewController正在显示但却无法被隐藏，就返回NO
+            hideAllFinally = NO;
+        }
+    }
+    
+    return hideAllFinally;
+}
+
+@end
 
 
 @implementation ModalPresentationWindow

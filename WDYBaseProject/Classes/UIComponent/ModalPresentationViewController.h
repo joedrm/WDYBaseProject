@@ -34,11 +34,61 @@ typedef enum : NSUInteger {
 
 @protocol ModalPresentationViewControllerDelegate <NSObject>
 @optional
+
+/**
+ *  是否应该隐藏浮层，会在调用`hideWithAnimated:completion:`时，以及点击背景遮罩时被调用。默认为YES。
+ *  @param  controller  当前的modalController
+ *  @return 是否允许隐藏，YES表示允许隐藏，NO表示不允许隐藏
+ */
 - (BOOL)shouldHideModalPresentationViewController:(ModalPresentationViewController *)controller;
+
+/**
+ *  modalController隐藏后的回调函数，不管是直接调用`hideWithAnimated:completion:`，还是通过点击遮罩触发的隐藏，都会调用这个方法。
+ *  如果你想区分这两种方式的隐藏回调，请直接使用hideWithAnimated方法的completion参数，以及`didHideByDimmingViewTappedBlock`属性。
+ *  @param  controller  当前的modalController
+ */
 - (void)didHideModalPresentationViewController:(ModalPresentationViewController *)controller;
 - (void)requestHideAllModalPresentationViewController;
 @end
 
+
+/**
+ *  一个提供通用的弹出浮层功能的控件，可以将任意`UIView`或`UIViewController`以浮层的形式显示出来并自动布局。
+ *
+ *  支持 3 种方式显示浮层：
+ *
+ *  1. **推荐** 新起一个 `UIWindow` 盖在当前界面上，将 `QMUIModalPresentationViewController` 以 `rootViewController` 的形式显示出来，可通过 `supportedOrientationMask` 支持横竖屏，不支持在浮层不消失的情况下做界面切换（因为 window 会把背后的 controller 盖住，看不到界面切换）
+ *  @code
+ *  [modalPresentationViewController showWithAnimated:YES completion:nil];
+ *  @endcode
+ *
+ *  2. 使用系统接口来显示，支持界面切换，**注意** 使用这种方法必定只能以动画的形式来显示浮层，无法以无动画的形式来显示，并且 `animated` 参数必须为 `NO`。可通过 `supportedOrientationMask` 支持横竖屏。
+ *  @code
+ *  [self presentViewController:modalPresentationViewController animated:NO completion:nil];
+ *  @endcode
+ *
+ *  3. 将浮层作为一个 subview 添加到 `superview` 上，从而能够实现在浮层不消失的情况下进行界面切换，但需要 `superview` 自行管理浮层的大小和横竖屏旋转，而且 `QMUIModalPresentationViewController` 不能用局部变量来保存，会在显示后被释放，需要自行 retain。横竖屏跟随当前界面的设置。
+ *  @code
+ *  self.modalPresentationViewController.view.frame = CGRectMake(50, 50, 100, 100);
+ *  [self.view addSubview:self.modalPresentationViewController.view];
+ *  @endcode
+ *
+ *  默认的布局会将浮层居中显示，浮层的大小可通过接口控制：
+ *  1. 如果是用 `contentViewController`，则可通过 `preferredContentSizeInModalPresentationViewController:limitSize:` 来设置
+ *  2. 如果使用 `contentView`，或者使用 `contentViewController` 但没实现 `preferredContentSizeInModalPresentationViewController:limitSize:`，则调用`contentView`的`sizeThatFits:`方法获取大小。
+ *
+ *  通过`layoutBlock`、`showingAnimation`、`hidingAnimation`可设置自定义的布局、打开及隐藏的动画，并允许你适配键盘升起时的场景。
+ *
+ *  默认提供背景遮罩`dimmingView`，你也可以使用自己的遮罩 view。
+ *
+ *  默认提供多种显示动画，可通过 `animationStyle` 来设置。
+ *
+ *  @warning 如果使用者retain了modalPresentationViewController，注意应该在`hideWithAnimated:completion:`里release
+ *
+ *  @see QMUIAlertController
+ *  @see QMUIDialogViewController
+ *  @see QMUIMoreOperationController
+ */
 @interface ModalPresentationViewController : UIViewController
 
 @property(nonatomic, weak) id <ModalPresentationViewControllerDelegate> delegate;
@@ -167,10 +217,35 @@ typedef enum : NSUInteger {
 - (void)hideInView:(UIView *)view animated:(BOOL)animated completion:(void (^)(BOOL finished))completion;
 @end
 
+
+@interface ModalPresentationViewController (Manager)
+
+/**
+ *  判断当前App里是否有modalViewController正在显示（存在modalViewController但不可见的时候，也视为不存在）
+ *  @return 只要存在正在显示的浮层，则返回YES，否则返回NO
+ */
++ (BOOL)isAnyModalPresentationViewControllerVisible;
+
+/**
+ *  把所有正在显示的并且允许被隐藏的modalViewController都隐藏掉
+ *  @return 只要遇到一个正在显示的并且不能被隐藏的浮层，就会返回NO，否则都返回YES，表示成功隐藏掉所有可视浮层
+ *  @see    shouldHideModalPresentationViewController:
+ */
++ (BOOL)hideAllVisibleModalPresentationViewControllerIfCan;
+@end
+
 @interface ModalPresentationViewController (UIAppearance)
 
 + (instancetype)appearance;
 
+@end
+
+@interface UIViewController (ModalPresentationViewController)
+
+/**
+ *  获取弹出当前vieController的QMUIModalPresentationViewController
+ */
+@property(nonatomic, weak, readonly) ModalPresentationViewController *modalPresentedViewController;
 @end
 
 @interface UIViewController (Helper)
