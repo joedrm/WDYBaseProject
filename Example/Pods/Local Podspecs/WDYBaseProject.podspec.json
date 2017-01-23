@@ -1,6 +1,6 @@
 {
   "name": "WDYBaseProject",
-  "version": "0.7.7",
+  "version": "0.8.0",
   "summary": "基础工程",
   "description": "常用的基础工程",
   "homepage": "https://github.com/wangdongyang/WDYBaseProject",
@@ -13,15 +13,25 @@
   },
   "source": {
     "git": "https://github.com/wangdongyang/WDYBaseProject.git",
-    "tag": "0.7.7"
+    "tag": "0.8.0"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "resource_bundles": {
+    "WDYBaseProject": [
+      "WDYBaseProject/Assets/*.png"
+    ]
+  },
   "subspecs": [
     {
       "name": "Category",
-      "source_files": "WDYBaseProject/Classes/Category/**/*"
+      "source_files": "WDYBaseProject/Classes/Category/**/*",
+      "dependencies": {
+        "WDYBaseProject/Macros": [
+
+        ]
+      }
     },
     {
       "name": "Utils",
@@ -32,6 +42,9 @@
         ],
         "WDYBaseProject/Category": [
 
+        ],
+        "WDYBaseProject/Macros": [
+
         ]
       }
     },
@@ -41,7 +54,15 @@
     },
     {
       "name": "UIComponent",
-      "source_files": "WDYBaseProject/Classes/UIComponent/**/*"
+      "source_files": "WDYBaseProject/Classes/UIComponent/**/*",
+      "dependencies": {
+        "WDYBaseProject/Utils": [
+
+        ],
+        "WDYBaseProject/Macros": [
+
+        ]
+      }
     },
     {
       "name": "Navigation",
@@ -76,6 +97,21 @@
 
         ],
         "WDYBaseProject/Utils": [
+
+        ]
+      }
+    },
+    {
+      "name": "Toast",
+      "source_files": "WDYBaseProject/Classes/Toast/**/*",
+      "dependencies": {
+        "WDYBaseProject/Utils": [
+
+        ],
+        "WDYBaseProject/Macros": [
+
+        ],
+        "WDYBaseProject/Category": [
 
         ]
       }

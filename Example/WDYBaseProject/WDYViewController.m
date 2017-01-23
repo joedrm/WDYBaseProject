@@ -81,6 +81,9 @@
     
     NSArray* testArr = @[@"a", @"b"];
     NSLog(@"测试数组越界 %@", testArr[3]);
+    
+    UIView *parentView = self.navigationController.view;
+    [TipsView showLoading:@"加载中..." inView:parentView hideAfterDelay:2];
 }
 
 @end

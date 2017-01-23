@@ -23,5 +23,6 @@
 #import <WDYBaseProject/WDYNavigation.h>    // 导航组件
 #import <WDYBaseProject/WDYUtilsHeader.h>  // 常用工具类组件
 #import <WDYBaseProject/BaseModel.h>  // 模型基类组件
+#import <WDYBaseProject/Toast.h>  // 模型基类组件
 
 #endif
