@@ -69,13 +69,48 @@
 + (TipsView *)showInfo:(NSString *)text inView:(UIView *)view hideAfterDelay:(NSTimeInterval)delay;
 + (TipsView *)showInfo:(NSString *)text detailText:(NSString *)detailText inView:(UIView *)view;
 + (TipsView *)showInfo:(NSString *)text detailText:(NSString *)detailText inView:(UIView *)view hideAfterDelay:(NSTimeInterval)delay;
+
+
+/// 快速显示在当前的View上
+
++ (TipsView *)showWithText:(NSString *)text;
++ (TipsView *)showWithText:(NSString *)text hideAfterDelay:(NSTimeInterval)delay;
++ (TipsView *)showWithText:(NSString *)text detailText:(NSString *)detailText;
++ (TipsView *)showWithText:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay;
+
++ (TipsView *)showLoading;
++ (TipsView *)showLoading:(NSString *)text;
++ (TipsView *)showLoadingHideAfterDelay:(NSTimeInterval)delay;
++ (TipsView *)showLoading:(NSString *)text hideAfterDelay:(NSTimeInterval)delay;
++ (TipsView *)showLoading:(NSString *)text detailText:(NSString *)detailText;
++ (TipsView *)showLoading:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay;
+
++ (TipsView *)showSucceed:(NSString *)text;
++ (TipsView *)showSucceed:(NSString *)text hideAfterDelay:(NSTimeInterval)delay;
++ (TipsView *)showSucceed:(NSString *)text detailText:(NSString *)detailText;
++ (TipsView *)showSucceed:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay;
+
++ (TipsView *)showError:(NSString *)text;
++ (TipsView *)showError:(NSString *)text hideAfterDelay:(NSTimeInterval)delay;
++ (TipsView *)showError:(NSString *)text detailText:(NSString *)detailText;
++ (TipsView *)showError:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay;
+
++ (TipsView *)showInfo:(NSString *)text;
++ (TipsView *)showInfo:(NSString *)text hideAfterDelay:(NSTimeInterval)delay;
++ (TipsView *)showInfo:(NSString *)text detailText:(NSString *)detailText;
++ (TipsView *)showInfo:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay;
+
+
+
 @end
 
 /*
 
 UIView *parentView = self.navigationController.view;
 NSString* title = self.dataSource [indexPath.row];
+ 
 if ([title isEqualToString:@"Loading"]) {
+ 
     TipsView *tips = [TipsView createTipsToView:parentView];
     ToastContentView *contentView = (ToastContentView *)tips.contentView;
     contentView.minimumSize = CGSizeMake(90, 90);
@@ -85,22 +120,28 @@ if ([title isEqualToString:@"Loading"]) {
     // [TipsView showLoadingInView:parentView hideAfterDelay:2];
     
 } else if ([title isEqualToString:@"Loading With Text"]) {
+ 
     [TipsView showLoading:@"加载中..." inView:parentView hideAfterDelay:2];
     
 } else if ([title isEqualToString:@"Tips For Succeed"]) {
+ 
     [TipsView showSucceed:@"加载成功" inView:parentView hideAfterDelay:2];
     
 } else if ([title isEqualToString:@"Tips For Error"]) {
+ 
     [TipsView showError:@"加载失败，请检查网络情况" inView:parentView hideAfterDelay:2];
     
 } else if ([title isEqualToString:@"Tips For Info"]) {
+ 
     [TipsView showInfo:@"活动已经结束" detailText:@"本次活动时间为2月1号-2月15号" inView:parentView hideAfterDelay:2];
     
 } else if ([title isEqualToString:@"Custom TintColor"]) {
+ 
     TipsView *tips = [TipsView showInfo:@"活动已经结束" detailText:@"本次活动时间为2月1号-2月15号" inView:parentView hideAfterDelay:2];
     tips.tintColor = [UIColor whiteColor];
     
 } else if ([title isEqualToString:@"Custom BackgroundView Style"]) {
+ 
     TipsView *tips = [TipsView showInfo:@"活动已经结束" detailText:@"本次活动时间为2月1号-2月15号" inView:parentView hideAfterDelay:2];
     ToastBackgroundView *backgroundView = (ToastBackgroundView *)tips.backgroundView;
     backgroundView.shouldBlurBackgroundView = YES;
@@ -109,6 +150,7 @@ if ([title isEqualToString:@"Loading"]) {
     tips.tintColor = [UIColor blackColor];
     
 } else if ([title isEqualToString:@"Custom Content View"]) {
+ 
     TipsView *tips = [TipsView createTipsToView:parentView];
     tips.toastPosition = ToastViewPositionCenter;//ToastViewPositionBottom;
     ToastBackgroundView *backgroundView = (ToastBackgroundView *)tips.backgroundView;
@@ -123,6 +165,7 @@ if ([title isEqualToString:@"Loading"]) {
     [tips hideAnimated:YES afterDelay:4];
     
 } else if ([title isEqualToString:@"Custom Animator"]) {
+ 
     TipsView *tips = [TipsView createTipsToView:parentView];
     CustomToastAnimator *customAnimator = [[CustomToastAnimator alloc] initWithToastView:tips];
     tips.toastAnimator = customAnimator;

@@ -8,6 +8,8 @@
 
 #import "ToastAnimator.h"
 
+
+// 自定义的 Toast 动画，可根据需求自己定制
 @interface CustomToastAnimator : ToastAnimator
 
 @end

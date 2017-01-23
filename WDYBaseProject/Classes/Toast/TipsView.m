@@ -8,6 +8,9 @@
 
 #import "TipsView.h"
 #import "ToastContentView.h"
+//#import "UIView+Find.h"
+#import "UIViewController+Current.h"
+#import "CustomToastAnimator.h"
 
 @interface TipsView ()
 
@@ -223,10 +226,87 @@
     return tips;
 }
 
+#pragma mark - 快速显示在当前的View上
+
++ (TipsView *)showWithText:(NSString *)text{
+    return [self showWithText:text inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showWithText:(NSString *)text hideAfterDelay:(NSTimeInterval)delay{
+    return [self showWithText:text inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
++ (TipsView *)showWithText:(NSString *)text detailText:(NSString *)detailText{
+    return [self showWithText:text detailText:detailText inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showWithText:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay{
+    return [self showWithText:text detailText:detailText inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
+
++ (TipsView *)showLoading{
+    return [self showLoadingInView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showLoading:(NSString *)text{
+    return [self showLoading:text inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showLoadingHideAfterDelay:(NSTimeInterval)delay{
+    return [self showLoadingInView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
++ (TipsView *)showLoading:(NSString *)text hideAfterDelay:(NSTimeInterval)delay{
+    return [self showLoading:text inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
++ (TipsView *)showLoading:(NSString *)text detailText:(NSString *)detailText{
+    return [self showLoading:text detailText:detailText inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showLoading:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay{
+    return [self showLoading:text detailText:detailText inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
+
++ (TipsView *)showSucceed:(NSString *)text{
+    return [self showSucceed:text inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showSucceed:(NSString *)text hideAfterDelay:(NSTimeInterval)delay{
+    return [self showLoading:text inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
++ (TipsView *)showSucceed:(NSString *)text detailText:(NSString *)detailText{
+    return [self showSucceed:text detailText:detailText inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showSucceed:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay{
+    return [self showSucceed:text detailText:detailText inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
+
++ (TipsView *)showError:(NSString *)text{
+    return [self showError:text inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showError:(NSString *)text hideAfterDelay:(NSTimeInterval)delay{
+    return [self showError:text inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
++ (TipsView *)showError:(NSString *)text detailText:(NSString *)detailText{
+    return [self showError:text detailText:detailText inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showError:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay{
+    return [self showSucceed:text detailText:detailText inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
+
++ (TipsView *)showInfo:(NSString *)text{
+    return [self showInfo:text inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showInfo:(NSString *)text hideAfterDelay:(NSTimeInterval)delay{
+    return [self showInfo:text inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
++ (TipsView *)showInfo:(NSString *)text detailText:(NSString *)detailText{
+    return [self showInfo:text detailText:detailText inView:[UIViewController currentNavigatonController].view];
+}
++ (TipsView *)showInfo:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay{
+    return [self showInfo:text detailText:detailText inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+}
+
+
 + (TipsView *)createTipsToView:(UIView *)view {
     TipsView *tips = [[TipsView alloc] initWithView:view];
     [view addSubview:tips];
     tips.removeFromSuperViewWhenHide = YES;
+    // 加入自定义动画
+    CustomToastAnimator *customAnimator = [[CustomToastAnimator alloc] initWithToastView:tips];
+    tips.toastAnimator = customAnimator;
     return tips;
 }
 

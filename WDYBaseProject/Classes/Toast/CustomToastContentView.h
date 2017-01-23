@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+// 自定义的 Toast ContentView，可根据需求自己定制
 @interface CustomToastContentView : UIView
 @property(nonatomic, strong) UIImageView *imageView;
 @property(nonatomic, strong, readonly) UILabel *textLabel;

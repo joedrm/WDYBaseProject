@@ -16,7 +16,7 @@
 #import "ToastBackgroundView.h"
 #import "ToastAnimator.h"
 
-
+// 这是自定义的类，可根据需求自己定制
 #import "CustomToastAnimator.h"
 #import "CustomToastContentView.h"
 
