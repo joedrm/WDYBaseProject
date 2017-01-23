@@ -95,6 +95,7 @@
 #import "UIImageView+Blur.h"
 #import "UIImageView+BetterFace.h"
 #import "UIImageView+FaceAwareFill.h"
+#import "UIImageView+ImageFitSize.h"
 
 #import "UITableView+Common.h"
 

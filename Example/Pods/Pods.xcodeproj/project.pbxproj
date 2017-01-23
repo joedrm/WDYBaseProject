@@ -56,6 +56,26 @@
 		20385B131E31B1BC00445564 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20385B111E31B1BC00445564 /* BaseNavigationViewController.m */; };
 		20385B2B1E333B0E00445564 /* ModalPresentationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20385B291E333B0E00445564 /* ModalPresentationViewController.h */; };
 		20385B2C1E333B0E00445564 /* ModalPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20385B2A1E333B0E00445564 /* ModalPresentationViewController.m */; };
+		20B82EAB1E3597EB005B0DED /* CommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EAA1E3597EB005B0DED /* CommonDefines.h */; };
+		20B82EAE1E3597FE005B0DED /* UIImageView+ImageFitSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EAC1E3597FE005B0DED /* UIImageView+ImageFitSize.h */; };
+		20B82EAF1E3597FE005B0DED /* UIImageView+ImageFitSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EAD1E3597FE005B0DED /* UIImageView+ImageFitSize.m */; };
+		20B82EB21E359822005B0DED /* AppCommonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EB01E359822005B0DED /* AppCommonHelper.h */; };
+		20B82EB31E359822005B0DED /* AppCommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EB11E359822005B0DED /* AppCommonHelper.m */; };
+		20B82EC41E3599F1005B0DED /* CustomToastAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EB51E3599F1005B0DED /* CustomToastAnimator.h */; };
+		20B82EC51E3599F1005B0DED /* CustomToastAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EB61E3599F1005B0DED /* CustomToastAnimator.m */; };
+		20B82EC61E3599F1005B0DED /* CustomToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EB71E3599F1005B0DED /* CustomToastContentView.h */; };
+		20B82EC71E3599F1005B0DED /* CustomToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EB81E3599F1005B0DED /* CustomToastContentView.m */; };
+		20B82EC81E3599F1005B0DED /* TipsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EB91E3599F1005B0DED /* TipsView.h */; };
+		20B82EC91E3599F1005B0DED /* TipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EBA1E3599F1005B0DED /* TipsView.m */; };
+		20B82ECA1E3599F1005B0DED /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EBB1E3599F1005B0DED /* Toast.h */; };
+		20B82ECB1E3599F1005B0DED /* ToastAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EBC1E3599F1005B0DED /* ToastAnimator.h */; };
+		20B82ECC1E3599F1005B0DED /* ToastAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EBD1E3599F1005B0DED /* ToastAnimator.m */; };
+		20B82ECD1E3599F1005B0DED /* ToastBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EBE1E3599F1005B0DED /* ToastBackgroundView.h */; };
+		20B82ECE1E3599F1005B0DED /* ToastBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EBF1E3599F1005B0DED /* ToastBackgroundView.m */; };
+		20B82ECF1E3599F1005B0DED /* ToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EC01E3599F1005B0DED /* ToastContentView.h */; };
+		20B82ED01E3599F1005B0DED /* ToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EC11E3599F1005B0DED /* ToastContentView.m */; };
+		20B82ED11E3599F1005B0DED /* ToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B82EC21E3599F1005B0DED /* ToastView.h */; };
+		20B82ED21E3599F1005B0DED /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B82EC31E3599F1005B0DED /* ToastView.m */; };
 		22435DAB10D1324508B7A516DB837326 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5D6C11DFD65E00C36595CF0F7319C1 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22AE6A0B54A994EBEBDB6F6F3DA3F94D /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E58D430961963DEC486CF9B243847 /* NSObject+AssociatedObject.m */; };
 		23C62059D8E06311E1CB114A944BBFDD /* FileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B185ADF0E16133FCCF3E2FAB3AA2C84F /* FileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -436,6 +456,26 @@
 		20385B2A1E333B0E00445564 /* ModalPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalPresentationViewController.m; sourceTree = "<group>"; };
 		208937E6FB33C2BCCEC775851E867E5C /* NSString+NormalRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+NormalRegex.m"; sourceTree = "<group>"; };
 		20B376562810187EAB48F71DAECB171D /* UIColor+Gradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
+		20B82EAA1E3597EB005B0DED /* CommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefines.h; sourceTree = "<group>"; };
+		20B82EAC1E3597FE005B0DED /* UIImageView+ImageFitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageFitSize.h"; sourceTree = "<group>"; };
+		20B82EAD1E3597FE005B0DED /* UIImageView+ImageFitSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageFitSize.m"; sourceTree = "<group>"; };
+		20B82EB01E359822005B0DED /* AppCommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCommonHelper.h; sourceTree = "<group>"; };
+		20B82EB11E359822005B0DED /* AppCommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCommonHelper.m; sourceTree = "<group>"; };
+		20B82EB51E3599F1005B0DED /* CustomToastAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToastAnimator.h; sourceTree = "<group>"; };
+		20B82EB61E3599F1005B0DED /* CustomToastAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToastAnimator.m; sourceTree = "<group>"; };
+		20B82EB71E3599F1005B0DED /* CustomToastContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToastContentView.h; sourceTree = "<group>"; };
+		20B82EB81E3599F1005B0DED /* CustomToastContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToastContentView.m; sourceTree = "<group>"; };
+		20B82EB91E3599F1005B0DED /* TipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsView.h; sourceTree = "<group>"; };
+		20B82EBA1E3599F1005B0DED /* TipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsView.m; sourceTree = "<group>"; };
+		20B82EBB1E3599F1005B0DED /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		20B82EBC1E3599F1005B0DED /* ToastAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastAnimator.h; sourceTree = "<group>"; };
+		20B82EBD1E3599F1005B0DED /* ToastAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastAnimator.m; sourceTree = "<group>"; };
+		20B82EBE1E3599F1005B0DED /* ToastBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastBackgroundView.h; sourceTree = "<group>"; };
+		20B82EBF1E3599F1005B0DED /* ToastBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastBackgroundView.m; sourceTree = "<group>"; };
+		20B82EC01E3599F1005B0DED /* ToastContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastContentView.h; sourceTree = "<group>"; };
+		20B82EC11E3599F1005B0DED /* ToastContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastContentView.m; sourceTree = "<group>"; };
+		20B82EC21E3599F1005B0DED /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		20B82EC31E3599F1005B0DED /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
 		23EF7110208A157A527F3BA4CEB77486 /* NSRunLoop+PerformBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+PerformBlock.m"; sourceTree = "<group>"; };
 		242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDYBaseProject_Tests-dummy.m"; sourceTree = "<group>"; };
 		244841036386E26DB409999DE1D94414 /* UIImage+Gif.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gif.m"; sourceTree = "<group>"; };
@@ -928,6 +968,7 @@
 				F8786F159C255B5CDFE6CE1452958BED /* Support Files */,
 				4662281D13C60991695AF33BF342FA6F /* TableViewComponent */,
 				CA51D7619C687E851B6374639D81908A /* UIComponent */,
+				20B82EB41E3599F1005B0DED /* Toast */,
 				24A251B56FF344A6D682D2C7DC0EAD91 /* Utils */,
 			);
 			name = WDYBaseProject;
@@ -991,6 +1032,29 @@
 				F86967090D14102427D4759B96F529EC /* NSFileManager+Paths.m */,
 			);
 			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		20B82EB41E3599F1005B0DED /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				20B82EB51E3599F1005B0DED /* CustomToastAnimator.h */,
+				20B82EB61E3599F1005B0DED /* CustomToastAnimator.m */,
+				20B82EB71E3599F1005B0DED /* CustomToastContentView.h */,
+				20B82EB81E3599F1005B0DED /* CustomToastContentView.m */,
+				20B82EB91E3599F1005B0DED /* TipsView.h */,
+				20B82EBA1E3599F1005B0DED /* TipsView.m */,
+				20B82EBB1E3599F1005B0DED /* Toast.h */,
+				20B82EBC1E3599F1005B0DED /* ToastAnimator.h */,
+				20B82EBD1E3599F1005B0DED /* ToastAnimator.m */,
+				20B82EBE1E3599F1005B0DED /* ToastBackgroundView.h */,
+				20B82EBF1E3599F1005B0DED /* ToastBackgroundView.m */,
+				20B82EC01E3599F1005B0DED /* ToastContentView.h */,
+				20B82EC11E3599F1005B0DED /* ToastContentView.m */,
+				20B82EC21E3599F1005B0DED /* ToastView.h */,
+				20B82EC31E3599F1005B0DED /* ToastView.m */,
+			);
+			name = Toast;
+			path = WDYBaseProject/Classes/Toast;
 			sourceTree = "<group>";
 		};
 		24A251B56FF344A6D682D2C7DC0EAD91 /* Utils */ = {
@@ -1204,6 +1268,8 @@
 				3AE5C6A129B14818D8F88498BE076219 /* UIImageView+Blur.m */,
 				7BAE0A5C0E73540E94BA186A11C23B4F /* UIImageView+FaceAwareFill.h */,
 				35F786AFDE4B5488FB2A6B6E1524C2BB /* UIImageView+FaceAwareFill.m */,
+				20B82EAC1E3597FE005B0DED /* UIImageView+ImageFitSize.h */,
+				20B82EAD1E3597FE005B0DED /* UIImageView+ImageFitSize.m */,
 			);
 			path = UIImageView;
 			sourceTree = "<group>";
@@ -1444,16 +1510,18 @@
 				20385B051E31AF5600445564 /* AnimationHelper.m */,
 				20385B081E31AFF900445564 /* LocationHelper.h */,
 				20385B091E31AFF900445564 /* LocationHelper.m */,
-				35D5F26EFB5B6839134F9F2F1AC4A3C8 /* FileCacheManager.h */,
-				17910079A57C14590C1C7608FA6D72E9 /* FileCacheManager.m */,
-				B185ADF0E16133FCCF3E2FAB3AA2C84F /* FileManager.h */,
-				5A80619CD0B8C46F415A0DC327D07CC2 /* FileManager.m */,
 				3C31179648D2696E13C698FA4A280A7A /* GCDHelper.h */,
 				2C213C7466939A7733A83A50F39F1132 /* GCDHelper.m */,
 				923D2EFE6CD9F48863F64A95ADEE6309 /* ImagePickerCtrHelper.h */,
 				CB0BB01FC4C47BFC16EBB0C3D39A35E7 /* ImagePickerCtrHelper.m */,
+				20B82EB01E359822005B0DED /* AppCommonHelper.h */,
+				20B82EB11E359822005B0DED /* AppCommonHelper.m */,
 				79FED347B852C6816FA56081DAD42E7D /* NetworkManager.h */,
 				3233E5AD583B256E413DBAC640DFC600 /* NetworkManager.m */,
+				B185ADF0E16133FCCF3E2FAB3AA2C84F /* FileManager.h */,
+				5A80619CD0B8C46F415A0DC327D07CC2 /* FileManager.m */,
+				35D5F26EFB5B6839134F9F2F1AC4A3C8 /* FileCacheManager.h */,
+				17910079A57C14590C1C7608FA6D72E9 /* FileCacheManager.m */,
 				74FE84CD043165E6BEF7D18F59718897 /* Singleton.h */,
 				505191F5A7802CF6F379943696050F6E /* WDYUtilsHeader.h */,
 			);
@@ -1699,6 +1767,7 @@
 			isa = PBXGroup;
 			children = (
 				4ADFA5FE0236153F6AE26BB527D316AB /* WDYMacros.h */,
+				20B82EAA1E3597EB005B0DED /* CommonDefines.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -1882,6 +1951,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B82ECA1E3599F1005B0DED /* Toast.h in Headers */,
 				5EF8EBB758EE7F2933D06F34C17AE5A8 /* ADHeader.h in Headers */,
 				17F342DF62586F10678925D2E2FC6D1D /* AdvertiseHelper.h in Headers */,
 				082BCE5C2131B2D9F38189075B6BB4C4 /* AdvertiseView.h in Headers */,
@@ -1903,6 +1973,7 @@
 				AB576D5EFACF2D488EC5C16B365E695F /* GCDHelper.h in Headers */,
 				855DF19FAE0CC1F5287910B5B7B647EB /* ImagePickerCtrHelper.h in Headers */,
 				BB032CAFF682C92823CBEB6F35552DCB /* JRSwizzle.h in Headers */,
+				20B82EC81E3599F1005B0DED /* TipsView.h in Headers */,
 				B37824557D00575EDD3081F17F2FBD19 /* LayoutButton.h in Headers */,
 				D58D2F11DF66D0A3F6E6AEA798A1994F /* NetworkManager.h in Headers */,
 				20385B0A1E31AFF900445564 /* LocationHelper.h in Headers */,
@@ -1916,6 +1987,7 @@
 				D4C0E8A149F45F6BD5DBC3C80F67EF40 /* NSFileManager+Paths.h in Headers */,
 				0BBCCE7C62FEDFAD3E11E0846216D993 /* NSObject+AppInfo.h in Headers */,
 				FA38C2B0AFCABE1ACE34D8D7BAD0FB59 /* NSObject+AssociatedObject.h in Headers */,
+				20B82EC61E3599F1005B0DED /* CustomToastContentView.h in Headers */,
 				96118BC7011E66D65B272489B4142DA9 /* NSObject+EasyCopy.h in Headers */,
 				6276350816A183E211E6749DB6C62ECA /* NSObject+KVOBlocks.h in Headers */,
 				EBA1FC3E5C8A62750867CC2F44926838 /* NSObject+Reflection.h in Headers */,
@@ -1936,12 +2008,14 @@
 				20385B2B1E333B0E00445564 /* ModalPresentationViewController.h in Headers */,
 				FBF9E2146B70A6303A420DE70D2D80EB /* Singleton.h in Headers */,
 				65EF85D13BE23B37DAFB0C20E3C31B33 /* TableViewHeader.h in Headers */,
+				20B82EAB1E3597EB005B0DED /* CommonDefines.h in Headers */,
 				08C1D9B68AAAA21946CDAB801AB1D0A7 /* UIApplication+KeyboardFrame.h in Headers */,
 				F491E07C6E018ECA48777FE427E9699B /* UIBarButtonItem+ALActionBlocks.h in Headers */,
 				BE87B74BD8552A2E47DBEF3B63100E18 /* UIBarButtonItem+Badge.h in Headers */,
 				F79216E7A5F9A0F77E578F9EB0AE6FC0 /* UIBezierPath+BasicShapes.h in Headers */,
 				F6ECA98ACCB9D3009B26827BE9C53E43 /* UIBezierPath+Symbol.h in Headers */,
 				48735C20BB172E2FFEFE85125C94832E /* UIButton+BackgroundColor.h in Headers */,
+				20B82EB21E359822005B0DED /* AppCommonHelper.h in Headers */,
 				C05DEE6CB0E206FA335E3DC24050B097 /* UIButton+Badge.h in Headers */,
 				7DB01C940A9F91B17F9BD624F9C8198B /* UIButton+Block.h in Headers */,
 				FCCC42AB4DD6EACA0EE6BEE3B2A16871 /* UIButton+ClickEdgeInsets.h in Headers */,
@@ -1951,6 +2025,7 @@
 				97B3CFDE671B7D41495B76FB16781880 /* UIColor+Gradient.h in Headers */,
 				BFA628905DC2A5E3DF445DF2A100907E /* UIColor+HexString.h in Headers */,
 				CB760AD7DBF5B2A617F0C7FF42D01F57 /* UIControl+ActionBlock.h in Headers */,
+				20B82ECB1E3599F1005B0DED /* ToastAnimator.h in Headers */,
 				DEF624619A81E40CE5BBCA0156D37B0B /* UIControl+ALActionBlocks.h in Headers */,
 				2A4BF57B45E5F51A587600A7E10799C7 /* UIControl+Delay.h in Headers */,
 				E3F9EF504E20556E1B74E77E592D9BC1 /* UIDevice+Hardware.h in Headers */,
@@ -1971,10 +2046,12 @@
 				20385B0E1E31B13400445564 /* BaseViewController.h in Headers */,
 				EDF7FD2E686E4728C3AB0256E47DEA7C /* UIImageView+FaceAwareFill.h in Headers */,
 				B61AC9D53A47321BD5DF581E9CE79E82 /* UINavigationBar+Addition.h in Headers */,
+				20B82ECD1E3599F1005B0DED /* ToastBackgroundView.h in Headers */,
 				E32AF390D3FDF8087BFBC1E827137C03 /* UINavigationController+StackManager.h in Headers */,
 				96D873E49BD1A43B94F2F633C656884D /* UINavigationItem+Addition.h in Headers */,
 				D3A62EBBE57E78F48FEFCBACAFA444B3 /* UINavigationItem+Loading.h in Headers */,
 				52EE25CC2303B5FA6BF759B3AAC3E225 /* UINavigationItem+Margin.h in Headers */,
+				20B82EAE1E3597FE005B0DED /* UIImageView+ImageFitSize.h in Headers */,
 				666D0693FC281574BBC54E54D79FAB4B /* UIScrollView+Common.h in Headers */,
 				9EE721E214EBA7E7CA27727594D9D301 /* UITableView+Common.h in Headers */,
 				CA0147727DDDA6ABC6D87D06F96007A0 /* UITextField+Appearance.h in Headers */,
@@ -1985,8 +2062,11 @@
 				040AF02C252D81392DF27BEB68E586CA /* UIView+Layer.h in Headers */,
 				CBD4CAC81B2F53492B04CBC548A41930 /* UIView+Nib.h in Headers */,
 				20385B061E31AF5600445564 /* AnimationHelper.h in Headers */,
+				20B82EC41E3599F1005B0DED /* CustomToastAnimator.h in Headers */,
+				20B82ECF1E3599F1005B0DED /* ToastContentView.h in Headers */,
 				E2B8AF49D52C1ED2F133A0A1ACC511CD /* UIViewController+BackButtonHandler.h in Headers */,
 				B5D3757782C92C2BF4193B26F18C24C0 /* UIViewController+Current.h in Headers */,
+				20B82ED11E3599F1005B0DED /* ToastView.h in Headers */,
 				704B420B3C14AB6D90845E7725927C0E /* UIViewController+NaviExtentions.h in Headers */,
 				1E418CCC3D741D1096A1A2530FF8B902 /* UIViewController+RTRootNavigationController.h in Headers */,
 				CD86A48530FF94031F275BC1D7EC678A /* WDYBaseProject-umbrella.h in Headers */,
@@ -2316,17 +2396,20 @@
 				BEA0491798502724D0999FC79BEB1FA6 /* BaseModel.m in Sources */,
 				0ECADDB798F9C114EA2C299DC70F8A9E /* BaseTableHeaderFooterView.m in Sources */,
 				2E152B345BA49207DB48E168F30DDFB4 /* BaseTableView.m in Sources */,
+				20B82EC91E3599F1005B0DED /* TipsView.m in Sources */,
 				564632DC46FDA30F2947D6FFC7AF654A /* BaseTableViewCell.m in Sources */,
 				20385B2C1E333B0E00445564 /* ModalPresentationViewController.m in Sources */,
 				E0AF7ADEB9C24F1CA2EA1309B48576FB /* CALayer+Addition.m in Sources */,
 				1C65BD4AD2FC6A1565CE4158B0129342 /* CAShapeLayer+BezierPath.m in Sources */,
 				B89CC12725475A6E4FDEC2BF2B77A508 /* CustomTextField.m in Sources */,
 				44CB097E69D91B729D81BAE834F03C0B /* DeviceAuthorizationHelper.m in Sources */,
+				20B82EC71E3599F1005B0DED /* CustomToastContentView.m in Sources */,
 				20385B131E31B1BC00445564 /* BaseNavigationViewController.m in Sources */,
 				E2E0FEA81E31F89AD7863FE41B4FB16B /* DeviceHelper.m in Sources */,
 				7F25BC186D3E10280075234D5B0DE157 /* FileCacheManager.m in Sources */,
 				8D2ED239F600B32675D7BCD788245707 /* FileManager.m in Sources */,
 				5DB70651F0DCE273EB6B4B365C03F099 /* GCDHelper.m in Sources */,
+				20B82ED01E3599F1005B0DED /* ToastContentView.m in Sources */,
 				CEFF649B027F871C4272364DCF04BD68 /* ImagePickerCtrHelper.m in Sources */,
 				7140506C6BC2732926F06EFF24FFC1BD /* JRSwizzle.m in Sources */,
 				274B9F51C2579FB1552C6294086CA146 /* LayoutButton.m in Sources */,
@@ -2337,6 +2420,7 @@
 				F56E9F291D1E5FB73910BD1E352632B6 /* NSBundle+MyLibrary.m in Sources */,
 				90771A89D054C5DE438C4C25A60EE45D /* NSDictionary+Merge.m in Sources */,
 				3E9EABD03CFD934207CB37B7BBA594C2 /* NSDictionary+URL.m in Sources */,
+				20B82EAF1E3597FE005B0DED /* UIImageView+ImageFitSize.m in Sources */,
 				D44A8EC57A74DF3D95C0E0A4FAF2BCC0 /* NSFileManager+Paths.m in Sources */,
 				9445A1BA35DB038C5C56621925BD0D23 /* NSObject+AppInfo.m in Sources */,
 				20385B071E31AF5600445564 /* AnimationHelper.m in Sources */,
@@ -2350,6 +2434,7 @@
 				A8CF48C286D374D1415538EF6428C803 /* NSString+DictionaryValue.m in Sources */,
 				B8242B5D6F8D9D4895F64B4A6C63DC50 /* NSString+Matcher.m in Sources */,
 				5A3EF403A56FE79B2DAAFC9C6A131A09 /* NSString+NormalRegex.m in Sources */,
+				20B82ECC1E3599F1005B0DED /* ToastAnimator.m in Sources */,
 				165E75B005C8CC1BA9143FB78C00BD83 /* NSString+Pinyin.m in Sources */,
 				20385B0B1E31AFF900445564 /* LocationHelper.m in Sources */,
 				5A4C99BD95ED4DA0DDDBE939ECBE4AC5 /* NSString+Size.m in Sources */,
@@ -2359,6 +2444,7 @@
 				F5B09EFB1E97791898452EC9C7C75A4F /* NSTimer+Blocks.m in Sources */,
 				0DAD17EA31EC7D58D2D988384968FDCA /* RTRootNavigationController.m in Sources */,
 				9D03783889E214890AF368F509C69651 /* SafeCategory.m in Sources */,
+				20B82ECE1E3599F1005B0DED /* ToastBackgroundView.m in Sources */,
 				802153E7E9384E60316268B296E9DF66 /* UIApplication+KeyboardFrame.m in Sources */,
 				C0B44BEE83BDA80451183559DA9D6F10 /* UIBarButtonItem+ALActionBlocks.m in Sources */,
 				010D2C80CABCB2924EA2E760593D766F /* UIBarButtonItem+Badge.m in Sources */,
@@ -2375,6 +2461,7 @@
 				20385B0F1E31B13400445564 /* BaseViewController.m in Sources */,
 				4736FEC80AA4F5A8667EB554E92DA26A /* UIControl+ActionBlock.m in Sources */,
 				A6FC483FF68121BCF69695F2A2CEDED9 /* UIControl+ALActionBlocks.m in Sources */,
+				20B82EC51E3599F1005B0DED /* CustomToastAnimator.m in Sources */,
 				C31DAA44A6050CC5958AED9F6485AC49 /* UIControl+Delay.m in Sources */,
 				2526EF37A5504A36DE75B4C040BDA4DD /* UIDevice+Hardware.m in Sources */,
 				7709393B2A2E94B1422A67321B83A22F /* UIFont+TTF.m in Sources */,
@@ -2395,6 +2482,8 @@
 				F4EF8E46EB1C76C0D11D1DF11E15438C /* UINavigationBar+Addition.m in Sources */,
 				02761895E316066C5DACED7EE623D7C8 /* UINavigationController+StackManager.m in Sources */,
 				9F87857809F04145D0E7A34AE1A8C050 /* UINavigationItem+Addition.m in Sources */,
+				20B82EB31E359822005B0DED /* AppCommonHelper.m in Sources */,
+				20B82ED21E3599F1005B0DED /* ToastView.m in Sources */,
 				AA0CE7BD81273FCE4B6127C94C54E5B0 /* UINavigationItem+Loading.m in Sources */,
 				72FE1B15E191EC4729C43831C979DF4B /* UINavigationItem+Margin.m in Sources */,
 				D44FE1A67135EFD8399A0840849D5414 /* UIScrollView+Common.m in Sources */,

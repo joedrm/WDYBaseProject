@@ -9,6 +9,11 @@
 #ifndef WDYMacros_h
 #define WDYMacros_h
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <objc/runtime.h>
+#import "CommonDefines.h"
+
 //开发的时候打印，但是发布的时候不打印的NSLog
 #ifdef DEBUG
 #define NSLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])

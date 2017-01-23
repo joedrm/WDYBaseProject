@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.7.9'
+  s.version          = '0.8.0'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   # 常用的分类
   s.subspec 'Category' do |category|
       category.source_files = 'WDYBaseProject/Classes/Category/**/*'
+      category.dependency 'WDYBaseProject/Macros'
   end
 
   # 工具类
@@ -23,7 +24,7 @@ Pod::Spec.new do |s|
       utils.source_files = 'WDYBaseProject/Classes/Utils/**/*'
       utils.dependency 'AFNetworking', '3.1.0'
       utils.dependency 'WDYBaseProject/Category'
-      # utils.dependency 'WDYBaseProject/HUDComponent'
+      utils.dependency 'WDYBaseProject/Macros'
   end
 
   # 常用的宏
@@ -34,6 +35,8 @@ Pod::Spec.new do |s|
   # 常用的UI控件,基类
   s.subspec 'UIComponent' do |ui|
       ui.source_files = 'WDYBaseProject/Classes/UIComponent/**/*'
+      ui.dependency 'WDYBaseProject/Utils'
+      ui.dependency 'WDYBaseProject/Macros'
   end
 
   # 导航控制器组件
@@ -46,13 +49,6 @@ Pod::Spec.new do |s|
       other.source_files = 'WDYBaseProject/Classes/Other/**/*'
       other.dependency 'SDWebImage', '3.8.0'
   end
-
-  # 提示框组件
-  # s.subspec 'HUDComponent' do |hud|
-  #     hud.source_files = 'WDYBaseProject/Classes/HUDComponent/**/*'
-  #     #hud.dependency 'MBProgressHUD', '1.0.0'
-  #     hud.dependency 'WDYBaseProject/Category'
-  # end
 
   # 新特性介绍组件
   s.subspec 'NewFeatureComponent' do |newFeature|
@@ -76,9 +72,17 @@ Pod::Spec.new do |s|
       model.dependency 'WDYBaseProject/Utils'
   end
 
-  # s.resource_bundles = {
-  #   'WDYBaseProject' => ['WDYBaseProject/Assets/*.png']
-  # }
+ # Toast提示
+  s.subspec 'Toast' do |toast|
+      toast.source_files = 'WDYBaseProject/Classes/Toast/**/*'
+      toast.dependency 'WDYBaseProject/Utils'
+      toast.dependency 'WDYBaseProject/Macros'
+      toast.dependency 'WDYBaseProject/Category'
+  end
+
+  s.resource_bundles = {
+    'WDYBaseProject' => ['WDYBaseProject/Assets/*.png']
+  }
 
   # s.source_files  = 'WDYBaseProject/Classes/WDYBaseProject.h'
   # s.public_header_files = 'WDYBaseProject/Classes/WDYBaseProject.h'
