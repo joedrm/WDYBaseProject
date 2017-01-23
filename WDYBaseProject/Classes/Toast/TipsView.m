@@ -11,6 +11,7 @@
 //#import "UIView+Find.h"
 #import "UIViewController+Current.h"
 #import "CustomToastAnimator.h"
+#import "NSBundle+MyLibrary.h"
 
 @interface TipsView ()
 
@@ -75,7 +76,7 @@
 }
 
 - (void)showSucceed:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay {
-    self.contentCustomView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tips_done"]];
+    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_doneImageClass:self]];
     [self showTipWithText:text detailText:detailText hideAfterDelay:delay];
 }
 
@@ -92,7 +93,7 @@
 }
 
 - (void)showError:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay {
-    self.contentCustomView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tips_error"]];
+    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_errorImageClass:self]];
     [self showTipWithText:text detailText:detailText hideAfterDelay:delay];
 }
 
@@ -109,7 +110,7 @@
 }
 
 - (void)showInfo:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay {
-    self.contentCustomView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tips_info"]];
+    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_infoImageClass:self]];
     [self showTipWithText:text detailText:detailText hideAfterDelay:delay];
 }
 

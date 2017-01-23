@@ -10,7 +10,8 @@
 
 @interface NSBundle (MyLibrary)
 
-+ (NSBundle *)myLibraryBundleWithClassStr:(NSString *)name;
-+ (NSURL *)myLibraryBundleURLClassStr:(NSString *)name;
-
++ (instancetype)resourceBundleWithClass:(Class)nameClass;
++ (UIImage *)tips_doneImageClass:(Class)nameClass;
++ (UIImage *)tips_errorImageClass:(Class)nameClass;
++ (UIImage *)tips_infoImageClass:(Class)nameClass;
 @end

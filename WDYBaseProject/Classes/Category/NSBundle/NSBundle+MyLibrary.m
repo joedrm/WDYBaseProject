@@ -10,19 +10,38 @@
 
 @implementation NSBundle (MyLibrary)
 
-+ (NSBundle *)myLibraryBundleWithClassStr:(NSString *)name{
-    return [self bundleWithURL:[self myLibraryBundleURLClassStr:name]];
-}
-
-
-+ (NSURL *)myLibraryBundleURLClassStr:(NSString *)name {
-    if (name == nil || name.length == 0) {
-        return nil;
++ (instancetype)resourceBundleWithClass:(Class)nameClass
+{
+    static NSBundle *refreshBundle = nil;
+    if (refreshBundle == nil) {
+        // 这里不使用mainBundle是为了适配pod 1.x和0.x
+        refreshBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:nameClass] pathForResource:@"WDYBaseProject" ofType:@"bundle"]];
     }
-    Class class = NSClassFromString(name);
-    NSBundle *bundle = [NSBundle bundleForClass:class];
-    return [bundle URLForResource:@"WDYBaseProject" withExtension:@"bundle"];
+    return refreshBundle;
 }
 
++ (UIImage *)tips_doneImageClass:(Class)nameClass{
+    static UIImage *doneImage = nil;
+    if (doneImage == nil) {
+        doneImage = [[UIImage imageWithContentsOfFile:[nameClass pathForResource:@"tips_done@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    }
+    return doneImage;
+}
+
++ (UIImage *)tips_errorImageClass:(Class)nameClass{
+    static UIImage *errorImage = nil;
+    if (errorImage == nil) {
+        errorImage = [[UIImage imageWithContentsOfFile:[nameClass pathForResource:@"tips_error@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    }
+    return errorImage;
+}
+
++ (UIImage *)tips_infoImageClass:(Class)nameClass{
+    static UIImage *infoImage = nil;
+    if (infoImage == nil) {
+        infoImage = [[UIImage imageWithContentsOfFile:[nameClass pathForResource:@"tips_info@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    }
+    return infoImage;
+}
 
 @end
