@@ -11,7 +11,7 @@
 @interface NSBundle (MyLibrary)
 
 + (instancetype)resourceBundleWithClass:(Class)nameClass;
-+ (UIImage *)tips_doneImageClass:(Class)nameClass;
-+ (UIImage *)tips_errorImageClass:(Class)nameClass;
-+ (UIImage *)tips_infoImageClass:(Class)nameClass;
++ (UIImage *)tips_doneImage;
++ (UIImage *)tips_errorImage;
++ (UIImage *)tips_infoImage;
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "NSBundle+MyLibrary.h"
+#import "TipsView.h"
 
 @implementation NSBundle (MyLibrary)
 
@@ -20,26 +21,27 @@
     return refreshBundle;
 }
 
-+ (UIImage *)tips_doneImageClass:(Class)nameClass{
-    static UIImage *doneImage = nil;
-    if (doneImage == nil) {
-        doneImage = [[UIImage imageWithContentsOfFile:[nameClass pathForResource:@"tips_done@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
++ (UIImage *)tips_doneImage
+{
+    static UIImage *tips_doneImage = nil;
+    if (tips_doneImage == nil) {
+        tips_doneImage = [[UIImage imageWithContentsOfFile:[[TipsView class] pathForResource:@"tips_done@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
-    return doneImage;
+    return tips_doneImage;
 }
 
-+ (UIImage *)tips_errorImageClass:(Class)nameClass{
++ (UIImage *)tips_errorImage{
     static UIImage *errorImage = nil;
     if (errorImage == nil) {
-        errorImage = [[UIImage imageWithContentsOfFile:[nameClass pathForResource:@"tips_error@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+        errorImage = [[UIImage imageWithContentsOfFile:[[TipsView class] pathForResource:@"tips_error@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
     return errorImage;
 }
 
-+ (UIImage *)tips_infoImageClass:(Class)nameClass{
++ (UIImage *)tips_infoImage{
     static UIImage *infoImage = nil;
     if (infoImage == nil) {
-        infoImage = [[UIImage imageWithContentsOfFile:[nameClass pathForResource:@"tips_info@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+        infoImage = [[UIImage imageWithContentsOfFile:[[TipsView class] pathForResource:@"tips_info@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
     return infoImage;
 }

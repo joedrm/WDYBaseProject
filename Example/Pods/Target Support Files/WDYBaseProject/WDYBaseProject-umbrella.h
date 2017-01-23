@@ -62,7 +62,6 @@
 #import "UIImage+Crop.h"
 #import "UIImage+Gif.h"
 #import "UIImage+ImageEffects.h"
-#import "UIImage+MyLibrary.h"
 #import "UIImage+RemoteSize.h"
 #import "UIImage+Splash.h"
 #import "UIImage+SubImage.h"

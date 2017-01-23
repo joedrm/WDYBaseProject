@@ -87,7 +87,6 @@
 #import "UIImage+SubImage.h"
 #import "UIImage+Color.h"
 #import "UIImage+Crop.h"
-#import "UIImage+MyLibrary.h"
 #import "UIImage+Splash.h"
 #import "UIImage+Alpha.h"
 

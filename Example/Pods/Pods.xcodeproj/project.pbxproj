@@ -37,7 +37,6 @@
 		11BF0A3C217C5233EF08A6A2623CEA80 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 397CD65AAD8FB1DEB69DAFE921C2FE7F /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		132F9C5600EDB63B696CA51717DFDA26 /* ToastAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DADEDDDDDDF1434E6807997B3507C7 /* ToastAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		134F50726DB73E210856F5DE8C3FA8DE /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D310F32DEEA0D66294CA10D9C98904 /* UIImage+MultiFormat.m */; };
-		13CACAC9D821A54B8E39FDEAEFA879F1 /* UIImage+MyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F26FB7DFEA8680E29B1B20D6510720 /* UIImage+MyLibrary.m */; };
 		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE96702816F6F78AE488F7CE9221E67 /* UIActivityIndicatorView+AFNetworking.m */; };
 		14D1E774D14AFF7D1C201516257C7D24 /* LayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 317CFE421076A654B17CB6F43ED91B6A /* LayoutButton.m */; };
 		154767A0147F763390E1C92AF91E31BF /* UIDevice+Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 2498C293E8EAFF786CA29599582ACB0E /* UIDevice+Hardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -223,7 +222,6 @@
 		9CCB792741A329E1017A3883D189D756 /* TableViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 083B39D562B4CADC288D91792C1D251E /* TableViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CCBD10866D2DF1C75B54DCB250D7507 /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 871A561D6DA8755C12B3936EE8FD0048 /* NSString+Pinyin.m */; };
 		9E1DBEB2A3522875D962DA0A4CD91060 /* ToastBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 341FD98D2DDCEF79B9A8A8907C54BF95 /* ToastBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E1ED9A180083B5CC71D268A933C3689 /* UIImage+MyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FA811D74DF70E7FE5BDDADC5F223B149 /* UIImage+MyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F651B94DEBD0AF3253DFFE44397AB9C /* UINavigationController+StackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211F63554B95E956BA1399110DF3BCDC /* UINavigationController+StackManager.m */; };
 		A045553E14097027F4052B127A8B3F44 /* ALActionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 3507A0C78D134F7D7E4D01F08A3801E6 /* ALActionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A05695BC3D76BAC1CA44358CD1E1133D /* UIGestureRecognizer+ALActionBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = D62FE9A62E864F72615B51BDA5731140 /* UIGestureRecognizer+ALActionBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -618,7 +616,6 @@
 		7FAD41ABAA4B35D0742353AF3A051D5A /* NSDictionary+URL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URL.m"; sourceTree = "<group>"; };
 		80D2656586FC86BDB152602733FF0BE5 /* AnimationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnimationHelper.m; sourceTree = "<group>"; };
 		8134F69E56AF4A80E9ED13AB2340CF28 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		81F26FB7DFEA8680E29B1B20D6510720 /* UIImage+MyLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MyLibrary.m"; sourceTree = "<group>"; };
 		8331E6547CF938B4FD897E64A0B9F816 /* UIControl+ActionBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ActionBlock.m"; sourceTree = "<group>"; };
 		833C9A2F5806CD066A75770CCFE48145 /* UIBarButtonItem+ALActionBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ALActionBlocks.h"; sourceTree = "<group>"; };
 		8358EBB803F0D58DF75E9F70AC43CEE4 /* UIControl+ActionBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+ActionBlock.h"; sourceTree = "<group>"; };
@@ -811,7 +808,6 @@
 		F8B8E2675AC30E497E5CA75EB536651D /* MBHUD_Success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "MBHUD_Success@3x.png"; sourceTree = "<group>"; };
 		F995A109217DDD7D5675CF750930F8F2 /* Pods-WDYBaseProject_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDYBaseProject_Example-resources.sh"; sourceTree = "<group>"; };
 		F9DAA98AA75E4D09D2352242ECF1A6A2 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		FA811D74DF70E7FE5BDDADC5F223B149 /* UIImage+MyLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+MyLibrary.h"; sourceTree = "<group>"; };
 		FA9FE965A81C54F5C4FA2A51279983A2 /* NSFileManager+Paths.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Paths.h"; sourceTree = "<group>"; };
 		FBC519AE0196C7BEA08479B775915706 /* ImagePickerCtrHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImagePickerCtrHelper.m; sourceTree = "<group>"; };
 		FC402CDDEA9D377A33B93E2AFC7AC3FA /* BaseTableHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseTableHeaderFooterView.m; sourceTree = "<group>"; };
@@ -1052,8 +1048,6 @@
 				D9929EEEB9197F59EEF3644D7D7BC00E /* UIImage+Gif.m */,
 				3055B610E912CDD707D5D53A26EBBA49 /* UIImage+ImageEffects.h */,
 				B666FD8961CBF4D9CF267C3F961841DB /* UIImage+ImageEffects.m */,
-				FA811D74DF70E7FE5BDDADC5F223B149 /* UIImage+MyLibrary.h */,
-				81F26FB7DFEA8680E29B1B20D6510720 /* UIImage+MyLibrary.m */,
 				D46F1A34F2D8736FC717608A4B5246EC /* UIImage+RemoteSize.h */,
 				DB89E446DD76C385FAEF22511FB55172 /* UIImage+RemoteSize.m */,
 				7D7A1B8CA32A2F440E0A52763ED9A8C3 /* UIImage+Splash.h */,
@@ -2153,7 +2147,6 @@
 				B4AFDD0358076B4CEE028BA684C66307 /* UIImage+Crop.h in Headers */,
 				31CCC979D2C831965551E144D480639C /* UIImage+Gif.h in Headers */,
 				B37B7067DC0912776517421274BBF94F /* UIImage+ImageEffects.h in Headers */,
-				9E1ED9A180083B5CC71D268A933C3689 /* UIImage+MyLibrary.h in Headers */,
 				FF56188D4B1FC04FC34EF360CCE0FBFF /* UIImage+RemoteSize.h in Headers */,
 				29FCF571C9C3D68BD097F729496EBB4A /* UIImage+Splash.h in Headers */,
 				22DF90D290C16460903385FEDE7620E9 /* UIImage+SubImage.h in Headers */,
@@ -2643,7 +2636,6 @@
 				29B01DE27522D7D8AEEF4D30A1F5969A /* UIImage+Crop.m in Sources */,
 				F65D7E00261DDD39DB3A4897A8D56844 /* UIImage+Gif.m in Sources */,
 				A5F101A84DD3421A32D6439CD7EB000F /* UIImage+ImageEffects.m in Sources */,
-				13CACAC9D821A54B8E39FDEAEFA879F1 /* UIImage+MyLibrary.m in Sources */,
 				C17F5F8FCF462D565564BA3E6ADD04EE /* UIImage+RemoteSize.m in Sources */,
 				E6BCC53C488B6334B263D0013F6F2AB0 /* UIImage+Splash.m in Sources */,
 				9BBAAB191BB4E067C029A1608F0F2A00 /* UIImage+SubImage.m in Sources */,
