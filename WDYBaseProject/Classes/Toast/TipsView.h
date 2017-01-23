@@ -100,7 +100,7 @@
 + (TipsView *)showInfo:(NSString *)text detailText:(NSString *)detailText;
 + (TipsView *)showInfo:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay;
 
-
++ (void)hideToastView;
 
 @end
 

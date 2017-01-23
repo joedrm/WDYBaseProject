@@ -1,6 +1,6 @@
 {
   "name": "WDYBaseProject",
-  "version": "0.8.2",
+  "version": "0.9.0",
   "summary": "基础工程",
   "description": "常用的基础工程",
   "homepage": "https://github.com/wangdongyang/WDYBaseProject",
@@ -13,16 +13,12 @@
   },
   "source": {
     "git": "https://github.com/wangdongyang/WDYBaseProject.git",
-    "tag": "0.8.2"
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "resource_bundles": {
-    "WDYBaseProject": [
-      "WDYBaseProject/Assets/*.png"
-    ]
-  },
+  "resources": "WDYBaseProject/Classes/WDYBaseProject.bundle",
   "subspecs": [
     {
       "name": "Category",
@@ -67,15 +63,6 @@
     {
       "name": "Navigation",
       "source_files": "WDYBaseProject/Classes/Navigation/**/*"
-    },
-    {
-      "name": "Other",
-      "source_files": "WDYBaseProject/Classes/Other/**/*",
-      "dependencies": {
-        "SDWebImage": [
-          "3.8.0"
-        ]
-      }
     },
     {
       "name": "NewFeatureComponent",

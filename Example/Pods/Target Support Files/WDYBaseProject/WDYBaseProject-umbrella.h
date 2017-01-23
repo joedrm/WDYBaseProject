@@ -92,7 +92,6 @@
 #import "NewFeatureHeader.h"
 #import "NewFeaturePagesHelper.h"
 #import "NewFeaturePagesView.h"
-#import "UIImageView+AnimForSDWebImage.h"
 #import "BaseTableHeaderFooterView.h"
 #import "BaseTableView.h"
 #import "BaseTableViewCell.h"
