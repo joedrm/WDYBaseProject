@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.8.7'
+  s.version          = '0.8.8'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -80,10 +80,10 @@ Pod::Spec.new do |s|
       toast.dependency 'WDYBaseProject/Category'
   end
 
-  # s.resource_bundles = {
-  #   'WDYBaseProject' => ['WDYBaseProject/Assets/*.png']
-  # }
-  s.resource     = 'WDYBaseProject/WDYBaseProject.bundle'
+  s.resource_bundles = {
+    'WDYBaseProject' => ['WDYBaseProject/WDYBaseProject.bundle']
+  }
+  # s.resource     = 'WDYBaseProject/WDYBaseProject.bundle'
 
   # s.source_files  = 'WDYBaseProject/Classes/WDYBaseProject.h'
   # s.public_header_files = 'WDYBaseProject/Classes/WDYBaseProject.h'
