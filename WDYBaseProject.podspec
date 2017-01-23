@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.8.9'
+  s.version          = '0.9.0'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -45,10 +45,10 @@ Pod::Spec.new do |s|
   end
 
   # 主要是一些和项目容易起冲突的文件，或者对其它的第三方有依赖的文件
-  s.subspec 'Other' do |other|
-      other.source_files = 'WDYBaseProject/Classes/Other/**/*'
-      other.dependency 'SDWebImage', '3.8.0'
-  end
+  # s.subspec 'Other' do |other|
+  #     other.source_files = 'WDYBaseProject/Classes/Other/**/*'
+  #     other.dependency 'SDWebImage', '3.8.0'
+  # end
 
   # 新特性介绍组件
   s.subspec 'NewFeatureComponent' do |newFeature|
