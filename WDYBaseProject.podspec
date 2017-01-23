@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.8.4'
+  s.version          = '0.8.5'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.subspec 'Category' do |category|
       category.source_files = 'WDYBaseProject/Classes/Category/**/*'
       category.dependency 'WDYBaseProject/Macros'
-      category.dependency 'WDYBaseProject/Toast'
   end
 
   # 工具类

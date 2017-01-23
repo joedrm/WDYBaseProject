@@ -76,7 +76,7 @@
 }
 
 - (void)showSucceed:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay {
-    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_doneImage]];
+    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_doneImageClass:self.class]];
     [self showTipWithText:text detailText:detailText hideAfterDelay:delay];
 }
 
@@ -93,7 +93,7 @@
 }
 
 - (void)showError:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay {
-    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_errorImage]];
+    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_errorImageClass:self.class]];
     [self showTipWithText:text detailText:detailText hideAfterDelay:delay];
 }
 
@@ -110,7 +110,7 @@
 }
 
 - (void)showInfo:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay {
-    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_infoImage]];
+    self.contentCustomView = [[UIImageView alloc] initWithImage:[NSBundle tips_infoImageClass:self.class]];
     [self showTipWithText:text detailText:detailText hideAfterDelay:delay];
 }
 
