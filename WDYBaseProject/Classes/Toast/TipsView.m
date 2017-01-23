@@ -277,7 +277,7 @@
 }
 + (TipsView *)showSucceed:(NSString *)text hideAfterDelay:(NSTimeInterval)delay{
     [self hideToastView];
-    return [self showLoading:text inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+    return [self showSucceed:text inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
 }
 + (TipsView *)showSucceed:(NSString *)text detailText:(NSString *)detailText{
     [self hideToastView];
@@ -285,7 +285,8 @@
 }
 + (TipsView *)showSucceed:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay{
     [self hideToastView];
-    return [self showSucceed:text detailText:detailText inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+    return [self showSucceed:text detailText:detailText inView:[UIViewController currentNavigatonController].view
+              hideAfterDelay:delay];
 }
 
 + (TipsView *)showError:(NSString *)text{
@@ -302,7 +303,7 @@
 }
 + (TipsView *)showError:(NSString *)text detailText:(NSString *)detailText hideAfterDelay:(NSTimeInterval)delay{
     [self hideToastView];
-    return [self showSucceed:text detailText:detailText inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
+    return [self showError:text detailText:detailText inView:[UIViewController currentNavigatonController].view hideAfterDelay:delay];
 }
 
 + (TipsView *)showInfo:(NSString *)text{

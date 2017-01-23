@@ -42,6 +42,7 @@
  *  基于指定的倍数，对传进来的 floatValue 进行像素取整。若指定倍数为0，则表示以当前设备的屏幕倍数为准。
  *
  *  例如传进来 “2.1”，在 2x 倍数下会返回 2.5（0.5pt 对应 1px），在 3x 倍数下会返回 2.333（0.333pt 对应 1px）。
+ *  ceilf( <float> ) 函数：将一个float类型的小数去掉，然后进一，返回一个float函数
  */
 CG_INLINE float
 flatfSpecificScale(float floatValue, float scale) {
