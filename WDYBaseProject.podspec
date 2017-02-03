@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.9.9'
+  s.version          = '1.0.0'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -85,12 +85,19 @@ Pod::Spec.new do |s|
       publicHeaders.dependency 'WDYBaseProject/Utils'
       publicHeaders.dependency 'WDYBaseProject/Macros'
       publicHeaders.dependency 'WDYBaseProject/Category'
+      publicHeaders.dependency 'WDYBaseProject/Toast'
+      publicHeaders.dependency 'WDYBaseProject/BaseModel'
+      publicHeaders.dependency 'WDYBaseProject/TableViewComponent'
+      publicHeaders.dependency 'WDYBaseProject/ADComponent'
+      publicHeaders.dependency 'WDYBaseProject/NewFeatureComponent'
+      publicHeaders.dependency 'WDYBaseProject/Navigation'
+      publicHeaders.dependency 'WDYBaseProject/UIComponent'
   end
   # s.resource_bundles = {
   #   'WDYBaseProject' => ['WDYBaseProject/WDYBaseProject.bundle']
   # }
   s.resource     = 'WDYBaseProject/Classes/WDYBaseProject.bundle'
-  s.public_header_files = 'WDYBaseProject/Classes/PublicHeaders/**/*.h'
+  # s.public_header_files = 'WDYBaseProject/Classes/PublicHeaders/**/*.h'
   # s.header_dir = 'WDYBaseProject/Classes/PublicHeaders'
   # s.source_files  = 'WDYBaseProject/Classes/WDYBaseProject.h'
   # s.public_header_files = 'WDYBaseProject/Classes/WDYBaseProject.h'
