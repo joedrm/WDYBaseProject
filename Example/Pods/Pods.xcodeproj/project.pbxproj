@@ -54,6 +54,7 @@
 		1F3AA5B9EBAAD134BF25B0B89FDF108B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC87D1B72D37576574E277C66BFB10 /* NSString+MJExtension.m */; };
 		1F67E3B2622E02FDB5386D777EB9AC41 /* Pods-WDYBaseProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */; };
 		1FBFD94316326DCB9485F8704696806B /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6C59402D25798A05912E4E73973D0C /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20FF2DBB1E4422C200DCE2B3 /* BaseProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FF2DBA1E4422C200DCE2B3 /* BaseProject.h */; };
 		21E4B8233C403C832B759B5A43B56EEB /* UIBarButtonItem+ALActionBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8442C2DAADBF42A3E94F92BFF284B1 /* UIBarButtonItem+ALActionBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229C49F471327CFB8DACA48D443A445D /* NewFeaturePagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68FA6D51992CD8DB26A84ED13072C11C /* NewFeaturePagesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23A4750F978B3CCD5496F65695680852 /* AlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B81B247BD8882921FC2C9F0777FCEF /* AlertViewHelper.m */; };
@@ -382,6 +383,7 @@
 		1CBEAC687EDD42A16CD3A52AD550716D /* UIImage+Crop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
 		1DCFDBC7A67F9C7D91D8C0443DC20C89 /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
 		1FB702485A4848C1753D2D2B4931E2E9 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		20FF2DBA1E4422C200DCE2B3 /* BaseProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseProject.h; sourceTree = "<group>"; };
 		221EAAAEDE55052D2AE465CE72B91130 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDYBaseProject_Tests-dummy.m"; sourceTree = "<group>"; };
 		275CFC6E1E73D24121446AAF02F9E873 /* ADHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADHeader.h; sourceTree = "<group>"; };
@@ -395,7 +397,7 @@
 		2E29ABFF5C7016B4AC5E627E4BDC44CC /* UIControl+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+Delay.h"; sourceTree = "<group>"; };
 		2E62F9508DEAD548DE3B7DBD698F70D2 /* BaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		2EA0F79B27D8FAEC39AC984C07472911 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		2F4EBD94EDD604F2B9C96F0384A010E9 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		2F4EBD94EDD604F2B9C96F0384A010E9 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		2FF33CD54FCB6DA561592050A9D9ACE7 /* UIView+Nib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
 		3081153BA5DC45437D291864E295B214 /* WDYNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDYNavigation.h; sourceTree = "<group>"; };
 		314D89D5647CAE6D40C7C357B3BC69B3 /* AlertViewHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertViewHelper.h; sourceTree = "<group>"; };
@@ -438,7 +440,7 @@
 		4830B69D93708EE60AC018DC75A88E71 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
 		4A5C3567900F14F49FF2219DC96BE5A3 /* CustomTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		4AD6C7A4CB2034E5636A2282674C2CEF /* FileCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FileCacheManager.m; sourceTree = "<group>"; };
-		4B19F567859A2851218F376279E51012 /* WDYBaseProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WDYBaseProject.modulemap; sourceTree = "<group>"; };
+		4B19F567859A2851218F376279E51012 /* WDYBaseProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WDYBaseProject.modulemap; sourceTree = "<group>"; };
 		4C2938C9798DB5A6A5994DC4ADC7CA17 /* NSBundle+AppIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+AppIcon.m"; sourceTree = "<group>"; };
 		4E8C6506E392A9E32A64D9A58D8CFBCB /* UIDevice+Hardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
 		4EC30504FA48E57FA3FD135EEED90422 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
@@ -459,7 +461,7 @@
 		5DFEB29C3C19CAEFA6F9989EA3A796DB /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
 		5E145DDAEC4DEE72CEDA8D51B16FD3D4 /* WDYBaseProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDYBaseProject-prefix.pch"; sourceTree = "<group>"; };
 		5ED565E1C7A5D905B41FFAA45A402D51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		60F8B4BAC86A2E75621018753933640E /* Pods-WDYBaseProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WDYBaseProject_Tests.modulemap"; sourceTree = "<group>"; };
+		60F8B4BAC86A2E75621018753933640E /* Pods-WDYBaseProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WDYBaseProject_Tests.modulemap"; sourceTree = "<group>"; };
 		61F833559D00284C5E933950E0DB2DE1 /* AdvertiseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
 		6298C7766FAD932A5C527C94940C8942 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
 		63F5A39E0783671CCCB86256B9BA3904 /* NSDictionary+Merge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Merge.m"; sourceTree = "<group>"; };
@@ -469,7 +471,7 @@
 		669C7E8D34EB73958EB3F20F78747369 /* BaseTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
 		671D4476143650199485CBEA366CD2BF /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		67ACE52AD6E74CAE561620C2D80C7CF2 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
-		683FB482196DDE5C29C99001B22E05E8 /* Pods_WDYBaseProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WDYBaseProject_Example.framework; path = "Pods-WDYBaseProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		683FB482196DDE5C29C99001B22E05E8 /* Pods_WDYBaseProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDYBaseProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6868FEF1C9BA46EA39F151A4A3D9A1F2 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
 		6895E01E3CB2589846145D4E5290FC95 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		68D79E35A0260BC42D76B37291B26687 /* AppCommonHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppCommonHelper.m; sourceTree = "<group>"; };
@@ -523,18 +525,18 @@
 		8E429D70E584C1428DD226C5ADC857D3 /* CAShapeLayer+BezierPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+BezierPath.m"; sourceTree = "<group>"; };
 		8E62713635690794117D538FE1CC4035 /* GCDHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDHelper.h; sourceTree = "<group>"; };
 		8E79326A0B5AF510A1C1257F323626C2 /* NSString+Pinyin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
-		8E904F2052939496B2AF8AE50E70E7B4 /* WDYBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WDYBaseProject.framework; path = WDYBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E904F2052939496B2AF8AE50E70E7B4 /* WDYBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WDYBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB5FFE68280D9B0B0980ED93BFBA489 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		901AE73EDE59F2EC2ACBE0F5D9496912 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901AE73EDE59F2EC2ACBE0F5D9496912 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		905DF71697D46B27F939024508D9798B /* DeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceHelper.h; sourceTree = "<group>"; };
 		91A6CA463F26A90AF52C4F91DED2D446 /* UINavigationController+StackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StackManager.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95738E6467E59FF68E89C6153462F2E9 /* NSTimer+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
 		95BE5CE97EE37D6BF0E786ADD0372534 /* NSString+Pinyin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
 		9617DE6A1A2FAE4C4583EE8FFDE02657 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
 		96958C1428D038E867E733C3ED7A7E75 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		9727BFCD60EB716067C345ABAF91DFA0 /* ALActionBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALActionBlocks.h; sourceTree = "<group>"; };
-		97931BD50FA401F2952A2CDCB5B3E46B /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		97931BD50FA401F2952A2CDCB5B3E46B /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJExtension.modulemap; sourceTree = "<group>"; };
 		992A89461B27E8232A66F5A51DC374A9 /* CustomToastContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomToastContentView.m; sourceTree = "<group>"; };
 		99434483CA6E073341A5C6ED5E9F155C /* UIViewController+Current.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Current.h"; sourceTree = "<group>"; };
 		9ABDB61A4C56F568BA1F9EA64E234D3A /* WDYMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDYMacros.h; sourceTree = "<group>"; };
@@ -625,19 +627,19 @@
 		D015EB20D9C6790154959C00D97F1942 /* DeviceAuthorizationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceAuthorizationHelper.h; sourceTree = "<group>"; };
 		D0A758E18517387D580B26959C995552 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
 		D0CA6F104B6E9EFD39BB78666C3D22FD /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		D0DB0FA90B557E4A348F8963E41C4655 /* Pods-WDYBaseProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WDYBaseProject_Example.modulemap"; sourceTree = "<group>"; };
+		D0DB0FA90B557E4A348F8963E41C4655 /* Pods-WDYBaseProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WDYBaseProject_Example.modulemap"; sourceTree = "<group>"; };
 		D1A2BB7D55B5D34B3FB301C790642770 /* UIButton+Badge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
 		D333CB23801E9FABDB9392BF3E4148B2 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
 		D3BC9FD0F529B868FA35A7A434F06C55 /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		D471769CB94975678FCACF33B05A8E06 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		D59FEBD849FCBDEC5B69C68D949C5734 /* Pods_WDYBaseProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WDYBaseProject_Tests.framework; path = "Pods-WDYBaseProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59FEBD849FCBDEC5B69C68D949C5734 /* Pods_WDYBaseProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDYBaseProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EA2E463C456DA5C87F224F6FEC845B /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 		D633B0AFB8FB22D55F17528BB0041D90 /* DeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeviceHelper.m; sourceTree = "<group>"; };
 		D7FFF8426D94151BDFE659B713A4EC90 /* LayoutButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LayoutButton.h; sourceTree = "<group>"; };
 		D8F02360850A918C16B7057814AF0188 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
 		DB9CDFAB0E53B7C2BA40AD4B1D3E29AD /* NSDictionary+URL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URL.m"; sourceTree = "<group>"; };
 		DBAB2F317861FC25F0BE3E15DE04F522 /* NSBundle+MyLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MyLibrary.m"; sourceTree = "<group>"; };
-		DBE46D52C6EF2C539EAA272838DF71B7 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE46D52C6EF2C539EAA272838DF71B7 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC01CCA259928B1AE638C20EE9344832 /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		DC18FA133A16FDBA081F77B52B3B4E42 /* BaseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
 		DC34B35640FE9EF224B61F7D6A1A911B /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -746,7 +748,6 @@
 				5BFA1192279548167F5E86E0CC3DB4C8 /* UIFont+TTF.h */,
 				F71201529885066EB028FB05E9D79C0B /* UIFont+TTF.m */,
 			);
-			name = UIFont;
 			path = UIFont;
 			sourceTree = "<group>";
 		};
@@ -773,7 +774,6 @@
 				F4A7954D5BFB2F0915C9C4B1E75DEA6E /* UINavigationItem+Margin.h */,
 				C86898B55C0D67B08C8A53DF32383E25 /* UINavigationItem+Margin.m */,
 			);
-			name = UIBarButtonItem;
 			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
@@ -782,7 +782,6 @@
 			children = (
 				E904245DEC5F389FE6DB77CFD48A5BDC /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -794,7 +793,6 @@
 				671D4476143650199485CBEA366CD2BF /* UIColor+HexString.h */,
 				06864D87231131D8E2AC01DB05AE1032 /* UIColor+HexString.m */,
 			);
-			name = UIColor;
 			path = UIColor;
 			sourceTree = "<group>";
 		};
@@ -812,7 +810,6 @@
 			children = (
 				D5CC31594F1B19ACDA035EC0196B57AC /* Macros */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -825,7 +822,6 @@
 				7E909B9B00E894F6FB2D3836A1EF2603 /* UIControl+Delay.m */,
 				C627143ED89E725CDDB7E5CEB417D223 /* ALActionBlocks */,
 			);
-			name = UIControl;
 			path = UIControl;
 			sourceTree = "<group>";
 		};
@@ -866,8 +862,16 @@
 				85FF8FAC03B27BB8FA3DCF1341D216F9 /* UIApplication+KeyboardFrame.h */,
 				09979AB39EEB36F5C1A963CD19FEE2EF /* UIApplication+KeyboardFrame.m */,
 			);
-			name = UIApplication;
 			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		20FF2DB91E4422A300DCE2B3 /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				20FF2DBA1E4422C200DCE2B3 /* BaseProject.h */,
+			);
+			name = PublicHeaders;
+			path = WDYBaseProject/Classes/PublicHeaders;
 			sourceTree = "<group>";
 		};
 		2148686245C3D31704840A5B2B6C46CC /* CALayer */ = {
@@ -878,13 +882,13 @@
 				89BAE29F0779A1E59D1FF9AECDAE9AEF /* CAShapeLayer+BezierPath.h */,
 				8E429D70E584C1428DD226C5ADC857D3 /* CAShapeLayer+BezierPath.m */,
 			);
-			name = CALayer;
 			path = CALayer;
 			sourceTree = "<group>";
 		};
 		248B7DF3EFA654003289FCCA95ECAF10 /* WDYBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				20FF2DB91E4422A300DCE2B3 /* PublicHeaders */,
 				692654194930FF20AFA707FC53FDDAC3 /* ADComponent */,
 				AA288BE7DDD16455CD11C4227C3D4464 /* BaseModel */,
 				F4B5A9D1CD64EDE9B75F9236913FB688 /* Category */,
@@ -930,7 +934,6 @@
 				7F8819B725A0F76866E835610CD6D672 /* Singleton.h */,
 				8861F3492BBD7B019C5B43ECE4BBF445 /* WDYUtilsHeader.h */,
 			);
-			name = Utils;
 			path = Utils;
 			sourceTree = "<group>";
 		};
@@ -944,7 +947,6 @@
 				85E852D8474BB98AE144089E628A170A /* UIViewController+NaviExtentions.h */,
 				4FB74BAF64B23C37C6E6AEB5BAD4EAAA /* UIViewController+NaviExtentions.m */,
 			);
-			name = UIViewController;
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
@@ -954,7 +956,6 @@
 				AE507BF72936D4C20A9B706829C8A456 /* UIScrollView+Common.h */,
 				CDEB6D86EBBD4C27BA9B7EDB59893142 /* UIScrollView+Common.m */,
 			);
-			name = UIScrollView;
 			path = UIScrollView;
 			sourceTree = "<group>";
 		};
@@ -973,7 +974,6 @@
 			children = (
 				43C6734DCFF3B5A415F6C71DB60794DD /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -989,7 +989,6 @@
 				C241FF77F201BD92E819284F1CFD96AF /* UIImageView+ImageFitSize.h */,
 				8AC4DA72B6F9CDE4CDB3157BA0300147 /* UIImageView+ImageFitSize.m */,
 			);
-			name = UIImageView;
 			path = UIImageView;
 			sourceTree = "<group>";
 		};
@@ -1001,7 +1000,6 @@
 				DE09F7A9C665BF2A1C369606DE4EF007 /* NSBundle+MyLibrary.h */,
 				DBAB2F317861FC25F0BE3E15DE04F522 /* NSBundle+MyLibrary.m */,
 			);
-			name = NSBundle;
 			path = NSBundle;
 			sourceTree = "<group>";
 		};
@@ -1033,7 +1031,6 @@
 				27CFF20CE7EB3A4026BC99EFE1778E11 /* NSString+Trims.h */,
 				65165FA366AEE4704718665A64781CCA /* NSString+Trims.m */,
 			);
-			name = NSString;
 			path = NSString;
 			sourceTree = "<group>";
 		};
@@ -1042,7 +1039,6 @@
 			children = (
 				25B6492309762B24D490DED07C76416B /* Utils */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1051,7 +1047,6 @@
 			children = (
 				3EB56ECC7430BEAD25AF3F52428F62A4 /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1060,7 +1055,6 @@
 			children = (
 				EC5A6C3810CAF6F2328D3F54A099506B /* Toast */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1078,7 +1072,6 @@
 			children = (
 				997A784F40D0CECF4C1CE3AE85645C52 /* Navigation */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1126,7 +1119,6 @@
 				7DDC87D1B72D37576574E277C66BFB10 /* NSString+MJExtension.m */,
 				923AF1BBD5EADB7EF002F6A1B50F06FF /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -1141,7 +1133,6 @@
 				7F6780BE0596D567AEE174687E4633E0 /* BaseTableViewCell.m */,
 				A253612E2E4EE845C155E3916464F87E /* TableViewHeader.h */,
 			);
-			name = TableViewComponent;
 			path = TableViewComponent;
 			sourceTree = "<group>";
 		};
@@ -1150,7 +1141,6 @@
 			children = (
 				B7667BC39FCA1946DD78A934850EA4D0 /* BaseModel */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1159,7 +1149,6 @@
 			children = (
 				5571B709D0E17040F331B3D1E90ECBA7 /* TableViewComponent */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1235,7 +1224,6 @@
 				A1E2646F86CD46AE5A654C0C3C552CBC /* SafeCategory.h */,
 				295DC9271C42E89312501F6AA3647987 /* SafeCategory.m */,
 			);
-			name = SafeCategory;
 			path = SafeCategory;
 			sourceTree = "<group>";
 		};
@@ -1247,7 +1235,6 @@
 				91A6CA463F26A90AF52C4F91DED2D446 /* UINavigationController+StackManager.h */,
 				4EF1189F63A75285E88D5DB0BFA3CD00 /* UINavigationController+StackManager.m */,
 			);
-			name = UINavigationController;
 			path = UINavigationController;
 			sourceTree = "<group>";
 		};
@@ -1257,7 +1244,6 @@
 				17AC7E3FC5030B60E7F05E4AB509525D /* NSFileManager+Paths.h */,
 				E3370939EC8240C9170326132E974A9E /* NSFileManager+Paths.m */,
 			);
-			name = NSFileManager;
 			path = NSFileManager;
 			sourceTree = "<group>";
 		};
@@ -1278,7 +1264,6 @@
 			children = (
 				5AA11ADA29CDA086A7681F72DCFEB624 /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1290,7 +1275,6 @@
 				C5D55014DB3C9787454D8734D998F771 /* NSTimer+Blocks.h */,
 				C7899B8F35D71B38262AB7847AAF2EAB /* NSTimer+Blocks.m */,
 			);
-			name = NSTimer;
 			path = NSTimer;
 			sourceTree = "<group>";
 		};
@@ -1309,7 +1293,6 @@
 				C1279244B0B27ECDE540C33E78F1DC79 /* ModalPresentationViewController.m */,
 				80737571B9A959704B0927F90EF45758 /* WDYUIHeader.h */,
 			);
-			name = UIComponent;
 			path = UIComponent;
 			sourceTree = "<group>";
 		};
@@ -1343,7 +1326,6 @@
 			children = (
 				CE37DC327D487AB3D23C1E745862BEE6 /* Category */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1366,7 +1348,6 @@
 			children = (
 				11FE0AB15DB8CAAF194438E4B869F829 /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1391,7 +1372,6 @@
 				296932A8812C0375BE3D931BC14E1B66 /* UIViewController+RTRootNavigationController.m */,
 				3081153BA5DC45437D291864E295B214 /* WDYNavigation.h */,
 			);
-			name = Navigation;
 			path = Navigation;
 			sourceTree = "<group>";
 		};
@@ -1400,7 +1380,6 @@
 			children = (
 				5C4CB287D42BFBD2F40A775DD06C00E0 /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1409,7 +1388,6 @@
 			children = (
 				DB6A6F679122B8580C8DD83E9D94DD13 /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1418,7 +1396,6 @@
 			children = (
 				3498A3603C93E1E5F840DDCF7AF8ACEA /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1444,7 +1421,6 @@
 				E114C57F5211C430F299BC0AFF2A817E /* UITextField+Appearance.h */,
 				A7264F351AFCD210C9C40EABF50EBE74 /* UITextField+Appearance.m */,
 			);
-			name = UITextField;
 			path = UITextField;
 			sourceTree = "<group>";
 		};
@@ -1465,7 +1441,6 @@
 				68FA6D51992CD8DB26A84ED13072C11C /* NewFeaturePagesView.h */,
 				3B25B40DE8A4B700B71DAE9B1BD42F98 /* NewFeaturePagesView.m */,
 			);
-			name = NewFeatureComponent;
 			path = NewFeatureComponent;
 			sourceTree = "<group>";
 		};
@@ -1485,7 +1460,6 @@
 				C232AD168875A02A5DA8386FDAD159DB /* UIButton+Indicator.h */,
 				3F1451665CC133EED69DB12C0D9A574C /* UIButton+Indicator.m */,
 			);
-			name = UIButton;
 			path = UIButton;
 			sourceTree = "<group>";
 		};
@@ -1495,7 +1469,6 @@
 				A9C110CC0A96E41C021616CB8261831A /* BaseModel.h */,
 				DDC1FAE34EE28A9D7E471167206A0D67 /* BaseModel.m */,
 			);
-			name = BaseModel;
 			path = BaseModel;
 			sourceTree = "<group>";
 		};
@@ -1505,7 +1478,6 @@
 				5A57792ADCB3613A79AFF649A9BA0890 /* NSRunLoop+PerformBlock.h */,
 				6C4D3E9D445F59D6F44F16465B6E4DF0 /* NSRunLoop+PerformBlock.m */,
 			);
-			name = NSRunLoop;
 			path = NSRunLoop;
 			sourceTree = "<group>";
 		};
@@ -1525,7 +1497,6 @@
 				9CD50980D400F8E017AC2F9EE3E5FA84 /* NSObject+Runtime.h */,
 				53C805EB95C87789497A4D6A53BE72D0 /* NSObject+Runtime.m */,
 			);
-			name = NSObject;
 			path = NSObject;
 			sourceTree = "<group>";
 		};
@@ -1543,7 +1514,6 @@
 				1AE929A5326971EE79F60377B6C8D35B /* UIGestureRecognizer+ALActionBlocks.h */,
 				9EAC90487025B5F1F4740FFC4C2D5D5B /* UIGestureRecognizer+ALActionBlocks.m */,
 			);
-			name = ALActionBlocks;
 			path = ALActionBlocks;
 			sourceTree = "<group>";
 		};
@@ -1552,7 +1522,6 @@
 			children = (
 				833F6A641EBF16DFAAAB526D0AC6470D /* UIComponent */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1564,7 +1533,6 @@
 				BA3D821CB8F75F099D806718DD2C69DC /* NSDictionary+URL.h */,
 				DB9CDFAB0E53B7C2BA40AD4B1D3E29AD /* NSDictionary+URL.m */,
 			);
-			name = NSDictionary;
 			path = NSDictionary;
 			sourceTree = "<group>";
 		};
@@ -1598,7 +1566,6 @@
 				DA0D63C7E0BD318CAC13E058BD2A6B9B /* UIView */,
 				25DF2F63041AA1E566ADCA65F3DD3790 /* UIViewController */,
 			);
-			name = Category;
 			path = Category;
 			sourceTree = "<group>";
 		};
@@ -1608,7 +1575,6 @@
 				72CC351BCE19589EB5808F20CD9DD0A9 /* CommonDefines.h */,
 				9ABDB61A4C56F568BA1F9EA64E234D3A /* WDYMacros.h */,
 			);
-			name = Macros;
 			path = Macros;
 			sourceTree = "<group>";
 		};
@@ -1621,7 +1587,6 @@
 				12172BF1C6FC3101596751F52FA5B48D /* AdvertiseView.h */,
 				61F833559D00284C5E933950E0DB2DE1 /* AdvertiseView.m */,
 			);
-			name = ADComponent;
 			path = ADComponent;
 			sourceTree = "<group>";
 		};
@@ -1631,7 +1596,6 @@
 				EBBB48B6FCD4E97C5D7509E5B610E558 /* UITableView+Common.h */,
 				CCC42DF223EBCFAD8EB3B29D242528D6 /* UITableView+Common.m */,
 			);
-			name = UITableView;
 			path = UITableView;
 			sourceTree = "<group>";
 		};
@@ -1651,7 +1615,6 @@
 				2FF33CD54FCB6DA561592050A9D9ACE7 /* UIView+Nib.h */,
 				71D65DD2F653B3FA99E5CBFE8B9D0CB9 /* UIView+Nib.m */,
 			);
-			name = UIView;
 			path = UIView;
 			sourceTree = "<group>";
 		};
@@ -1660,7 +1623,6 @@
 			children = (
 				D70DA0D606F7FF857A685A4F671144B3 /* ADComponent */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1669,7 +1631,6 @@
 			children = (
 				C817553178A65FED5BE58D2F90198767 /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1692,7 +1653,6 @@
 			children = (
 				F0703949F1B4284EDC9F612A87D3A14E /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1725,7 +1685,6 @@
 			children = (
 				DCE51F4C2661E48E24CEA219A52FA405 /* WDYBaseProject.bundle */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1748,7 +1707,6 @@
 				774C4D29CBB12F1BE998EC6DF44F5001 /* ToastView.h */,
 				4262A479CD64251FAA428ADBA4F99954 /* ToastView.m */,
 			);
-			name = Toast;
 			path = Toast;
 			sourceTree = "<group>";
 		};
@@ -1772,7 +1730,6 @@
 				33E48576C80AD73346078EB9353F3EE1 /* UIImage+SubImage.h */,
 				F5F7FFF43AA7EEE579B50BD8B62D8790 /* UIImage+SubImage.m */,
 			);
-			name = UIImage;
 			path = UIImage;
 			sourceTree = "<group>";
 		};
@@ -1781,7 +1738,6 @@
 			children = (
 				B0C2F0138B4840565C7D8FEEDC9A0FE4 /* NewFeatureComponent */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1816,7 +1772,6 @@
 				1CFA0A7B6D2992A71542725F38FC5CD4 /* Support Files */,
 				6BA7EE87A1EAACE77EF5B0BB0A3D737D /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1825,7 +1780,6 @@
 			children = (
 				8ADC96D44F8B9B3C46FDD6B024F81D21 /* Classes */,
 			);
-			name = WDYBaseProject;
 			path = WDYBaseProject;
 			sourceTree = "<group>";
 		};
@@ -1837,7 +1791,6 @@
 				771DBE9A21AE674C24B3280777CE98C3 /* UIBezierPath+Symbol.h */,
 				8E0EF9ED0FB5CE7927FE802D66D9DACE /* UIBezierPath+Symbol.m */,
 			);
-			name = UIBezierPath;
 			path = UIBezierPath;
 			sourceTree = "<group>";
 		};
@@ -1847,7 +1800,6 @@
 				AFB6359F730462D78886A952DF3A8F31 /* UIDevice+Hardware.h */,
 				4E8C6506E392A9E32A64D9A58D8CFBCB /* UIDevice+Hardware.m */,
 			);
-			name = UIDevice;
 			path = UIDevice;
 			sourceTree = "<group>";
 		};
@@ -1937,6 +1889,7 @@
 				ABEE644492A654B8069A919749515178 /* UIButton+CountDown.h in Headers */,
 				CA9F2EF9A77004C94B3553A9A6C92D9E /* UIButton+Indicator.h in Headers */,
 				11658FC1641E39244B4ED2BC2D1D0986 /* UIColor+Gradient.h in Headers */,
+				20FF2DBB1E4422C200DCE2B3 /* BaseProject.h in Headers */,
 				480EDC38F5E0CE4BB473FAB3ECC748FF /* UIColor+HexString.h in Headers */,
 				6FF60C30A9854976107D2ACE14B4087D /* UIControl+ActionBlock.h in Headers */,
 				908EAB726F72A86C5469889350151739 /* UIControl+ALActionBlocks.h in Headers */,
