@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '0.9.6'
+  s.version          = '0.9.7'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -84,8 +84,8 @@ Pod::Spec.new do |s|
   #   'WDYBaseProject' => ['WDYBaseProject/WDYBaseProject.bundle']
   # }
   s.resource     = 'WDYBaseProject/Classes/WDYBaseProject.bundle'
-  s.public_header_files = 'WDYBaseProject/Classes/PublicHeaders/**/*'
-  s.header_dir = 'WDYBaseProject/Classes/PublicHeaders'
+  s.public_header_files = 'WDYBaseProject/Classes/**/*.h'
+  # s.header_dir = 'WDYBaseProject/Classes/PublicHeaders'
   # s.source_files  = 'WDYBaseProject/Classes/WDYBaseProject.h'
   # s.public_header_files = 'WDYBaseProject/Classes/WDYBaseProject.h'
   # s.frameworks = 'UIKit', 'MapKit'
