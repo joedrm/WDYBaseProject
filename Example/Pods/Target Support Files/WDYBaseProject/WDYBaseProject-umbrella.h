@@ -92,6 +92,7 @@
 #import "NewFeatureHeader.h"
 #import "NewFeaturePagesHelper.h"
 #import "NewFeaturePagesView.h"
+#import "BaseProject.h"
 #import "BaseTableHeaderFooterView.h"
 #import "BaseTableView.h"
 #import "BaseTableViewCell.h"

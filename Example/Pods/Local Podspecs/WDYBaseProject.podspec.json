@@ -1,6 +1,6 @@
 {
   "name": "WDYBaseProject",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "summary": "基础工程",
   "description": "常用的基础工程",
   "homepage": "https://github.com/wangdongyang/WDYBaseProject",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wangdongyang/WDYBaseProject.git",
-    "tag": "0.9.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -99,6 +99,42 @@
 
         ],
         "WDYBaseProject/Category": [
+
+        ]
+      }
+    },
+    {
+      "name": "PublicHeaders",
+      "source_files": "WDYBaseProject/Classes/PublicHeaders/**/*",
+      "dependencies": {
+        "WDYBaseProject/Utils": [
+
+        ],
+        "WDYBaseProject/Macros": [
+
+        ],
+        "WDYBaseProject/Category": [
+
+        ],
+        "WDYBaseProject/Toast": [
+
+        ],
+        "WDYBaseProject/BaseModel": [
+
+        ],
+        "WDYBaseProject/TableViewComponent": [
+
+        ],
+        "WDYBaseProject/ADComponent": [
+
+        ],
+        "WDYBaseProject/NewFeatureComponent": [
+
+        ],
+        "WDYBaseProject/Navigation": [
+
+        ],
+        "WDYBaseProject/UIComponent": [
 
         ]
       }

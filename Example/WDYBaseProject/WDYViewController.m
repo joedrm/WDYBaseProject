@@ -98,4 +98,9 @@
  https://github.com/wujunyang/MobileProject
  https://github.com/QMUI/QMUI_iOS
  https://github.com/mk2016/MKToolsKit
+ http://www.cnblogs.com/brycezhang/p/4117180.html  使用CocoaPods开发并打包静态库 
+ 
+ https://github.com/ElfSundae/AppComponents 开发常用组件
  */
+
+
