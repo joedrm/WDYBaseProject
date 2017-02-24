@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
       utils.dependency 'AFNetworking', '3.1.0'
       utils.dependency 'WDYBaseProject/Category'
       utils.dependency 'WDYBaseProject/Macros'
+      model.dependency 'MJExtension'
   end
 
   # 常用的宏

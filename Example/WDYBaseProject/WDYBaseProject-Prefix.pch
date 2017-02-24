@@ -14,7 +14,7 @@
     @import UIKit;
     @import Foundation;
 
-#import <WDYBaseProject/BaseProject.h>
+#import <WDYBaseProject/WDYBaseProject.h>
 
 //#import <WDYBaseProject/WDYCategory.h> // 分类组件
 //#import <WDYBaseProject/WDYMacros.h>    // 宏组件
