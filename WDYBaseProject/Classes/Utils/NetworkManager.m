@@ -28,6 +28,8 @@ static NSString *const kRequest_TimeOutKeyPath = @"timeoutInterval";
 
 @end
 
+#define CONTENT_TYPE @"application/json"
+
 @implementation NetworkManager
 
 + (instancetype)shareManager{
@@ -45,6 +47,7 @@ static NSString *const kRequest_TimeOutKeyPath = @"timeoutInterval";
         _requestManager = [AFHTTPSessionManager manager];
         _requestManager.requestSerializer = [AFHTTPRequestSerializer serializer];
         _requestManager.responseSerializer = [AFHTTPResponseSerializer serializer];
+        _requestManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:CONTENT_TYPE, @"text/html", nil];
         [self setTimeoutInterval:10.0];
     }
     return self;

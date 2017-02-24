@@ -12,7 +12,11 @@
 #ifndef UIHeader_h
 #define UIHeader_h
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
+#import "BaseNavigationViewController.h"
+#import "BaseViewController.h"
 #import "LayoutButton.h"
 #import "CustomTextField.h"
 #import "ModalPresentationViewController.h"

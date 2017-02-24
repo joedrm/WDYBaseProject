@@ -8,7 +8,7 @@
 
 #import "WDYViewController.h"
 #import "TestViewController.h"
-
+#import "Test2ViewController.h"
 
 
 @interface WDYViewController ()
@@ -42,6 +42,23 @@
     [btn setImage:[UIImage imageNamed:@"envelope"] forState:UIControlStateNormal];
     [btn setTitle:@"test" forState:UIControlStateNormal];
     [self.view addSubview:btn];
+    
+    
+    // 上面图片，下面文字的按钮
+    LayoutButton* btn1 = [[LayoutButton alloc] init];
+    btn1.backgroundColor = [UIColor redColor];
+    btn1.frame = CGRectMake(220, 300, 80, 80);
+    btn1.layoutStyle = LayoutButtonStyleUpImageDownTitle;
+    btn1.imageSize = CGSizeMake(40, 40);
+    btn1.midSpacing = 12;
+    [btn1 addActionHandler:^{
+        Test2ViewController* testVC = [[Test2ViewController alloc] init];
+        [self.navigationController pushViewController:testVC animated:YES];
+    }];
+    [btn1 setImage:[UIImage imageNamed:@"envelope"] forState:UIControlStateNormal];
+    [btn1 setTitle:@"test" forState:UIControlStateNormal];
+    [self.view addSubview:btn1];
+    
     
     [self configNavBarWithBackImage:[UIImage imageNamed:@"envelope"] shadowImage:nil tintColor:[UIColor redColor] barTintColor:[UIColor whiteColor] titleColor:[UIColor whiteColor] titleFont:kFontWithSize(12) hideBackTitle:YES];
     

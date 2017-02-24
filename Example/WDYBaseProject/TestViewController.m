@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController configNavBarWithBackImage:[UIImage imageNamed:@"envelope"] shadowImage:nil tintColor:[UIColor redColor] barTintColor:[UIColor whiteColor] titleColor:[UIColor whiteColor] titleFont:kFontWithSize(12) hideBackTitle:YES];
+//    [self.navigationController configNavBarWithBackImage:[UIImage imageNamed:@"envelope"] shadowImage:nil tintColor:[UIColor redColor] barTintColor:[UIColor whiteColor] titleColor:[UIColor whiteColor] titleFont:kFontWithSize(12) hideBackTitle:YES];
     
 //    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
 //        self.navigationController.interactivePopGestureRecognizer.enabled = NO;
@@ -28,6 +28,8 @@
     [leftBtn setBackgroundColor:[UIColor redColor] forState:UIControlStateNormal];
     leftBtn.frame = CGRectMake(0, 0, 40, 40);
     [leftBtn addActionHandler:^{
+        NSLog(@"我要返回了...");
+        
         [self.navigationController popViewControllerAnimated:YES];
     }]; 
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftBtn];
