@@ -4,6 +4,10 @@
 /** 用十六进制颜色生成UIColor */
 @interface UIColor (HexString)
 
-+ (UIColor *)colorWithHexString:(NSString *)stringToConvert;
+//@"ffffff" or @"#ffffff"
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert opacity:(float)opacity;
++ (UIColor *)colorWithHex:(long)hexColor;
 
+//0x2d3f4a
++ (UIColor *)colorWithHex:(long)hexColor opacity:(float)opacity;
 @end

@@ -4,7 +4,7 @@
 @implementation UIColor (HexString)
 
 #pragma mark - 第一种
-+ (UIColor *)colorWithHexString:(NSString *)stringToConvert {
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert opacity:(float)opacity {
   NSString *cString = [[stringToConvert stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString]; //去掉前后空格换行符
   
   // String should be 6 or 8 characters
@@ -35,8 +35,21 @@
   return [UIColor colorWithRed:((float) r / 255.0f)
                          green:((float) g / 255.0f)
                           blue:((float) b / 255.0f)
-                         alpha:1.0f];
+                         alpha:opacity];
 }
+
++ (UIColor *)colorWithHex:(long)hexColor {
+    return [UIColor colorWithHex:hexColor opacity:1.];
+}
+
++ (UIColor *)colorWithHex:(long)hexColor opacity:(float)opacity {
+    float red = ((float)((hexColor & 0xFF0000) >> 16))/255.0;
+    float green = ((float)((hexColor & 0xFF00) >> 8))/255.0;
+    float blue = ((float)(hexColor & 0xFF))/255.0;
+    return [UIColor colorWithRed:red green:green blue:blue alpha:opacity];
+}
+
+
 
 #pragma mark - 第二种
 //+ (UIColor *)colorWithHexString:(NSString *)hexString {
