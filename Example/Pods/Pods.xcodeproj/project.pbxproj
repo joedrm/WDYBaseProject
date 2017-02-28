@@ -46,138 +46,6 @@
 		1F67E3B2622E02FDB5386D777EB9AC41 /* Pods-WDYBaseProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 242FAFA3E8E2F7A6B6EA4A033DBC84F0 /* Pods-WDYBaseProject_Tests-dummy.m */; };
 		1FAAA185749047427FDFB9373FCF55A4 /* NewFeatureHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B2E7E199E88AB9FFC2199A436972D6 /* NewFeatureHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FBFD94316326DCB9485F8704696806B /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6C59402D25798A05912E4E73973D0C /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		208BB0261E652A7E00B96123 /* VideoMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0251E652A7E00B96123 /* VideoMaker.h */; };
-		208BB0AA1E654F8900B96123 /* AssetsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0271E654F8900B96123 /* AssetsCollection.h */; };
-		208BB0AB1E654F8900B96123 /* AssetsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0281E654F8900B96123 /* AssetsCollection.m */; };
-		208BB0AC1E654F8900B96123 /* CIImage+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0291E654F8900B96123 /* CIImage+Convenience.h */; };
-		208BB0AD1E654F8900B96123 /* CIImage+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB02A1E654F8900B96123 /* CIImage+Convenience.m */; };
-		208BB0AE1E654F8900B96123 /* CollageLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB02B1E654F8900B96123 /* CollageLayout.h */; };
-		208BB0AF1E654F8900B96123 /* CollageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB02C1E654F8900B96123 /* CollageLayout.m */; };
-		208BB0B01E654F8900B96123 /* CollageSlidingLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB02D1E654F8900B96123 /* CollageSlidingLayout.h */; };
-		208BB0B11E654F8900B96123 /* CollageSlidingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB02E1E654F8900B96123 /* CollageSlidingLayout.m */; };
-		208BB0B21E654F8900B96123 /* PlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB02F1E654F8900B96123 /* PlayerView.h */; };
-		208BB0B31E654F8900B96123 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0301E654F8900B96123 /* PlayerView.m */; };
-		208BB0B41E654F8900B96123 /* TransitionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0311E654F8900B96123 /* TransitionFilter.h */; };
-		208BB0B51E654F8900B96123 /* TransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0321E654F8900B96123 /* TransitionFilter.m */; };
-		208BB0B61E654F8900B96123 /* VAccordionOrigamiTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0331E654F8900B96123 /* VAccordionOrigamiTransition.h */; };
-		208BB0B71E654F8900B96123 /* VAccordionOrigamiTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0341E654F8900B96123 /* VAccordionOrigamiTransition.m */; };
-		208BB0B81E654F8900B96123 /* VAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0351E654F8900B96123 /* VAsset.h */; };
-		208BB0B91E654F8900B96123 /* VAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0361E654F8900B96123 /* VAsset.m */; };
-		208BB0BA1E654F8900B96123 /* VAssetCollage.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0371E654F8900B96123 /* VAssetCollage.h */; };
-		208BB0BB1E654F8900B96123 /* VAssetCollage.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0381E654F8900B96123 /* VAssetCollage.m */; };
-		208BB0BC1E654F8900B96123 /* VAssetPHImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0391E654F8900B96123 /* VAssetPHImage.h */; };
-		208BB0BD1E654F8900B96123 /* VAssetPHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB03A1E654F8900B96123 /* VAssetPHImage.m */; };
-		208BB0BE1E654F8900B96123 /* VAssetSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB03B1E654F8900B96123 /* VAssetSegment.h */; };
-		208BB0BF1E654F8900B96123 /* VAssetSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB03C1E654F8900B96123 /* VAssetSegment.m */; };
-		208BB0C01E654F8900B96123 /* VAssetWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB03D1E654F8900B96123 /* VAssetWebImage.h */; };
-		208BB0C11E654F8900B96123 /* VAssetWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB03E1E654F8900B96123 /* VAssetWebImage.m */; };
-		208BB0C21E654F8900B96123 /* VBookPageOrigamiTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB03F1E654F8900B96123 /* VBookPageOrigamiTransition.h */; };
-		208BB0C31E654F8900B96123 /* VBookPageOrigamiTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0401E654F8900B96123 /* VBookPageOrigamiTransition.m */; };
-		208BB0C41E654F8900B96123 /* VCollageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0411E654F8900B96123 /* VCollageBuilder.h */; };
-		208BB0C51E654F8900B96123 /* VCollageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0421E654F8900B96123 /* VCollageBuilder.m */; };
-		208BB0C61E654F8900B96123 /* VCollageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0431E654F8900B96123 /* VCollageFrame.h */; };
-		208BB0C71E654F8900B96123 /* VCollageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0441E654F8900B96123 /* VCollageFrame.m */; };
-		208BB0C81E654F8900B96123 /* VCompositionInstruction.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0451E654F8900B96123 /* VCompositionInstruction.h */; };
-		208BB0C91E654F8900B96123 /* VCompositionInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0461E654F8900B96123 /* VCompositionInstruction.m */; };
-		208BB0CA1E654F8900B96123 /* VCoreVideoFrameProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0471E654F8900B96123 /* VCoreVideoFrameProvider.h */; };
-		208BB0CB1E654F8900B96123 /* VCoreVideoFrameProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0481E654F8900B96123 /* VCoreVideoFrameProvider.m */; };
-		208BB0CC1E654F8900B96123 /* VDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0491E654F8900B96123 /* VDocument.h */; };
-		208BB0CD1E654F8900B96123 /* VDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB04A1E654F8900B96123 /* VDocument.m */; };
-		208BB0CE1E654F8900B96123 /* VEAspectFill.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB04B1E654F8900B96123 /* VEAspectFill.h */; };
-		208BB0CF1E654F8900B96123 /* VEAspectFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB04C1E654F8900B96123 /* VEAspectFill.m */; };
-		208BB0D01E654F8900B96123 /* VEAspectFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB04D1E654F8900B96123 /* VEAspectFit.h */; };
-		208BB0D11E654F8900B96123 /* VEAspectFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB04E1E654F8900B96123 /* VEAspectFit.m */; };
-		208BB0D21E654F8900B96123 /* VEFadeInFadeOut.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB04F1E654F8900B96123 /* VEFadeInFadeOut.h */; };
-		208BB0D31E654F8900B96123 /* VEFadeInFadeOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0501E654F8900B96123 /* VEFadeInFadeOut.m */; };
-		208BB0D41E654F8900B96123 /* VEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0511E654F8900B96123 /* VEffect.h */; };
-		208BB0D51E654F8900B96123 /* VEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0521E654F8900B96123 /* VEffect.m */; };
-		208BB0D61E654F8900B96123 /* VEKenBurns.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0531E654F8900B96123 /* VEKenBurns.h */; };
-		208BB0D71E654F8900B96123 /* VEKenBurns.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0541E654F8900B96123 /* VEKenBurns.m */; };
-		208BB0D81E654F8900B96123 /* VFoldingOrigamiTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0551E654F8900B96123 /* VFoldingOrigamiTransition.h */; };
-		208BB0D91E654F8900B96123 /* VFoldingOrigamiTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0561E654F8900B96123 /* VFoldingOrigamiTransition.m */; };
-		208BB0DA1E654F8900B96123 /* VFrameProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0571E654F8900B96123 /* VFrameProvider.h */; };
-		208BB0DB1E654F8900B96123 /* VFrameProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0581E654F8900B96123 /* VFrameProvider.m */; };
-		208BB0DC1E654F8900B96123 /* VFrameRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0591E654F8900B96123 /* VFrameRequest.h */; };
-		208BB0DD1E654F8900B96123 /* VFrameRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB05A1E654F8900B96123 /* VFrameRequest.m */; };
-		208BB0DE1E654F8900B96123 /* VideoComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB05B1E654F8900B96123 /* VideoComposition.h */; };
-		208BB0DF1E654F8900B96123 /* VideoComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB05C1E654F8900B96123 /* VideoComposition.m */; };
-		208BB0E01E654F8900B96123 /* VideoCompositor.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB05D1E654F8900B96123 /* VideoCompositor.h */; };
-		208BB0E11E654F8900B96123 /* VideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB05E1E654F8900B96123 /* VideoCompositor.m */; };
-		208BB0E21E654F8900B96123 /* VKenBurnsCollageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB05F1E654F8900B96123 /* VKenBurnsCollageBuilder.h */; };
-		208BB0E31E654F8900B96123 /* VKenBurnsCollageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0601E654F8900B96123 /* VKenBurnsCollageBuilder.m */; };
-		208BB0E41E654F8900B96123 /* VOrigamiCollageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0611E654F8900B96123 /* VOrigamiCollageBuilder.h */; };
-		208BB0E51E654F8900B96123 /* VOrigamiCollageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0621E654F8900B96123 /* VOrigamiCollageBuilder.m */; };
-		208BB0E61E654F8900B96123 /* VProvidersCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0631E654F8900B96123 /* VProvidersCollection.h */; };
-		208BB0E71E654F8900B96123 /* VProvidersCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0641E654F8900B96123 /* VProvidersCollection.m */; };
-		208BB0E81E654F8900B96123 /* VRenderingStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0651E654F8900B96123 /* VRenderingStats.h */; };
-		208BB0E91E654F8900B96123 /* VSegmentsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0661E654F8900B96123 /* VSegmentsCollection.h */; };
-		208BB0EA1E654F8900B96123 /* VSegmentsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0671E654F8900B96123 /* VSegmentsCollection.m */; };
-		208BB0EB1E654F8900B96123 /* VSlidingPanelsCollageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0681E654F8900B96123 /* VSlidingPanelsCollageBuilder.h */; };
-		208BB0EC1E654F8900B96123 /* VSlidingPanelsCollageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0691E654F8900B96123 /* VSlidingPanelsCollageBuilder.m */; };
-		208BB0ED1E654F8900B96123 /* VStillImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB06A1E654F8900B96123 /* VStillImage.h */; };
-		208BB0EE1E654F8900B96123 /* VStillImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB06B1E654F8900B96123 /* VStillImage.m */; };
-		208BB0EF1E654F8900B96123 /* VTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB06C1E654F8900B96123 /* VTransition.h */; };
-		208BB0F01E654F8900B96123 /* VTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB06D1E654F8900B96123 /* VTransition.m */; };
-		208BB0F11E654F8900B96123 /* VTransition01Dissolve.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB06E1E654F8900B96123 /* VTransition01Dissolve.h */; };
-		208BB0F21E654F8900B96123 /* VTransition01Dissolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB06F1E654F8900B96123 /* VTransition01Dissolve.m */; };
-		208BB0F31E654F8900B96123 /* VTransition01Fading.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0701E654F8900B96123 /* VTransition01Fading.h */; };
-		208BB0F41E654F8900B96123 /* VTransition01Fading.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0711E654F8900B96123 /* VTransition01Fading.m */; };
-		208BB0F51E654F8900B96123 /* VTransition02CIAccordionFoldTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0721E654F8900B96123 /* VTransition02CIAccordionFoldTransition.h */; };
-		208BB0F61E654F8900B96123 /* VTransition02CIAccordionFoldTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0731E654F8900B96123 /* VTransition02CIAccordionFoldTransition.m */; };
-		208BB0F71E654F8900B96123 /* VTransition03CIBarsSwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0741E654F8900B96123 /* VTransition03CIBarsSwipeTransition.h */; };
-		208BB0F81E654F8900B96123 /* VTransition03CIBarsSwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0751E654F8900B96123 /* VTransition03CIBarsSwipeTransition.m */; };
-		208BB0F91E654F8900B96123 /* VTransition04CIDissolveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0761E654F8900B96123 /* VTransition04CIDissolveTransition.h */; };
-		208BB0FA1E654F8900B96123 /* VTransition04CIDissolveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0771E654F8900B96123 /* VTransition04CIDissolveTransition.m */; };
-		208BB0FB1E654F8900B96123 /* VTransition05CIModTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0781E654F8900B96123 /* VTransition05CIModTransition.h */; };
-		208BB0FC1E654F8900B96123 /* VTransition05CIModTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0791E654F8900B96123 /* VTransition05CIModTransition.m */; };
-		208BB0FD1E654F8900B96123 /* VTransition06CISwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB07A1E654F8900B96123 /* VTransition06CISwipeTransition.h */; };
-		208BB0FE1E654F8900B96123 /* VTransition06CISwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB07B1E654F8900B96123 /* VTransition06CISwipeTransition.m */; };
-		208BB0FF1E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB07C1E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.h */; };
-		208BB1001E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB07D1E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.m */; };
-		208BB1011E654F8900B96123 /* VTransition08CIBarsSwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB07E1E654F8900B96123 /* VTransition08CIBarsSwipeTransition.h */; };
-		208BB1021E654F8900B96123 /* VTransition08CIBarsSwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB07F1E654F8900B96123 /* VTransition08CIBarsSwipeTransition.m */; };
-		208BB1031E654F8900B96123 /* VTransition09CIBarsSwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0801E654F8900B96123 /* VTransition09CIBarsSwipeTransition.h */; };
-		208BB1041E654F8900B96123 /* VTransition09CIBarsSwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0811E654F8900B96123 /* VTransition09CIBarsSwipeTransition.m */; };
-		208BB1051E654F8900B96123 /* VTransition10CIBarsSwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0821E654F8900B96123 /* VTransition10CIBarsSwipeTransition.h */; };
-		208BB1061E654F8900B96123 /* VTransition10CIBarsSwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0831E654F8900B96123 /* VTransition10CIBarsSwipeTransition.m */; };
-		208BB1071E654F8900B96123 /* VTransition11CIBarsSwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0841E654F8900B96123 /* VTransition11CIBarsSwipeTransition.h */; };
-		208BB1081E654F8900B96123 /* VTransition11CIBarsSwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0851E654F8900B96123 /* VTransition11CIBarsSwipeTransition.m */; };
-		208BB1091E654F8900B96123 /* VTransition12CIBarsSwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0861E654F8900B96123 /* VTransition12CIBarsSwipeTransition.h */; };
-		208BB10A1E654F8900B96123 /* VTransition12CIBarsSwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0871E654F8900B96123 /* VTransition12CIBarsSwipeTransition.m */; };
-		208BB10B1E654F8900B96123 /* VTransition13CIModTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0881E654F8900B96123 /* VTransition13CIModTransition.h */; };
-		208BB10C1E654F8900B96123 /* VTransition13CIModTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0891E654F8900B96123 /* VTransition13CIModTransition.m */; };
-		208BB10D1E654F8900B96123 /* VTransition14CIModTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB08A1E654F8900B96123 /* VTransition14CIModTransition.h */; };
-		208BB10E1E654F8900B96123 /* VTransition14CIModTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB08B1E654F8900B96123 /* VTransition14CIModTransition.m */; };
-		208BB10F1E654F8900B96123 /* VTransition15CIModTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB08C1E654F8900B96123 /* VTransition15CIModTransition.h */; };
-		208BB1101E654F8900B96123 /* VTransition15CIModTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB08D1E654F8900B96123 /* VTransition15CIModTransition.m */; };
-		208BB1111E654F8900B96123 /* VTransition16CIModTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB08E1E654F8900B96123 /* VTransition16CIModTransition.h */; };
-		208BB1121E654F8900B96123 /* VTransition16CIModTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB08F1E654F8900B96123 /* VTransition16CIModTransition.m */; };
-		208BB1131E654F8900B96123 /* VTransition17CIModTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0901E654F8900B96123 /* VTransition17CIModTransition.h */; };
-		208BB1141E654F8900B96123 /* VTransition17CIModTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0911E654F8900B96123 /* VTransition17CIModTransition.m */; };
-		208BB1151E654F8900B96123 /* VTransition18CISwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0921E654F8900B96123 /* VTransition18CISwipeTransition.h */; };
-		208BB1161E654F8900B96123 /* VTransition18CISwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0931E654F8900B96123 /* VTransition18CISwipeTransition.m */; };
-		208BB1171E654F8900B96123 /* VTransition19CISwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0941E654F8900B96123 /* VTransition19CISwipeTransition.h */; };
-		208BB1181E654F8900B96123 /* VTransition19CISwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0951E654F8900B96123 /* VTransition19CISwipeTransition.m */; };
-		208BB1191E654F8900B96123 /* VTransition20CISwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0961E654F8900B96123 /* VTransition20CISwipeTransition.h */; };
-		208BB11A1E654F8900B96123 /* VTransition20CISwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0971E654F8900B96123 /* VTransition20CISwipeTransition.m */; };
-		208BB11B1E654F8900B96123 /* VTransition21CISwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0981E654F8900B96123 /* VTransition21CISwipeTransition.h */; };
-		208BB11C1E654F8900B96123 /* VTransition21CISwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0991E654F8900B96123 /* VTransition21CISwipeTransition.m */; };
-		208BB11D1E654F8900B96123 /* VTransition22CISwipeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB09A1E654F8900B96123 /* VTransition22CISwipeTransition.h */; };
-		208BB11E1E654F8900B96123 /* VTransition22CISwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB09B1E654F8900B96123 /* VTransition22CISwipeTransition.m */; };
-		208BB11F1E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB09C1E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.h */; };
-		208BB1201E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB09D1E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.m */; };
-		208BB1211E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB09E1E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.h */; };
-		208BB1221E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB09F1E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.m */; };
-		208BB1231E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0A01E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.h */; };
-		208BB1241E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0A11E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.m */; };
-		208BB1251E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0A21E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.h */; };
-		208BB1261E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0A31E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.m */; };
-		208BB1271E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0A41E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.h */; };
-		208BB1281E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0A51E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.m */; };
-		208BB1291E654F8900B96123 /* VTransitionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0A61E654F8900B96123 /* VTransitionFactory.h */; };
-		208BB12A1E654F8900B96123 /* VTransitionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0A71E654F8900B96123 /* VTransitionFactory.m */; };
-		208BB12B1E654F8900B96123 /* VTwistingOrigamiTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BB0A81E654F8900B96123 /* VTwistingOrigamiTransition.h */; };
-		208BB12C1E654F8900B96123 /* VTwistingOrigamiTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BB0A91E654F8900B96123 /* VTwistingOrigamiTransition.m */; };
 		2249A027DF79E2F0CE35C447EE9710C2 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C998DC556C117F78694EEA794B80074E /* BaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22515FDD971A98612230B674603D4DFF /* WDYBaseProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84062484E028D3E6E2827A724EE6D9DF /* WDYBaseProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22F32CB3D5416C4EFB997E7B18BD6906 /* ALActionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = D658C03421DF701BBF1F80FDA6781559 /* ALActionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -525,138 +393,6 @@
 		1CD487642DD99802F2DC65D5179D62AF /* NewFeaturePagesView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NewFeaturePagesView.m; sourceTree = "<group>"; };
 		1E31743BCB2934B1999A0E0D9C33324C /* UIButton+Badge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
 		1FB702485A4848C1753D2D2B4931E2E9 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
-		208BB0251E652A7E00B96123 /* VideoMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoMaker.h; sourceTree = "<group>"; };
-		208BB0271E654F8900B96123 /* AssetsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsCollection.h; sourceTree = "<group>"; };
-		208BB0281E654F8900B96123 /* AssetsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsCollection.m; sourceTree = "<group>"; };
-		208BB0291E654F8900B96123 /* CIImage+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+Convenience.h"; sourceTree = "<group>"; };
-		208BB02A1E654F8900B96123 /* CIImage+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Convenience.m"; sourceTree = "<group>"; };
-		208BB02B1E654F8900B96123 /* CollageLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageLayout.h; sourceTree = "<group>"; };
-		208BB02C1E654F8900B96123 /* CollageLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageLayout.m; sourceTree = "<group>"; };
-		208BB02D1E654F8900B96123 /* CollageSlidingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageSlidingLayout.h; sourceTree = "<group>"; };
-		208BB02E1E654F8900B96123 /* CollageSlidingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageSlidingLayout.m; sourceTree = "<group>"; };
-		208BB02F1E654F8900B96123 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
-		208BB0301E654F8900B96123 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
-		208BB0311E654F8900B96123 /* TransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFilter.h; sourceTree = "<group>"; };
-		208BB0321E654F8900B96123 /* TransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFilter.m; sourceTree = "<group>"; };
-		208BB0331E654F8900B96123 /* VAccordionOrigamiTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAccordionOrigamiTransition.h; sourceTree = "<group>"; };
-		208BB0341E654F8900B96123 /* VAccordionOrigamiTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAccordionOrigamiTransition.m; sourceTree = "<group>"; };
-		208BB0351E654F8900B96123 /* VAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAsset.h; sourceTree = "<group>"; };
-		208BB0361E654F8900B96123 /* VAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAsset.m; sourceTree = "<group>"; };
-		208BB0371E654F8900B96123 /* VAssetCollage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAssetCollage.h; sourceTree = "<group>"; };
-		208BB0381E654F8900B96123 /* VAssetCollage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAssetCollage.m; sourceTree = "<group>"; };
-		208BB0391E654F8900B96123 /* VAssetPHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAssetPHImage.h; sourceTree = "<group>"; };
-		208BB03A1E654F8900B96123 /* VAssetPHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAssetPHImage.m; sourceTree = "<group>"; };
-		208BB03B1E654F8900B96123 /* VAssetSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAssetSegment.h; sourceTree = "<group>"; };
-		208BB03C1E654F8900B96123 /* VAssetSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAssetSegment.m; sourceTree = "<group>"; };
-		208BB03D1E654F8900B96123 /* VAssetWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAssetWebImage.h; sourceTree = "<group>"; };
-		208BB03E1E654F8900B96123 /* VAssetWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAssetWebImage.m; sourceTree = "<group>"; };
-		208BB03F1E654F8900B96123 /* VBookPageOrigamiTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBookPageOrigamiTransition.h; sourceTree = "<group>"; };
-		208BB0401E654F8900B96123 /* VBookPageOrigamiTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBookPageOrigamiTransition.m; sourceTree = "<group>"; };
-		208BB0411E654F8900B96123 /* VCollageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCollageBuilder.h; sourceTree = "<group>"; };
-		208BB0421E654F8900B96123 /* VCollageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCollageBuilder.m; sourceTree = "<group>"; };
-		208BB0431E654F8900B96123 /* VCollageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCollageFrame.h; sourceTree = "<group>"; };
-		208BB0441E654F8900B96123 /* VCollageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCollageFrame.m; sourceTree = "<group>"; };
-		208BB0451E654F8900B96123 /* VCompositionInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCompositionInstruction.h; sourceTree = "<group>"; };
-		208BB0461E654F8900B96123 /* VCompositionInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCompositionInstruction.m; sourceTree = "<group>"; };
-		208BB0471E654F8900B96123 /* VCoreVideoFrameProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCoreVideoFrameProvider.h; sourceTree = "<group>"; };
-		208BB0481E654F8900B96123 /* VCoreVideoFrameProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCoreVideoFrameProvider.m; sourceTree = "<group>"; };
-		208BB0491E654F8900B96123 /* VDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDocument.h; sourceTree = "<group>"; };
-		208BB04A1E654F8900B96123 /* VDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDocument.m; sourceTree = "<group>"; };
-		208BB04B1E654F8900B96123 /* VEAspectFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEAspectFill.h; sourceTree = "<group>"; };
-		208BB04C1E654F8900B96123 /* VEAspectFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEAspectFill.m; sourceTree = "<group>"; };
-		208BB04D1E654F8900B96123 /* VEAspectFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEAspectFit.h; sourceTree = "<group>"; };
-		208BB04E1E654F8900B96123 /* VEAspectFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEAspectFit.m; sourceTree = "<group>"; };
-		208BB04F1E654F8900B96123 /* VEFadeInFadeOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEFadeInFadeOut.h; sourceTree = "<group>"; };
-		208BB0501E654F8900B96123 /* VEFadeInFadeOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEFadeInFadeOut.m; sourceTree = "<group>"; };
-		208BB0511E654F8900B96123 /* VEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEffect.h; sourceTree = "<group>"; };
-		208BB0521E654F8900B96123 /* VEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEffect.m; sourceTree = "<group>"; };
-		208BB0531E654F8900B96123 /* VEKenBurns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEKenBurns.h; sourceTree = "<group>"; };
-		208BB0541E654F8900B96123 /* VEKenBurns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEKenBurns.m; sourceTree = "<group>"; };
-		208BB0551E654F8900B96123 /* VFoldingOrigamiTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFoldingOrigamiTransition.h; sourceTree = "<group>"; };
-		208BB0561E654F8900B96123 /* VFoldingOrigamiTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFoldingOrigamiTransition.m; sourceTree = "<group>"; };
-		208BB0571E654F8900B96123 /* VFrameProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFrameProvider.h; sourceTree = "<group>"; };
-		208BB0581E654F8900B96123 /* VFrameProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFrameProvider.m; sourceTree = "<group>"; };
-		208BB0591E654F8900B96123 /* VFrameRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFrameRequest.h; sourceTree = "<group>"; };
-		208BB05A1E654F8900B96123 /* VFrameRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFrameRequest.m; sourceTree = "<group>"; };
-		208BB05B1E654F8900B96123 /* VideoComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoComposition.h; sourceTree = "<group>"; };
-		208BB05C1E654F8900B96123 /* VideoComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoComposition.m; sourceTree = "<group>"; };
-		208BB05D1E654F8900B96123 /* VideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCompositor.h; sourceTree = "<group>"; };
-		208BB05E1E654F8900B96123 /* VideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCompositor.m; sourceTree = "<group>"; };
-		208BB05F1E654F8900B96123 /* VKenBurnsCollageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKenBurnsCollageBuilder.h; sourceTree = "<group>"; };
-		208BB0601E654F8900B96123 /* VKenBurnsCollageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKenBurnsCollageBuilder.m; sourceTree = "<group>"; };
-		208BB0611E654F8900B96123 /* VOrigamiCollageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOrigamiCollageBuilder.h; sourceTree = "<group>"; };
-		208BB0621E654F8900B96123 /* VOrigamiCollageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOrigamiCollageBuilder.m; sourceTree = "<group>"; };
-		208BB0631E654F8900B96123 /* VProvidersCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VProvidersCollection.h; sourceTree = "<group>"; };
-		208BB0641E654F8900B96123 /* VProvidersCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VProvidersCollection.m; sourceTree = "<group>"; };
-		208BB0651E654F8900B96123 /* VRenderingStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRenderingStats.h; sourceTree = "<group>"; };
-		208BB0661E654F8900B96123 /* VSegmentsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSegmentsCollection.h; sourceTree = "<group>"; };
-		208BB0671E654F8900B96123 /* VSegmentsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSegmentsCollection.m; sourceTree = "<group>"; };
-		208BB0681E654F8900B96123 /* VSlidingPanelsCollageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSlidingPanelsCollageBuilder.h; sourceTree = "<group>"; };
-		208BB0691E654F8900B96123 /* VSlidingPanelsCollageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSlidingPanelsCollageBuilder.m; sourceTree = "<group>"; };
-		208BB06A1E654F8900B96123 /* VStillImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VStillImage.h; sourceTree = "<group>"; };
-		208BB06B1E654F8900B96123 /* VStillImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VStillImage.m; sourceTree = "<group>"; };
-		208BB06C1E654F8900B96123 /* VTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition.h; sourceTree = "<group>"; };
-		208BB06D1E654F8900B96123 /* VTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition.m; sourceTree = "<group>"; };
-		208BB06E1E654F8900B96123 /* VTransition01Dissolve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition01Dissolve.h; sourceTree = "<group>"; };
-		208BB06F1E654F8900B96123 /* VTransition01Dissolve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition01Dissolve.m; sourceTree = "<group>"; };
-		208BB0701E654F8900B96123 /* VTransition01Fading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition01Fading.h; sourceTree = "<group>"; };
-		208BB0711E654F8900B96123 /* VTransition01Fading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition01Fading.m; sourceTree = "<group>"; };
-		208BB0721E654F8900B96123 /* VTransition02CIAccordionFoldTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition02CIAccordionFoldTransition.h; sourceTree = "<group>"; };
-		208BB0731E654F8900B96123 /* VTransition02CIAccordionFoldTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition02CIAccordionFoldTransition.m; sourceTree = "<group>"; };
-		208BB0741E654F8900B96123 /* VTransition03CIBarsSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition03CIBarsSwipeTransition.h; sourceTree = "<group>"; };
-		208BB0751E654F8900B96123 /* VTransition03CIBarsSwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition03CIBarsSwipeTransition.m; sourceTree = "<group>"; };
-		208BB0761E654F8900B96123 /* VTransition04CIDissolveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition04CIDissolveTransition.h; sourceTree = "<group>"; };
-		208BB0771E654F8900B96123 /* VTransition04CIDissolveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition04CIDissolveTransition.m; sourceTree = "<group>"; };
-		208BB0781E654F8900B96123 /* VTransition05CIModTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition05CIModTransition.h; sourceTree = "<group>"; };
-		208BB0791E654F8900B96123 /* VTransition05CIModTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition05CIModTransition.m; sourceTree = "<group>"; };
-		208BB07A1E654F8900B96123 /* VTransition06CISwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition06CISwipeTransition.h; sourceTree = "<group>"; };
-		208BB07B1E654F8900B96123 /* VTransition06CISwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition06CISwipeTransition.m; sourceTree = "<group>"; };
-		208BB07C1E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition07CIPageCurlWithShadowTransition.h; sourceTree = "<group>"; };
-		208BB07D1E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition07CIPageCurlWithShadowTransition.m; sourceTree = "<group>"; };
-		208BB07E1E654F8900B96123 /* VTransition08CIBarsSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition08CIBarsSwipeTransition.h; sourceTree = "<group>"; };
-		208BB07F1E654F8900B96123 /* VTransition08CIBarsSwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition08CIBarsSwipeTransition.m; sourceTree = "<group>"; };
-		208BB0801E654F8900B96123 /* VTransition09CIBarsSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition09CIBarsSwipeTransition.h; sourceTree = "<group>"; };
-		208BB0811E654F8900B96123 /* VTransition09CIBarsSwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition09CIBarsSwipeTransition.m; sourceTree = "<group>"; };
-		208BB0821E654F8900B96123 /* VTransition10CIBarsSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition10CIBarsSwipeTransition.h; sourceTree = "<group>"; };
-		208BB0831E654F8900B96123 /* VTransition10CIBarsSwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition10CIBarsSwipeTransition.m; sourceTree = "<group>"; };
-		208BB0841E654F8900B96123 /* VTransition11CIBarsSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition11CIBarsSwipeTransition.h; sourceTree = "<group>"; };
-		208BB0851E654F8900B96123 /* VTransition11CIBarsSwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition11CIBarsSwipeTransition.m; sourceTree = "<group>"; };
-		208BB0861E654F8900B96123 /* VTransition12CIBarsSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition12CIBarsSwipeTransition.h; sourceTree = "<group>"; };
-		208BB0871E654F8900B96123 /* VTransition12CIBarsSwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition12CIBarsSwipeTransition.m; sourceTree = "<group>"; };
-		208BB0881E654F8900B96123 /* VTransition13CIModTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition13CIModTransition.h; sourceTree = "<group>"; };
-		208BB0891E654F8900B96123 /* VTransition13CIModTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition13CIModTransition.m; sourceTree = "<group>"; };
-		208BB08A1E654F8900B96123 /* VTransition14CIModTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition14CIModTransition.h; sourceTree = "<group>"; };
-		208BB08B1E654F8900B96123 /* VTransition14CIModTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition14CIModTransition.m; sourceTree = "<group>"; };
-		208BB08C1E654F8900B96123 /* VTransition15CIModTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition15CIModTransition.h; sourceTree = "<group>"; };
-		208BB08D1E654F8900B96123 /* VTransition15CIModTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition15CIModTransition.m; sourceTree = "<group>"; };
-		208BB08E1E654F8900B96123 /* VTransition16CIModTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition16CIModTransition.h; sourceTree = "<group>"; };
-		208BB08F1E654F8900B96123 /* VTransition16CIModTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition16CIModTransition.m; sourceTree = "<group>"; };
-		208BB0901E654F8900B96123 /* VTransition17CIModTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition17CIModTransition.h; sourceTree = "<group>"; };
-		208BB0911E654F8900B96123 /* VTransition17CIModTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition17CIModTransition.m; sourceTree = "<group>"; };
-		208BB0921E654F8900B96123 /* VTransition18CISwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition18CISwipeTransition.h; sourceTree = "<group>"; };
-		208BB0931E654F8900B96123 /* VTransition18CISwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition18CISwipeTransition.m; sourceTree = "<group>"; };
-		208BB0941E654F8900B96123 /* VTransition19CISwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition19CISwipeTransition.h; sourceTree = "<group>"; };
-		208BB0951E654F8900B96123 /* VTransition19CISwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition19CISwipeTransition.m; sourceTree = "<group>"; };
-		208BB0961E654F8900B96123 /* VTransition20CISwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition20CISwipeTransition.h; sourceTree = "<group>"; };
-		208BB0971E654F8900B96123 /* VTransition20CISwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition20CISwipeTransition.m; sourceTree = "<group>"; };
-		208BB0981E654F8900B96123 /* VTransition21CISwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition21CISwipeTransition.h; sourceTree = "<group>"; };
-		208BB0991E654F8900B96123 /* VTransition21CISwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition21CISwipeTransition.m; sourceTree = "<group>"; };
-		208BB09A1E654F8900B96123 /* VTransition22CISwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition22CISwipeTransition.h; sourceTree = "<group>"; };
-		208BB09B1E654F8900B96123 /* VTransition22CISwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition22CISwipeTransition.m; sourceTree = "<group>"; };
-		208BB09C1E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition23CIPageCurlWithShadowTransition.h; sourceTree = "<group>"; };
-		208BB09D1E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition23CIPageCurlWithShadowTransition.m; sourceTree = "<group>"; };
-		208BB09E1E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition24CIPageCurlWithShadowTransition.h; sourceTree = "<group>"; };
-		208BB09F1E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition24CIPageCurlWithShadowTransition.m; sourceTree = "<group>"; };
-		208BB0A01E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition25CIPageCurlWithShadowTransition.h; sourceTree = "<group>"; };
-		208BB0A11E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition25CIPageCurlWithShadowTransition.m; sourceTree = "<group>"; };
-		208BB0A21E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition26CIPageCurlWithShadowTransition.h; sourceTree = "<group>"; };
-		208BB0A31E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition26CIPageCurlWithShadowTransition.m; sourceTree = "<group>"; };
-		208BB0A41E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransition27CIPageCurlWithShadowTransition.h; sourceTree = "<group>"; };
-		208BB0A51E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransition27CIPageCurlWithShadowTransition.m; sourceTree = "<group>"; };
-		208BB0A61E654F8900B96123 /* VTransitionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTransitionFactory.h; sourceTree = "<group>"; };
-		208BB0A71E654F8900B96123 /* VTransitionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTransitionFactory.m; sourceTree = "<group>"; };
-		208BB0A81E654F8900B96123 /* VTwistingOrigamiTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTwistingOrigamiTransition.h; sourceTree = "<group>"; };
-		208BB0A91E654F8900B96123 /* VTwistingOrigamiTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTwistingOrigamiTransition.m; sourceTree = "<group>"; };
 		21876B95ED08353D7671071A404D9733 /* CommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommonDefines.h; sourceTree = "<group>"; };
 		21C357C61FBC1B081975F4AC44674FA3 /* AdvertiseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
 		21E9EB9A2D1244FAB85AEC49409F8B2F /* UINavigationItem+Loading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Loading.m"; sourceTree = "<group>"; };
@@ -1186,146 +922,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		208BAF101E652A4000B96123 /* VideoMaker */ = {
-			isa = PBXGroup;
-			children = (
-				208BB0271E654F8900B96123 /* AssetsCollection.h */,
-				208BB0281E654F8900B96123 /* AssetsCollection.m */,
-				208BB0291E654F8900B96123 /* CIImage+Convenience.h */,
-				208BB02A1E654F8900B96123 /* CIImage+Convenience.m */,
-				208BB02B1E654F8900B96123 /* CollageLayout.h */,
-				208BB02C1E654F8900B96123 /* CollageLayout.m */,
-				208BB02D1E654F8900B96123 /* CollageSlidingLayout.h */,
-				208BB02E1E654F8900B96123 /* CollageSlidingLayout.m */,
-				208BB02F1E654F8900B96123 /* PlayerView.h */,
-				208BB0301E654F8900B96123 /* PlayerView.m */,
-				208BB0311E654F8900B96123 /* TransitionFilter.h */,
-				208BB0321E654F8900B96123 /* TransitionFilter.m */,
-				208BB0331E654F8900B96123 /* VAccordionOrigamiTransition.h */,
-				208BB0341E654F8900B96123 /* VAccordionOrigamiTransition.m */,
-				208BB0351E654F8900B96123 /* VAsset.h */,
-				208BB0361E654F8900B96123 /* VAsset.m */,
-				208BB0371E654F8900B96123 /* VAssetCollage.h */,
-				208BB0381E654F8900B96123 /* VAssetCollage.m */,
-				208BB0391E654F8900B96123 /* VAssetPHImage.h */,
-				208BB03A1E654F8900B96123 /* VAssetPHImage.m */,
-				208BB03B1E654F8900B96123 /* VAssetSegment.h */,
-				208BB03C1E654F8900B96123 /* VAssetSegment.m */,
-				208BB03D1E654F8900B96123 /* VAssetWebImage.h */,
-				208BB03E1E654F8900B96123 /* VAssetWebImage.m */,
-				208BB03F1E654F8900B96123 /* VBookPageOrigamiTransition.h */,
-				208BB0401E654F8900B96123 /* VBookPageOrigamiTransition.m */,
-				208BB0411E654F8900B96123 /* VCollageBuilder.h */,
-				208BB0421E654F8900B96123 /* VCollageBuilder.m */,
-				208BB0431E654F8900B96123 /* VCollageFrame.h */,
-				208BB0441E654F8900B96123 /* VCollageFrame.m */,
-				208BB0451E654F8900B96123 /* VCompositionInstruction.h */,
-				208BB0461E654F8900B96123 /* VCompositionInstruction.m */,
-				208BB0471E654F8900B96123 /* VCoreVideoFrameProvider.h */,
-				208BB0481E654F8900B96123 /* VCoreVideoFrameProvider.m */,
-				208BB0491E654F8900B96123 /* VDocument.h */,
-				208BB04A1E654F8900B96123 /* VDocument.m */,
-				208BB04B1E654F8900B96123 /* VEAspectFill.h */,
-				208BB04C1E654F8900B96123 /* VEAspectFill.m */,
-				208BB04D1E654F8900B96123 /* VEAspectFit.h */,
-				208BB04E1E654F8900B96123 /* VEAspectFit.m */,
-				208BB04F1E654F8900B96123 /* VEFadeInFadeOut.h */,
-				208BB0501E654F8900B96123 /* VEFadeInFadeOut.m */,
-				208BB0511E654F8900B96123 /* VEffect.h */,
-				208BB0521E654F8900B96123 /* VEffect.m */,
-				208BB0531E654F8900B96123 /* VEKenBurns.h */,
-				208BB0541E654F8900B96123 /* VEKenBurns.m */,
-				208BB0551E654F8900B96123 /* VFoldingOrigamiTransition.h */,
-				208BB0561E654F8900B96123 /* VFoldingOrigamiTransition.m */,
-				208BB0571E654F8900B96123 /* VFrameProvider.h */,
-				208BB0581E654F8900B96123 /* VFrameProvider.m */,
-				208BB0591E654F8900B96123 /* VFrameRequest.h */,
-				208BB05A1E654F8900B96123 /* VFrameRequest.m */,
-				208BB05B1E654F8900B96123 /* VideoComposition.h */,
-				208BB05C1E654F8900B96123 /* VideoComposition.m */,
-				208BB05D1E654F8900B96123 /* VideoCompositor.h */,
-				208BB05E1E654F8900B96123 /* VideoCompositor.m */,
-				208BB05F1E654F8900B96123 /* VKenBurnsCollageBuilder.h */,
-				208BB0601E654F8900B96123 /* VKenBurnsCollageBuilder.m */,
-				208BB0611E654F8900B96123 /* VOrigamiCollageBuilder.h */,
-				208BB0621E654F8900B96123 /* VOrigamiCollageBuilder.m */,
-				208BB0631E654F8900B96123 /* VProvidersCollection.h */,
-				208BB0641E654F8900B96123 /* VProvidersCollection.m */,
-				208BB0651E654F8900B96123 /* VRenderingStats.h */,
-				208BB0661E654F8900B96123 /* VSegmentsCollection.h */,
-				208BB0671E654F8900B96123 /* VSegmentsCollection.m */,
-				208BB0681E654F8900B96123 /* VSlidingPanelsCollageBuilder.h */,
-				208BB0691E654F8900B96123 /* VSlidingPanelsCollageBuilder.m */,
-				208BB06A1E654F8900B96123 /* VStillImage.h */,
-				208BB06B1E654F8900B96123 /* VStillImage.m */,
-				208BB06C1E654F8900B96123 /* VTransition.h */,
-				208BB06D1E654F8900B96123 /* VTransition.m */,
-				208BB06E1E654F8900B96123 /* VTransition01Dissolve.h */,
-				208BB06F1E654F8900B96123 /* VTransition01Dissolve.m */,
-				208BB0701E654F8900B96123 /* VTransition01Fading.h */,
-				208BB0711E654F8900B96123 /* VTransition01Fading.m */,
-				208BB0721E654F8900B96123 /* VTransition02CIAccordionFoldTransition.h */,
-				208BB0731E654F8900B96123 /* VTransition02CIAccordionFoldTransition.m */,
-				208BB0741E654F8900B96123 /* VTransition03CIBarsSwipeTransition.h */,
-				208BB0751E654F8900B96123 /* VTransition03CIBarsSwipeTransition.m */,
-				208BB0761E654F8900B96123 /* VTransition04CIDissolveTransition.h */,
-				208BB0771E654F8900B96123 /* VTransition04CIDissolveTransition.m */,
-				208BB0781E654F8900B96123 /* VTransition05CIModTransition.h */,
-				208BB0791E654F8900B96123 /* VTransition05CIModTransition.m */,
-				208BB07A1E654F8900B96123 /* VTransition06CISwipeTransition.h */,
-				208BB07B1E654F8900B96123 /* VTransition06CISwipeTransition.m */,
-				208BB07C1E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.h */,
-				208BB07D1E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.m */,
-				208BB07E1E654F8900B96123 /* VTransition08CIBarsSwipeTransition.h */,
-				208BB07F1E654F8900B96123 /* VTransition08CIBarsSwipeTransition.m */,
-				208BB0801E654F8900B96123 /* VTransition09CIBarsSwipeTransition.h */,
-				208BB0811E654F8900B96123 /* VTransition09CIBarsSwipeTransition.m */,
-				208BB0821E654F8900B96123 /* VTransition10CIBarsSwipeTransition.h */,
-				208BB0831E654F8900B96123 /* VTransition10CIBarsSwipeTransition.m */,
-				208BB0841E654F8900B96123 /* VTransition11CIBarsSwipeTransition.h */,
-				208BB0851E654F8900B96123 /* VTransition11CIBarsSwipeTransition.m */,
-				208BB0861E654F8900B96123 /* VTransition12CIBarsSwipeTransition.h */,
-				208BB0871E654F8900B96123 /* VTransition12CIBarsSwipeTransition.m */,
-				208BB0881E654F8900B96123 /* VTransition13CIModTransition.h */,
-				208BB0891E654F8900B96123 /* VTransition13CIModTransition.m */,
-				208BB08A1E654F8900B96123 /* VTransition14CIModTransition.h */,
-				208BB08B1E654F8900B96123 /* VTransition14CIModTransition.m */,
-				208BB08C1E654F8900B96123 /* VTransition15CIModTransition.h */,
-				208BB08D1E654F8900B96123 /* VTransition15CIModTransition.m */,
-				208BB08E1E654F8900B96123 /* VTransition16CIModTransition.h */,
-				208BB08F1E654F8900B96123 /* VTransition16CIModTransition.m */,
-				208BB0901E654F8900B96123 /* VTransition17CIModTransition.h */,
-				208BB0911E654F8900B96123 /* VTransition17CIModTransition.m */,
-				208BB0921E654F8900B96123 /* VTransition18CISwipeTransition.h */,
-				208BB0931E654F8900B96123 /* VTransition18CISwipeTransition.m */,
-				208BB0941E654F8900B96123 /* VTransition19CISwipeTransition.h */,
-				208BB0951E654F8900B96123 /* VTransition19CISwipeTransition.m */,
-				208BB0961E654F8900B96123 /* VTransition20CISwipeTransition.h */,
-				208BB0971E654F8900B96123 /* VTransition20CISwipeTransition.m */,
-				208BB0981E654F8900B96123 /* VTransition21CISwipeTransition.h */,
-				208BB0991E654F8900B96123 /* VTransition21CISwipeTransition.m */,
-				208BB09A1E654F8900B96123 /* VTransition22CISwipeTransition.h */,
-				208BB09B1E654F8900B96123 /* VTransition22CISwipeTransition.m */,
-				208BB09C1E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.h */,
-				208BB09D1E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.m */,
-				208BB09E1E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.h */,
-				208BB09F1E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.m */,
-				208BB0A01E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.h */,
-				208BB0A11E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.m */,
-				208BB0A21E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.h */,
-				208BB0A31E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.m */,
-				208BB0A41E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.h */,
-				208BB0A51E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.m */,
-				208BB0A61E654F8900B96123 /* VTransitionFactory.h */,
-				208BB0A71E654F8900B96123 /* VTransitionFactory.m */,
-				208BB0A81E654F8900B96123 /* VTwistingOrigamiTransition.h */,
-				208BB0A91E654F8900B96123 /* VTwistingOrigamiTransition.m */,
-				208BB0251E652A7E00B96123 /* VideoMaker.h */,
-			);
-			name = VideoMaker;
-			path = WDYBaseProject/Classes/VideoMaker;
 			sourceTree = "<group>";
 		};
 		20CF0237D6097FF46BA3C1EC373F1F04 /* Classes */ = {
@@ -2076,7 +1672,6 @@
 		D5B3BD3471E13EA837074938FD8F4524 /* WDYBaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				208BAF101E652A4000B96123 /* VideoMaker */,
 				E29D350D5298E7D7538FD5F891EB0708 /* ADComponent */,
 				3EDF054939A0C62439F42D255110E26B /* BaseModel */,
 				156778CE8E248ABA741855459034DC67 /* Category */,
@@ -2257,17 +1852,12 @@
 				9AF8B3B0813F68B9469273129844F3AA /* ALActionBlocks.h in Headers */,
 				871F8A76AE78D8F84B9A0799DABAE87B /* ALActionBlockWrapper.h in Headers */,
 				D7E9D5C08B7DD663162BAE9A564D1D08 /* AlertViewHelper.h in Headers */,
-				208BB1251E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.h in Headers */,
 				6E63CC5BBD7A7AEC54A98292B30D05FD /* AnimationHelper.h in Headers */,
 				4646B91C1AAA820E89DB5AE517E9DB04 /* AppCommonHelper.h in Headers */,
 				2249A027DF79E2F0CE35C447EE9710C2 /* BaseModel.h in Headers */,
-				208BB11B1E654F8900B96123 /* VTransition21CISwipeTransition.h in Headers */,
 				C60B2637F2D93DF551CC3E3754BF1F6D /* BaseNavigationViewController.h in Headers */,
-				208BB0ED1E654F8900B96123 /* VStillImage.h in Headers */,
-				208BB0E01E654F8900B96123 /* VideoCompositor.h in Headers */,
 				2D76ACFC6CE110F73828714A4F5519F7 /* BaseTableHeaderFooterView.h in Headers */,
 				EECC6215700DDF39971D37FE3085CCAC /* BaseTableView.h in Headers */,
-				208BB1111E654F8900B96123 /* VTransition16CIModTransition.h in Headers */,
 				76A7765D6D12AE02CC51314BA643A568 /* BaseTableViewCell.h in Headers */,
 				2E1224E490552D6B2A842844A930A150 /* BaseViewController.h in Headers */,
 				8060E5C33B6CC40F8FB9BA5FCB9F70C9 /* CALayer+Addition.h in Headers */,
@@ -2276,58 +1866,34 @@
 				DEED1A68392EF96E5B2A96D0C8BA9919 /* CustomTextField.h in Headers */,
 				535183A9D486ED0F92AD2E64156D7144 /* CustomToastAnimator.h in Headers */,
 				127E02DEC0B9818A948E0D7AA38A51CF /* CustomToastContentView.h in Headers */,
-				208BB1211E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.h in Headers */,
-				208BB1171E654F8900B96123 /* VTransition19CISwipeTransition.h in Headers */,
-				208BB0D61E654F8900B96123 /* VEKenBurns.h in Headers */,
 				6A71C212ADEA761A3BEB641E95A36065 /* DeviceAuthorizationHelper.h in Headers */,
 				A1CC9E8011496B16A939781D4E26B1F1 /* DeviceHelper.h in Headers */,
 				0C7EAB747A15495BD3BB2EAC678C3631 /* FileCacheManager.h in Headers */,
 				E8240A6BF9C073D0F228E49B21DFB05E /* FileManager.h in Headers */,
 				07CC2FA7AB3A71A633B3FD3BC6A0C324 /* GCDHelper.h in Headers */,
 				FE2D6A3B3797C8E13AE17718A9F04B8F /* ImagePickerCtrHelper.h in Headers */,
-				208BB0B01E654F8900B96123 /* CollageSlidingLayout.h in Headers */,
-				208BB0B61E654F8900B96123 /* VAccordionOrigamiTransition.h in Headers */,
 				B67BCCE267710E28E6DC3E29E76DD9CC /* JRSwizzle.h in Headers */,
-				208BB0E61E654F8900B96123 /* VProvidersCollection.h in Headers */,
-				208BB0BA1E654F8900B96123 /* VAssetCollage.h in Headers */,
 				2C2DA2F2D4C3549804390AEEE5A0750D /* LayoutButton.h in Headers */,
-				208BB0D81E654F8900B96123 /* VFoldingOrigamiTransition.h in Headers */,
 				AC61449FD4B1B46E504830E01597516B /* LocationConverter.h in Headers */,
 				0006C07DE70AD152A10BB9AE3394B04F /* LocationHelper.h in Headers */,
 				7CD855572BC8B6B78F7268EF8E318CF6 /* ModalPresentationViewController.h in Headers */,
 				BDC3EB76859B6E489E69BB62D0D8C206 /* NetworkManager.h in Headers */,
 				1FAAA185749047427FDFB9373FCF55A4 /* NewFeatureHeader.h in Headers */,
-				208BB0F31E654F8900B96123 /* VTransition01Fading.h in Headers */,
 				0CC4A024B0133C2AF17EC44384B4C3ED /* NewFeaturePagesHelper.h in Headers */,
-				208BB0CC1E654F8900B96123 /* VDocument.h in Headers */,
 				8F60F8BF8ED3A94211FF512BC468F1F4 /* NewFeaturePagesView.h in Headers */,
 				4E9D52886606741EBED09B98B712247F /* NSBundle+AppIcon.h in Headers */,
 				989C9E931D47C1494BD8BE8243B2150D /* NSBundle+MyLibrary.h in Headers */,
-				208BB1071E654F8900B96123 /* VTransition11CIBarsSwipeTransition.h in Headers */,
-				208BB0C01E654F8900B96123 /* VAssetWebImage.h in Headers */,
-				208BB0FB1E654F8900B96123 /* VTransition05CIModTransition.h in Headers */,
 				126F81E7C728C7131E83328BD71D213D /* NSDictionary+Merge.h in Headers */,
 				889383E6B982690F90B1D70222F25021 /* NSDictionary+URL.h in Headers */,
 				C462527D6669A9144D98FC84A36A956A /* NSFileManager+Paths.h in Headers */,
 				B48CA184612A6883E593546597D1678E /* NSObject+AppInfo.h in Headers */,
-				208BB1191E654F8900B96123 /* VTransition20CISwipeTransition.h in Headers */,
 				6A898EFAF9636F1052936C909B8D829E /* NSObject+AssociatedObject.h in Headers */,
 				8C797C42E542A81343FFEE11E09508E3 /* NSObject+EasyCopy.h in Headers */,
-				208BB1011E654F8900B96123 /* VTransition08CIBarsSwipeTransition.h in Headers */,
-				208BB0B41E654F8900B96123 /* TransitionFilter.h in Headers */,
-				208BB0FF1E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.h in Headers */,
-				208BB0C81E654F8900B96123 /* VCompositionInstruction.h in Headers */,
 				956FF76286F351FCB39DA7381C92838E /* NSObject+KVOBlocks.h in Headers */,
 				ADE3E8F46C31CACD133246F2D76ED28D /* NSObject+Reflection.h in Headers */,
-				208BB0F71E654F8900B96123 /* VTransition03CIBarsSwipeTransition.h in Headers */,
 				34E61975A5DDE23623A149A4EF9456C6 /* NSObject+Runtime.h in Headers */,
-				208BB0CA1E654F8900B96123 /* VCoreVideoFrameProvider.h in Headers */,
-				208BB0E41E654F8900B96123 /* VOrigamiCollageBuilder.h in Headers */,
 				EDADCB125DD2CD7B50FE07FC386E0CD2 /* NSRunLoop+PerformBlock.h in Headers */,
-				208BB0261E652A7E00B96123 /* VideoMaker.h in Headers */,
-				208BB1271E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.h in Headers */,
 				4A3DA8E6D7E295E0D786A01F886433B2 /* NSString+Contains.h in Headers */,
-				208BB0AC1E654F8900B96123 /* CIImage+Convenience.h in Headers */,
 				798662AD12A3A4AE81A8504E9288D189 /* NSString+DictionaryValue.h in Headers */,
 				5D0098F4BE1F465B29E445B191388743 /* NSString+Matcher.h in Headers */,
 				4AC5F313DDDCA1982B9E1A5484064FF7 /* NSString+NormalRegex.h in Headers */,
@@ -2335,100 +1901,63 @@
 				4908A862D58DF30760934630ED30BD9A /* NSString+Size.h in Headers */,
 				9867D1025972429E14141D01540EAEBD /* NSString+StringPages.h in Headers */,
 				9E73F7E083A3F4F7A8DEE14DCF63CD4C /* NSString+Trims.h in Headers */,
-				208BB0BC1E654F8900B96123 /* VAssetPHImage.h in Headers */,
-				208BB0BE1E654F8900B96123 /* VAssetSegment.h in Headers */,
 				4E0C5230E85ECE02A7F79ECF8FCAB671 /* NSTimer+Addition.h in Headers */,
-				208BB11D1E654F8900B96123 /* VTransition22CISwipeTransition.h in Headers */,
 				35EF5D13738ADB847E9521BC039DCE7B /* NSTimer+Blocks.h in Headers */,
 				AB4CE4553943F85893D4EC4E7147F90A /* RTRootNavigationController.h in Headers */,
 				7BED7ACA667D50F24F27C65554A8EF43 /* SafeCategory.h in Headers */,
-				208BB1291E654F8900B96123 /* VTransitionFactory.h in Headers */,
 				A8348CFA4846CC1E816EF7C192EBF433 /* Singleton.h in Headers */,
 				5400FB8B81B6D44AD6296C14405A7D05 /* TableViewHeader.h in Headers */,
 				3094D4F89A25711BB8AE622ED76CC898 /* TipsView.h in Headers */,
 				ADF85134510AD64AC9CEF4419BFE7FFD /* Toast.h in Headers */,
 				AC5EC03078AC06AFBD06C01D72E4F166 /* ToastAnimator.h in Headers */,
 				06AC51415E2CEB7EC2BEBC1BF4861DF0 /* ToastBackgroundView.h in Headers */,
-				208BB0C41E654F8900B96123 /* VCollageBuilder.h in Headers */,
 				36A298F151C8D86896E7259FB6310D2A /* ToastContentView.h in Headers */,
 				EF0B5B047120A5C5B95C8ED82182C4B7 /* ToastView.h in Headers */,
 				E9A813C6F794A454FDF32B83CB094267 /* UIApplication+KeyboardFrame.h in Headers */,
-				208BB0EF1E654F8900B96123 /* VTransition.h in Headers */,
 				3F5078FA373DA5F8EE497EA9CA3EBA51 /* UIBarButtonItem+ALActionBlocks.h in Headers */,
 				6812BEE8ABCD55C46ACD47DC3EF2E158 /* UIBarButtonItem+Badge.h in Headers */,
 				8A23D74D17A4E30662B4C3D0CA204FF6 /* UIBezierPath+BasicShapes.h in Headers */,
 				40AD46371E0B17AE7EE6E933494A0B18 /* UIBezierPath+Symbol.h in Headers */,
-				208BB0DE1E654F8900B96123 /* VideoComposition.h in Headers */,
-				208BB0E21E654F8900B96123 /* VKenBurnsCollageBuilder.h in Headers */,
 				48C4ABAFAE7FB143862CA82518B89260 /* UIButton+BackgroundColor.h in Headers */,
 				C1119FF1C14F236958143406853DE364 /* UIButton+Badge.h in Headers */,
 				957B6AB9B153DFBC879E2605E084D138 /* UIButton+Block.h in Headers */,
-				208BB0D21E654F8900B96123 /* VEFadeInFadeOut.h in Headers */,
 				87F4B12206A0290C171616F46563C336 /* UIButton+ClickEdgeInsets.h in Headers */,
 				65163A4A32D9F9211DC94EEEA9398258 /* UIButton+CountDown.h in Headers */,
-				208BB1131E654F8900B96123 /* VTransition17CIModTransition.h in Headers */,
 				04FABC064F55B014F38FF58C497EA66C /* UIButton+Indicator.h in Headers */,
-				208BB1031E654F8900B96123 /* VTransition09CIBarsSwipeTransition.h in Headers */,
 				D903489EE0B6964302D0E4B4922C2A97 /* UIColor+Gradient.h in Headers */,
 				055797D1725757FF9DF625951B2CD024 /* UIColor+HexString.h in Headers */,
-				208BB0E81E654F8900B96123 /* VRenderingStats.h in Headers */,
 				820549DB930A0AE4160BAB97D59E2D3B /* UIControl+ActionBlock.h in Headers */,
-				208BB0C21E654F8900B96123 /* VBookPageOrigamiTransition.h in Headers */,
-				208BB0CE1E654F8900B96123 /* VEAspectFill.h in Headers */,
 				A3581D683BD424422781E6680F9CD236 /* UIControl+ALActionBlocks.h in Headers */,
 				E6339072987BF0FD8D1D3994EF78F16E /* UIControl+Delay.h in Headers */,
-				208BB0D01E654F8900B96123 /* VEAspectFit.h in Headers */,
-				208BB10F1E654F8900B96123 /* VTransition15CIModTransition.h in Headers */,
-				208BB0AE1E654F8900B96123 /* CollageLayout.h in Headers */,
 				11D23C7065786E0AEBFEED90298473DE /* UIDevice+Hardware.h in Headers */,
 				54D0F5B6C73C5EC7F3E6198573289309 /* UIFont+TTF.h in Headers */,
-				208BB0AA1E654F8900B96123 /* AssetsCollection.h in Headers */,
 				C165E289A8050C0C2993B71A54C50919 /* UIGestureRecognizer+ALActionBlocks.h in Headers */,
 				3F0FEACAD3DC9FA75C6D371CBCCEF44B /* UIImage+Alpha.h in Headers */,
 				174507323F0634A0010DD8EE3F00348E /* UIImage+Color.h in Headers */,
-				208BB10D1E654F8900B96123 /* VTransition14CIModTransition.h in Headers */,
 				B53CD1D4094156B194999ACD9B771C83 /* UIImage+Crop.h in Headers */,
-				208BB0EB1E654F8900B96123 /* VSlidingPanelsCollageBuilder.h in Headers */,
-				208BB0F11E654F8900B96123 /* VTransition01Dissolve.h in Headers */,
 				F025E92450F53A98DFCA4A3F227BCC5D /* UIImage+Gif.h in Headers */,
 				69B1D83678C460E6EE5DA4589B9F2DAF /* UIImage+ImageEffects.h in Headers */,
 				D06A397D6ACAAFCA20433EB7EE33EE07 /* UIImage+RemoteSize.h in Headers */,
-				208BB0C61E654F8900B96123 /* VCollageFrame.h in Headers */,
 				9FA8FFFD63C416614A476115CF31F526 /* UIImage+Resize.h in Headers */,
-				208BB0D41E654F8900B96123 /* VEffect.h in Headers */,
 				2AF07F2CED74D432FD69090CE7094A3F /* UIImage+Splash.h in Headers */,
 				DCE2CC9770AF06E6F13AAD70BEEB5B3D /* UIImage+SubImage.h in Headers */,
-				208BB12B1E654F8900B96123 /* VTwistingOrigamiTransition.h in Headers */,
-				208BB1051E654F8900B96123 /* VTransition10CIBarsSwipeTransition.h in Headers */,
 				87B89F89B5930B6A582393996A81A8A8 /* UIImageView+BetterFace.h in Headers */,
 				35FE004D9981A9ACD7548009D1E74FD7 /* UIImageView+Blur.h in Headers */,
 				6E9920247293EB07F2FE092DE006B4B2 /* UIImageView+FaceAwareFill.h in Headers */,
 				C6D954229570D039CFF4742CA0B72817 /* UIImageView+ImageFitSize.h in Headers */,
 				72AA03728E0E6C14732CDF99CB6563A6 /* UINavigationBar+Addition.h in Headers */,
 				A66C48CE288C6B6FDC98655B45724C5F /* UINavigationController+StackManager.h in Headers */,
-				208BB0F51E654F8900B96123 /* VTransition02CIAccordionFoldTransition.h in Headers */,
-				208BB0DA1E654F8900B96123 /* VFrameProvider.h in Headers */,
-				208BB11F1E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.h in Headers */,
-				208BB0FD1E654F8900B96123 /* VTransition06CISwipeTransition.h in Headers */,
 				7F6A6B7A9EEC36AE8E673439275003B0 /* UINavigationItem+Addition.h in Headers */,
 				8ED88D429F1B89FDA91F0AAF082A7C17 /* UINavigationItem+Loading.h in Headers */,
 				5ECF4F6ED03C2FE0A6B38933A2182598 /* UINavigationItem+Margin.h in Headers */,
 				7AD61943C2ADA65CEBF7CE452DA2F064 /* UIScrollView+Common.h in Headers */,
 				DEA23A6CC7FE2568CCB3EFC510A3133C /* UITableView+Common.h in Headers */,
-				208BB0B21E654F8900B96123 /* PlayerView.h in Headers */,
-				208BB1091E654F8900B96123 /* VTransition12CIBarsSwipeTransition.h in Headers */,
-				208BB1231E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.h in Headers */,
-				208BB0F91E654F8900B96123 /* VTransition04CIDissolveTransition.h in Headers */,
 				EEB6B8EF573156F5B6698D65D2F060D4 /* UITextField+Appearance.h in Headers */,
 				352FA9CDB864558CD680C5BD6DAF8F75 /* UIView+Animation.h in Headers */,
 				BE148D297D448238EFDDD11F85012951 /* UIView+BlockGesture.h in Headers */,
-				208BB0DC1E654F8900B96123 /* VFrameRequest.h in Headers */,
-				208BB0B81E654F8900B96123 /* VAsset.h in Headers */,
 				01365A882C7AB6A68E9D8A69939AB431 /* UIView+Find.h in Headers */,
-				208BB10B1E654F8900B96123 /* VTransition13CIModTransition.h in Headers */,
 				47B0DE7F8C1AFE8874F7793B14093FEE /* UIView+Frame.h in Headers */,
 				51AEA5597A048F135654A1A342E0CB78 /* UIView+Layer.h in Headers */,
-				208BB1151E654F8900B96123 /* VTransition18CISwipeTransition.h in Headers */,
 				E43E6CF14D16FFA9BE767F7CF67C8589 /* UIView+Nib.h in Headers */,
 				708AAD5356217C9BCFEF7E77CAE5C518 /* UIViewController+BackButtonHandler.h in Headers */,
 				7ADC76247CBFFEB68E86E9089CAB4459 /* UIViewController+Current.h in Headers */,
@@ -2441,7 +1970,6 @@
 				B28B7961335C02BFAEF6B15715488FCB /* WDYNavigation.h in Headers */,
 				E1FB2C2E4468B1A97D76E2539001213F /* WDYUIHeader.h in Headers */,
 				EB58AC6187C328509EAE2867C579BB62 /* WDYUtilsHeader.h in Headers */,
-				208BB0E91E654F8900B96123 /* VSegmentsCollection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2675,74 +2203,47 @@
 				C8944442D2CE20F2CA220302B9AC84A9 /* AdvertiseHelper.m in Sources */,
 				9ED50FA52B83071A344E898FDD01068A /* AdvertiseView.m in Sources */,
 				A238BFFDC4DD448CF5BF87962E87A6B3 /* ALActionBlockWrapper.m in Sources */,
-				208BB0D51E654F8900B96123 /* VEffect.m in Sources */,
 				F18131246F0D836D4EC1ABE5736EE5C7 /* AlertViewHelper.m in Sources */,
 				681708731E890FC646B0B7F32F679727 /* AnimationHelper.m in Sources */,
-				208BB0FE1E654F8900B96123 /* VTransition06CISwipeTransition.m in Sources */,
 				B5EF0777717BC2241711CC4EC88190F9 /* AppCommonHelper.m in Sources */,
-				208BB0EE1E654F8900B96123 /* VStillImage.m in Sources */,
 				2E17EF4D8D2681DADC4119D68F768C05 /* BaseModel.m in Sources */,
 				61CBF568293BC035F9D93FD371083E35 /* BaseNavigationViewController.m in Sources */,
 				706A3571F5B421062CB3C15A00CEC13A /* BaseTableHeaderFooterView.m in Sources */,
 				7F20E3F9EE8D7FDBECA46703FA9DC19D /* BaseTableView.m in Sources */,
-				208BB1161E654F8900B96123 /* VTransition18CISwipeTransition.m in Sources */,
-				208BB0C51E654F8900B96123 /* VCollageBuilder.m in Sources */,
 				8EE5CFFCF0280885D7B6A9325794DC71 /* BaseTableViewCell.m in Sources */,
-				208BB11E1E654F8900B96123 /* VTransition22CISwipeTransition.m in Sources */,
 				57F9AB5B5BF6C1872F0EB9E337EB7E60 /* BaseViewController.m in Sources */,
 				061F7B371452EC5D36420097B693814B /* CALayer+Addition.m in Sources */,
 				888628B2D4F7B4204D0AC1B51BD9C014 /* CAShapeLayer+BezierPath.m in Sources */,
-				208BB0F01E654F8900B96123 /* VTransition.m in Sources */,
 				7E5E4ACEDD97C37648DB31AA7F4F4749 /* CustomTextField.m in Sources */,
-				208BB1041E654F8900B96123 /* VTransition09CIBarsSwipeTransition.m in Sources */,
-				208BB0FA1E654F8900B96123 /* VTransition04CIDissolveTransition.m in Sources */,
-				208BB0BB1E654F8900B96123 /* VAssetCollage.m in Sources */,
 				A8FAC8C8565431315BBDAEB1C90D42F1 /* CustomToastAnimator.m in Sources */,
 				CB6CE2218199BD62FEC7D327881780C4 /* CustomToastContentView.m in Sources */,
-				208BB0DF1E654F8900B96123 /* VideoComposition.m in Sources */,
 				BF34BABD80DBB6493825FC95EEE66BD5 /* DeviceAuthorizationHelper.m in Sources */,
 				ACCDF203042E020ED70AA0FC543874B5 /* DeviceHelper.m in Sources */,
-				208BB0B31E654F8900B96123 /* PlayerView.m in Sources */,
-				208BB0D11E654F8900B96123 /* VEAspectFit.m in Sources */,
 				C879A76FD66EB6B4EC0CB7F5EF8F4FD5 /* FileCacheManager.m in Sources */,
 				49F376B855E9F5BCD6E7D69FE9CE7556 /* FileManager.m in Sources */,
 				924189ED32F79FCA531E34D0C01199AC /* GCDHelper.m in Sources */,
-				208BB1181E654F8900B96123 /* VTransition19CISwipeTransition.m in Sources */,
 				E19CE007D2B9D2226CF478D0646AA41C /* ImagePickerCtrHelper.m in Sources */,
-				208BB0AF1E654F8900B96123 /* CollageLayout.m in Sources */,
 				52E1AACEE3C61D01E3D56BF8484800AD /* JRSwizzle.m in Sources */,
 				ABC9CDC86B94367D810DEBB8261DA77A /* LayoutButton.m in Sources */,
 				B5E2E64877187F6E3A8DEFD926040DAA /* LocationConverter.m in Sources */,
 				A65D6E467B13C9CE2F1AAAA8EE7B4F08 /* LocationHelper.m in Sources */,
-				208BB0CF1E654F8900B96123 /* VEAspectFill.m in Sources */,
-				208BB0F21E654F8900B96123 /* VTransition01Dissolve.m in Sources */,
 				F15ACCFC5EC500C57B0C638B41FFBDEF /* ModalPresentationViewController.m in Sources */,
-				208BB11C1E654F8900B96123 /* VTransition21CISwipeTransition.m in Sources */,
 				E50C0BB9FD37BE81FF2CC36D5B5F40FC /* NetworkManager.m in Sources */,
-				208BB0EA1E654F8900B96123 /* VSegmentsCollection.m in Sources */,
 				9DD749EC8CA8741F9D4A2E8FB7A1274A /* NewFeaturePagesHelper.m in Sources */,
 				7D3DE8BD647CB81DE9018EC096DE2BFA /* NewFeaturePagesView.m in Sources */,
 				446C0685CC29502545CBC1E4D864FC48 /* NSBundle+AppIcon.m in Sources */,
-				208BB0D31E654F8900B96123 /* VEFadeInFadeOut.m in Sources */,
 				015B8ADA10147E319209F2771D7D6F99 /* NSBundle+MyLibrary.m in Sources */,
 				23C9D11CD113A6B8AB0ED42800E30B75 /* NSDictionary+Merge.m in Sources */,
 				F7586C0BDEC5C4BD458D1E0E06E7EA32 /* NSDictionary+URL.m in Sources */,
 				E58131A1457A72E45900CD0746440C5B /* NSFileManager+Paths.m in Sources */,
-				208BB0B11E654F8900B96123 /* CollageSlidingLayout.m in Sources */,
 				B1C261EF60CA326E0D4B62112C4D805F /* NSObject+AppInfo.m in Sources */,
-				208BB0BF1E654F8900B96123 /* VAssetSegment.m in Sources */,
 				E60C8FDF41A7CAD17AB7A4E0DCCE26EE /* NSObject+AssociatedObject.m in Sources */,
-				208BB0CD1E654F8900B96123 /* VDocument.m in Sources */,
 				010C1047CCF9DD47C6DF8DC115CF199B /* NSObject+EasyCopy.m in Sources */,
 				C85A657EBC766BD0B67F354B75AECB9F /* NSObject+KVOBlocks.m in Sources */,
 				885B2B80FCC26D69D68E2A5601AAEAE4 /* NSObject+Reflection.m in Sources */,
 				9CF8C02E9D51E27B47DDB73C8F274484 /* NSObject+Runtime.m in Sources */,
-				208BB1021E654F8900B96123 /* VTransition08CIBarsSwipeTransition.m in Sources */,
-				208BB0C91E654F8900B96123 /* VCompositionInstruction.m in Sources */,
 				A5D5F727F13671481FF0A1C9ECBB0787 /* NSRunLoop+PerformBlock.m in Sources */,
-				208BB0E51E654F8900B96123 /* VOrigamiCollageBuilder.m in Sources */,
 				F93EE3FB3A6B1055CB27339C94A1DA08 /* NSString+Contains.m in Sources */,
-				208BB0B91E654F8900B96123 /* VAsset.m in Sources */,
 				A6D5CD009ABC68213273FFA5E8503D34 /* NSString+DictionaryValue.m in Sources */,
 				9C0226E598B116EEAEB80C7F40E67948 /* NSString+Matcher.m in Sources */,
 				D1AABE462D3A4F5C9D44ABC13A7CFC37 /* NSString+NormalRegex.m in Sources */,
@@ -2750,41 +2251,24 @@
 				95816E64E6E69B4BFC67E7FCF22B069F /* NSString+Size.m in Sources */,
 				E5D47C53BC8A530179B4BB37B7237D75 /* NSString+StringPages.m in Sources */,
 				8A9B183B2C7192BFB2DED522FEDD11E0 /* NSString+Trims.m in Sources */,
-				208BB0C11E654F8900B96123 /* VAssetWebImage.m in Sources */,
 				56A730E99C9C64759B0A582F0F064AC6 /* NSTimer+Addition.m in Sources */,
 				79491F1608EDA31FBE7F5399BDC34B0A /* NSTimer+Blocks.m in Sources */,
 				ADDD23997EBC28FAF89BAC8CAD5F5101 /* RTRootNavigationController.m in Sources */,
 				64D6000349A3B0A254B4108759762904 /* SafeCategory.m in Sources */,
-				208BB0CB1E654F8900B96123 /* VCoreVideoFrameProvider.m in Sources */,
 				A0F67AA6B695B238F871EE7CBCE80654 /* TipsView.m in Sources */,
-				208BB0EC1E654F8900B96123 /* VSlidingPanelsCollageBuilder.m in Sources */,
 				6775C8FE104F80E248718EBEB0A61D78 /* ToastAnimator.m in Sources */,
 				5638C7D6754CEC9707A33BAF17351C0A /* ToastBackgroundView.m in Sources */,
-				208BB1281E654F8900B96123 /* VTransition27CIPageCurlWithShadowTransition.m in Sources */,
 				50509320E2CADE150341558BD5191DE9 /* ToastContentView.m in Sources */,
-				208BB10C1E654F8900B96123 /* VTransition13CIModTransition.m in Sources */,
-				208BB10E1E654F8900B96123 /* VTransition14CIModTransition.m in Sources */,
-				208BB1061E654F8900B96123 /* VTransition10CIBarsSwipeTransition.m in Sources */,
-				208BB1121E654F8900B96123 /* VTransition16CIModTransition.m in Sources */,
 				52B6226B2B2B3970E751397B0CFE1B43 /* ToastView.m in Sources */,
-				208BB1101E654F8900B96123 /* VTransition15CIModTransition.m in Sources */,
-				208BB0AB1E654F8900B96123 /* AssetsCollection.m in Sources */,
 				A52AD5B7840C5C69F5A2540D26783B4B /* UIApplication+KeyboardFrame.m in Sources */,
 				2CA0F2E1BFBBDD4A663AA79271BCD890 /* UIBarButtonItem+ALActionBlocks.m in Sources */,
 				05D729F4E6C91F4FC3A8A9360BB37C98 /* UIBarButtonItem+Badge.m in Sources */,
-				208BB1221E654F8900B96123 /* VTransition24CIPageCurlWithShadowTransition.m in Sources */,
-				208BB0E31E654F8900B96123 /* VKenBurnsCollageBuilder.m in Sources */,
-				208BB0DD1E654F8900B96123 /* VFrameRequest.m in Sources */,
 				A31C589DEB37D44F6AEE75812E0FB283 /* UIBezierPath+BasicShapes.m in Sources */,
 				8CDD720875B64356FB9EFA39889D1500 /* UIBezierPath+Symbol.m in Sources */,
 				C6DF9C653EB5304995C9D0D6C7F9087B /* UIButton+BackgroundColor.m in Sources */,
 				EB905408AB2A2604B2294162D10EB8F9 /* UIButton+Badge.m in Sources */,
-				208BB12A1E654F8900B96123 /* VTransitionFactory.m in Sources */,
-				208BB0C71E654F8900B96123 /* VCollageFrame.m in Sources */,
 				AB31C740FDAA347E1DC944B9CC1F03DE /* UIButton+Block.m in Sources */,
 				D90F8283484D63137996AC2BA6124012 /* UIButton+ClickEdgeInsets.m in Sources */,
-				208BB0D71E654F8900B96123 /* VEKenBurns.m in Sources */,
-				208BB0F81E654F8900B96123 /* VTransition03CIBarsSwipeTransition.m in Sources */,
 				985A5DD9B899A91ACFC66D2F3465000F /* UIButton+CountDown.m in Sources */,
 				36684952334000598325257A32E0561F /* UIButton+Indicator.m in Sources */,
 				B670B2CAD7516F533429A84BC3B7EA7D /* UIColor+Gradient.m in Sources */,
@@ -2792,7 +2276,6 @@
 				F2A1A128A2F3F6829BCDBFBF53C0800B /* UIControl+ActionBlock.m in Sources */,
 				B4D672075DE7793D323AE98AFB0E4EA2 /* UIControl+ALActionBlocks.m in Sources */,
 				13C9BB26052B5FC44E283535594B6050 /* UIControl+Delay.m in Sources */,
-				208BB0C31E654F8900B96123 /* VBookPageOrigamiTransition.m in Sources */,
 				29AD5DF4672F2910AA3C55D9924124E3 /* UIDevice+Hardware.m in Sources */,
 				7B13D0F440FEAB89591D0589EBAA3590 /* UIFont+TTF.m in Sources */,
 				A086BFFFD054E62F0793E14697082681 /* UIGestureRecognizer+ALActionBlocks.m in Sources */,
@@ -2801,53 +2284,33 @@
 				C49724A22DA3CBC72928CBA19D01AA64 /* UIImage+Crop.m in Sources */,
 				0079986F826790BD7A9FB5C9F3420AD4 /* UIImage+Gif.m in Sources */,
 				16DB69E18280114F1CDA308D20F6B065 /* UIImage+ImageEffects.m in Sources */,
-				208BB0B51E654F8900B96123 /* TransitionFilter.m in Sources */,
 				CBC2387B76173618BFCFBF7F98DFECF7 /* UIImage+RemoteSize.m in Sources */,
-				208BB0E11E654F8900B96123 /* VideoCompositor.m in Sources */,
 				F99F34667F7B81EC869BDFB90A2BB497 /* UIImage+Resize.m in Sources */,
-				208BB0FC1E654F8900B96123 /* VTransition05CIModTransition.m in Sources */,
 				E09054201920FE021B489E9939BBE8D2 /* UIImage+Splash.m in Sources */,
 				CA1106E44BE22D7BD9E506864C7893D4 /* UIImage+SubImage.m in Sources */,
 				1DDE0FB2BE0D3FB4ACE919EE6DB7CAFA /* UIImageView+BetterFace.m in Sources */,
-				208BB12C1E654F8900B96123 /* VTwistingOrigamiTransition.m in Sources */,
 				673089E3D60925249F7F752677A4673D /* UIImageView+Blur.m in Sources */,
-				208BB1241E654F8900B96123 /* VTransition25CIPageCurlWithShadowTransition.m in Sources */,
 				ADE8C251BF338DFF4328212633B696EC /* UIImageView+FaceAwareFill.m in Sources */,
-				208BB11A1E654F8900B96123 /* VTransition20CISwipeTransition.m in Sources */,
-				208BB0DB1E654F8900B96123 /* VFrameProvider.m in Sources */,
 				EF0AD7792CF8F12C2DB737091072C44C /* UIImageView+ImageFitSize.m in Sources */,
 				0C4ABD9246FB47C1BED33FB27ED8CCCE /* UINavigationBar+Addition.m in Sources */,
-				208BB1001E654F8900B96123 /* VTransition07CIPageCurlWithShadowTransition.m in Sources */,
-				208BB0AD1E654F8900B96123 /* CIImage+Convenience.m in Sources */,
-				208BB1261E654F8900B96123 /* VTransition26CIPageCurlWithShadowTransition.m in Sources */,
 				74C1D514BEC5EA4906EA91CD7B019401 /* UINavigationController+StackManager.m in Sources */,
 				F240609077960505A0AFDAC934AF3043 /* UINavigationItem+Addition.m in Sources */,
 				8AE0A39EE3C9A0FF2211019EA6B74903 /* UINavigationItem+Loading.m in Sources */,
 				8C334299ADB02C9A2050D199DC9FBCB6 /* UINavigationItem+Margin.m in Sources */,
 				420C20DD7BF80573518E5A03ADBD4DC8 /* UIScrollView+Common.m in Sources */,
-				208BB0E71E654F8900B96123 /* VProvidersCollection.m in Sources */,
-				208BB1201E654F8900B96123 /* VTransition23CIPageCurlWithShadowTransition.m in Sources */,
-				208BB0BD1E654F8900B96123 /* VAssetPHImage.m in Sources */,
-				208BB10A1E654F8900B96123 /* VTransition12CIBarsSwipeTransition.m in Sources */,
 				52FE955615A42799CB7F0A971E8EBEE5 /* UITableView+Common.m in Sources */,
 				B54123B67AB769B057549F249BDFBF9D /* UITextField+Appearance.m in Sources */,
-				208BB0F61E654F8900B96123 /* VTransition02CIAccordionFoldTransition.m in Sources */,
 				EFA044602D502180DBCB663BEA3C6FD1 /* UIView+Animation.m in Sources */,
-				208BB0F41E654F8900B96123 /* VTransition01Fading.m in Sources */,
-				208BB0D91E654F8900B96123 /* VFoldingOrigamiTransition.m in Sources */,
 				581EB0C7B56BEEE4C386755EE2F8BB4C /* UIView+BlockGesture.m in Sources */,
 				4CBF1C743C3CBDD0C2470A8128F43BA1 /* UIView+Find.m in Sources */,
 				0C2DC2C2CD58D31F2CD1E1BA9F70CAD8 /* UIView+Frame.m in Sources */,
 				2C47F5FF9FD4E78C40084F30459B9B11 /* UIView+Layer.m in Sources */,
 				B31952694F1F1437B9CB72030221E8EE /* UIView+Nib.m in Sources */,
 				EF7B702CF22CF09A7DE93744FEA00A5D /* UIViewController+BackButtonHandler.m in Sources */,
-				208BB1141E654F8900B96123 /* VTransition17CIModTransition.m in Sources */,
 				E6052C16159D539266C5629607F38586 /* UIViewController+Current.m in Sources */,
 				91DB32A6B7FF2FB902266C1C63A039CE /* UIViewController+NaviExtentions.m in Sources */,
 				1984B401140CD6B116C68382C781218A /* UIViewController+RTRootNavigationController.m in Sources */,
 				EA931253BE812A3B810C329ABD098BAB /* WDYBaseProject-dummy.m in Sources */,
-				208BB0B71E654F8900B96123 /* VAccordionOrigamiTransition.m in Sources */,
-				208BB1081E654F8900B96123 /* VTransition11CIBarsSwipeTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

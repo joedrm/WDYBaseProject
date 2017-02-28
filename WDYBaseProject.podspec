@@ -81,13 +81,6 @@ Pod::Spec.new do |s|
       toast.dependency 'WDYBaseProject/Category'
   end
 
-  # Toast提示
-   s.subspec 'VideoMaker' do |videoMaker|
-       videoMaker.source_files = 'WDYBaseProject/Classes/VideoMaker/**/*'
-       videoMaker.dependency 'WDYBaseProject/Category'
-       videoMaker.dependency 'SDWebImage', '3.8.0'
-   end
-
   s.subspec 'PublicHeaders' do |publicHeaders|
       publicHeaders.source_files = 'WDYBaseProject/Classes/PublicHeaders/**/*'
       publicHeaders.dependency 'WDYBaseProject/Utils'

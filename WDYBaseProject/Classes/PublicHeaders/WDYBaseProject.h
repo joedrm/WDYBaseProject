@@ -19,7 +19,5 @@
 #import "WDYNavigation.h" //Navigation组件
 #import "BaseModel.h"  // Model基类
 #import "NewFeatureHeader.h" // 新功能介绍组件
-#import "ADHeader.h" 
-#import "VideoMaker.h"
 
 #endif /* BaseProject_h */
