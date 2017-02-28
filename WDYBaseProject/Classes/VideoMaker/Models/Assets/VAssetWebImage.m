@@ -74,10 +74,10 @@
     return 0.0;
 }
 
-- (NSString*) getIdentifier
-{
-    return [self.dznMetaData.sourceURL absoluteString];
-}
+//- (NSString*) getIdentifier
+//{
+//    return [self.dznMetaData.sourceURL absoluteString];
+//}
 
 -(void) downloadWithCompletion: (VAssetDownloadCompletionBlock) downloadCompletionBlock
 {

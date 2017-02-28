@@ -42,7 +42,7 @@ NSInteger collagesCounter = 0;
 }
 
 - (NSString *)getIdentifier {
-    return [NSString stringWithFormat:@"collage%ld",self.collageIdentifierInMemory];
+    return [NSString stringWithFormat:@"collage%@",@(self.collageIdentifierInMemory)];
 }
 
 -(BOOL) isStatic
