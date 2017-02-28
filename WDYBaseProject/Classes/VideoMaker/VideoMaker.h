@@ -48,7 +48,6 @@
 #import "VEffect.h"
 #import "VEKenBurns.h"
 
-
 #import "VCollageFrame.h"
 
 #import "VAccordionOrigamiTransition.h"
