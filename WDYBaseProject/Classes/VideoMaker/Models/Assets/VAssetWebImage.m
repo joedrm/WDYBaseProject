@@ -104,7 +104,7 @@
             //do nothing
     } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
         if (error) {
-            NSLog(@"WebImage (%@) ThumbnailDownloading error=%@", self.dznMetaData.thumbURL, error);
+//            NSLog(@"WebImage (%@) ThumbnailDownloading error=%@", self.dznMetaData.thumbURL, error);
         }
         downloadCompletionBlock(image, finished, (error != nil));
     }];
@@ -135,7 +135,7 @@
             NSLog(@"got Download result image, finished=%@", finished? @"YES" : @"N");
             
             if (error != nil) {
-                NSLog(@"WebImage (%@) downloading error=%@", self.dznMetaData.sourceURL, error);
+//                NSLog(@"WebImage (%@) downloading error=%@", self.dznMetaData.sourceURL, error);
             }
             if (finished) {
                 self.downloadedImage = image;
