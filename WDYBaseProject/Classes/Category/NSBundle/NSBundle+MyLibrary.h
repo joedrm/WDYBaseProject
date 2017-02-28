@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface NSBundle (MyLibrary)
 
@@ -14,4 +15,6 @@
 + (UIImage *)tips_doneImageClass:(Class)nameClass;
 + (UIImage *)tips_errorImageClass:(Class)nameClass;
 + (UIImage *)tips_infoImageClass:(Class)nameClass;
+
++ (AVURLAsset *)placeholderVideoWithClass:(Class)nameClass;
 @end

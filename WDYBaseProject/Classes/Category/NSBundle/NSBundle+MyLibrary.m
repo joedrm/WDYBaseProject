@@ -8,6 +8,7 @@
 
 #import "NSBundle+MyLibrary.h"
 
+
 @implementation NSBundle (MyLibrary)
 
 + (instancetype)resourceBundleWithClass:(Class)nameClass
@@ -43,6 +44,15 @@
         infoImage = [[UIImage imageWithContentsOfFile:[[self resourceBundleWithClass:nameClass] pathForResource:@"tips_info@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
     return infoImage;
+}
+
++ (AVURLAsset *)placeholderVideoWithClass:(Class)nameClass{
+    NSString* placeholderVideoPath = [[self resourceBundleWithClass:nameClass] pathForResource:@"EmptyTrackPleaceholder_" ofType:@"m4v"];
+    if (![[NSFileManager defaultManager] fileExistsAtPath:placeholderVideoPath]) {
+        return nil;
+    }
+    NSURL* placeholderURL = [NSURL fileURLWithPath:placeholderVideoPath];
+    return  [AVURLAsset URLAssetWithURL:placeholderURL options:@{AVURLAssetPreferPreciseDurationAndTimingKey : @YES}];
 }
 
 @end

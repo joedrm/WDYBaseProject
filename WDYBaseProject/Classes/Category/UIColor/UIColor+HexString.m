@@ -49,7 +49,10 @@
     return [UIColor colorWithRed:red green:green blue:blue alpha:opacity];
 }
 
-
++ (UIColor *)colorWithHexString:(NSString *)str
+{
+    return[UIColor colorWithHexString:str opacity:1.];
+}
 
 #pragma mark - 第二种
 //+ (UIColor *)colorWithHexString:(NSString *)hexString {

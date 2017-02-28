@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WDYBaseProject'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = '基础工程'
   s.description      = <<-DESC
                       常用的基础工程
@@ -81,6 +81,13 @@ Pod::Spec.new do |s|
       toast.dependency 'WDYBaseProject/Category'
   end
 
+  # Toast提示
+   s.subspec 'VideoMaker' do |videoMaker|
+       videoMaker.source_files = 'WDYBaseProject/Classes/VideoMaker/**/*'
+       videoMaker.dependency 'WDYBaseProject/Category'
+       videoMaker.dependency 'SDWebImage', '3.8.0'
+   end
+
   s.subspec 'PublicHeaders' do |publicHeaders|
       publicHeaders.source_files = 'WDYBaseProject/Classes/PublicHeaders/**/*'
       publicHeaders.dependency 'WDYBaseProject/Utils'
@@ -101,6 +108,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'WDYBaseProject/Classes/PublicHeaders/**/*.h'
   # s.header_dir = 'WDYBaseProject/Classes/PublicHeaders'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit', 'AVFoundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

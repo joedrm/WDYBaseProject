@@ -21,4 +21,6 @@
 #import "NewFeatureHeader.h" // 新功能介绍组件
 #import "ADHeader.h" //
 
+#import "VideoMaker.h" 
+
 #endif /* BaseProject_h */
